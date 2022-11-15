@@ -25,7 +25,7 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 //var map = L.map('map').setView([37.8, -96], 4);
 var map = L.map('map', {
-		center: [0, 0],
+		center: [5, 20],
 		zoom: 2,
 		minZoom: 2,
 		maxZoom: 18,
@@ -39,7 +39,7 @@ var map = L.map('map', {
 	};
 
 	var overlays = {
-		'Pubs': pubLayer,
+		'2022 Pubs': pubLayer,
 		//'Background': background
 	};
 
@@ -73,7 +73,8 @@ info.update = function (props) {
 	'<br>$' + props['FMR']['value'].toLocaleString("en-US") + ' Fair Market Rent - Efficiency' +
 	'<br>' +  Math.round(props['ratio']['value']*100) + '% FMR/Income' +
 	'<br>' +  Math.round(props['slope']['value']*100000) + '% Slope'
-	 :'<br>Hover over a county');
+	 :'<br> '
+ );
 	};
 
 
@@ -135,7 +136,7 @@ const polygon = L.polygon(
 	{
 		color: 'white',
 		fillColor: 'white',
-		fillOpacity: 0.4,
+		fillOpacity: 0,
 	}
 ).addTo(map).addTo(background);
 
