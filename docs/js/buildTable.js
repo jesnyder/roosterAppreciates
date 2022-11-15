@@ -56,9 +56,9 @@ var table = new Tabulator("#tableRoosterBio_table", {
 
     //trigger download of data.xlsx file
     document.getElementById("download-csv").addEventListener("click", function(){
-        table.download("csv", "RoosterBio.csv");
+        table.download("csv", "2022PubsCitingRoosterBioProducts.csv");
     });
 
     document.getElementById("download-xlsx").addEventListener("click", function(){
-        table.download("xlsx", "RoosterBio.xlsx", {sheetName:"My Data"});
+        table.download("xlsx", "2022PubsCitingRoosterBioProducts.xlsx", {sheetName:"2022Pubs"});
     });
