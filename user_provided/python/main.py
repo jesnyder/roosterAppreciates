@@ -24,6 +24,7 @@ from geolocate_affs import geolocate_affs
 from group_pubs import group_pubs
 from write_geojson import write_geojson
 from build_table import build_table
+from contact_list import contact_list
 
 def main():
     """
@@ -32,13 +33,14 @@ def main():
 
     print("running main")
 
-    tasks = [6]
+    tasks = [6, 7]
     if 1 in tasks: list_pubs()
     if 2 in tasks: meta_pubs()
     if 3 in tasks: geolocate_affs()
     if 4 in tasks: group_pubs()
     if 5 in tasks: write_geojson()
     if 6 in tasks: build_table()
+    if 7 in tasks: contact_list()
 
     print("completed main")
 
