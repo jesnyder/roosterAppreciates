@@ -36,7 +36,7 @@ def write_geojson():
 
     print("running write_geojson")
 
-    tasks = [1, 2, 3]
+    tasks = [1]
 
     if 1 in tasks: save_geojson()
 
@@ -82,8 +82,8 @@ def save_geojson():
                 geolocated['url'] = pub['doi_url']
                 geolocated['color'] = color
                 geolocated['radius'] = 10 + 3*float(pub['is-referenced-by-count'])
-                geolocated['opacity'] = 0.8
-                geolocated['zindex'] = int(1000 - geolocated['radius'])
+                geolocated['opacity'] = 0.7
+                geolocated['zindex'] = int(500 - geolocated['radius'])
                 geolocated['paneName'] = 'pane_' + str(int(1000 - geolocated['radius']))
                 #geolocated['journal'] = pub['container-title']
 

@@ -33,7 +33,8 @@ def main():
 
     print("running main")
 
-    tasks = [6, 7]
+    tasks = [5, 6, 7]
+
     if 1 in tasks: list_pubs()
     if 2 in tasks: meta_pubs()
     if 3 in tasks: geolocate_affs()

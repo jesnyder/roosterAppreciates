@@ -8,7 +8,9 @@ gscholar_json,program_generated gscholar_json
 
 # meta_pubs created
 crossref_json,program_generated crossref_json
-missing_json,program_generated missing crossref_not_found.json
+missing_json,program_generated missing crossref_not_matched.json
+crossref_missing_affs,program_generated missing crossref_missing_affs.json
+crossref_with_affs,user_provided crossref_with_affs crossref_with_affs.json
 
 
 # geoloate_affs created
@@ -25,6 +27,11 @@ grouped,program_generated grouped
 
 # build_table created
 tables_var,docs js
+
+
+# contact_list created
+contact_list,program_generated contact_list contact_list.csv
+pubs_xlsx,program_generated contact_list 2022_Pubs_Contact_List.csv
 
 
 # build_json referenced

@@ -36,17 +36,18 @@ def contact_list():
     print("running contact_list")
 
     tasks = [1]
-    if 1 in tasks: write_js()
+    if 1 in tasks: write_contacts()
 
     print("completed contact_list")
 
 
 
-def write_js():
+def write_contacts():
     """
     write a js variable describing the table
     """
 
+    df = pd.DataFrame()
     for file in os.listdir(retrieve_path('crossref_json')):
 
         term = file.split('_')[0]
@@ -63,35 +64,10 @@ def write_js():
             #print(index)
             #print(pub.keys())
 
-            temp = {}
-            temp['url'] = pub['URL']
-
             try:
-                temp['lead_aff'] = list_affs(pub)[0]
-                print('list_affs[0] = ')
-                print(list_affs(pub)[0])
+                lead_aff = list_affs(pub)[0]
             except:
-                temp['lead_aff'] = ''
-
-
-            temp['snippet'] = unidecode.unidecode(pub['snippet'])
-            temp['cites'] = pub['is-referenced-by-count']
-            temp['title'] =  unidecode.unidecode(pub['title'][0])
-            temp['doi'] = pub['DOI']
-            temp['doi_url'] = 'https://doi.org/' + pub['DOI']
-            temp['groups'] = pub['groups']
-
-            temp['author_lead'] = pub['author'][0]['family'] + ', ' + pub['author'][0]['given']
-            author_count = len(list(pub['author']))
-            temp['author_anchor'] = pub['author'][author_count-1]['family'] + ', ' + pub['author'][author_count-1]['given']
-
-            for fil in os.listdir(retrieve_path('groups')):
-
-                fil_name = str(fil.split('.')[0])
-                #temp[str('g_' + fil_name)] = 'False'
-                if fil_name  in list(pub['groups']):
-                    temp[str('g_' + fil_name)] = 1
-
+                lead_aff  = ''
 
             if 'funder' in pub.keys():
                 names = ''
@@ -99,29 +75,51 @@ def write_js():
                     name = funder['name']
                     names = names + name + ' | '
 
-                temp['funder'] = names
+                funder = names
 
             try:
-                temp['journal'] = pub['container-title'][0]
+                journal = pub['container-title'][0]
             except:
-                temp['journal'] = pub['institution'][0]['name']
+                journal = pub['institution'][0]['name']
 
 
-            table_pubs.append(temp)
+            lead_author =  pub['author'][0]['given'] + ' ' + pub['author'][0]['family']
+            author_count = len(list(pub['author']))
+            anchor_author = pub['author'][author_count-1]['given'] + ' ' + pub['author'][author_count-1]['family']
+            url = 'https://doi.org/' + pub['DOI']
+            title = unidecode.unidecode(pub['title'][0])
 
-                    # save the group as js
-            descriptor_line = 'var table' + str(table_name) + ' = '
-            dst_json = os.path.join(retrieve_path('tables_var'), table_name + '.js')
+            df_temp = pd.DataFrame()
+            df_temp['contact?'] = ['No']
 
-            with open(dst_json, "w") as f:
+            df_temp['point_of_contact'] = [lead_author]
+            df_temp['lead_author'] = [lead_author]
+            df_temp['lead_aff'] = [lead_aff]
+            df_temp['anchor_author'] = [anchor_author]
 
-                f.write(descriptor_line + '\n' + '[' + '\n')
+            email_subject = 'We appreciate your ' + str(journal) + ' paper'
+            df_temp['email_subject'] = [str(email_subject)]
 
-                for line in table_pubs:
-                    print(line)
-                    f.write(str(line) + ' , ' + '\n')
-                #json.dump(lines, f, indent = 4)
-                #f.write(');')
-                f.write( ']' + '\n')
+            email_message = 'Good Day Dr. ' + str(pub['author'][0]['family']) + ', I found your 2022 paper - "' + str(title[:70]) + '... " - researching recent applications of RoosterBio products and expertise. Thank you for your fdascinating paper. We compiled there published articles as a map and table, finding an increasing number exploring exosomes. You are invited to explore the map here: https://jesnyder.github.io/roosterAppreciates/ Would you join a short meeting to discuss your research findings and how we could help in your next steps? Please suggest a few times and we will accomodate. Continued success to you and your team. Best Regards, Jess '
+            df_temp['email_message'] = [str(email_message)]
 
-            f.close()
+
+            df_temp['pub_title'] = [title]
+            df_temp['pub_url'] = [url]
+            df_temp['published_by'] = [journal]
+            df_temp['funded_by'] = [funder]
+            df_temp['cites'] = [pub['is-referenced-by-count']]
+            df_temp['pub_snippet'] = [unidecode.unidecode(pub['snippet'])]
+
+
+
+            for fil in os.listdir(retrieve_path('groups')):
+
+                fil_name = str(fil.split('.')[0])
+                df_temp[str('included_' + fil_name)] = [0]
+                if fil_name  in list(pub['groups']):
+                    df_temp[str('included_' + fil_name)] = [1]
+
+            df = df.append(df_temp)
+            df.to_csv(retrieve_path('contact_list'))
+            df.to_csv(retrieve_path('pubs_xlsx'))

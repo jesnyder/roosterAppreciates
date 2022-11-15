@@ -109,11 +109,13 @@ def check_group(pub, group):
     for term in terms:
 
         term = term.replace('"', '')
+        term = str(term).lower()
 
         for key in keys:
 
             if key not in pub.keys(): continue
             text = str(pub[key]).lower()
+
             if term in text: return(True)
 
     return(False)

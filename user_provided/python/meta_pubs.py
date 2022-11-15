@@ -47,6 +47,7 @@ def json_meta():
     """
 
     crossref_not_found({'reset': 'reset'})
+    list_crossref_without_aff({'reset': 'reset'})
 
     list_meta = []
     fil_src = os.listdir(retrieve_path('gscholar_json'))[-1]
@@ -64,11 +65,17 @@ def json_meta():
             pub[key] = pub_meta[key]
 
 
-        pub['affs'] = list_affs(pub_meta)
+        if len( list_affs(pub)) == 0:
+            pub = find_hardcoded_crossref_affs(pub)
+
+        pub['affs'] = list_affs(pub)
+        if len( list_affs(pub)) == 0:
+            list_crossref_without_aff(pub)
+
         pub['groups'] = find_pubs(pub)
 
         # don't add pubs if they don't have authors
-        if 'author' not in pub_meta.keys(): continue
+        if 'author' not in pub.keys(): continue
 
         list_meta.append(pub)
         json_meta = {}
@@ -83,6 +90,27 @@ def json_meta():
             fp.close()
 
 
+def list_crossref_without_aff(pub):
+    """
+    list pub without affs
+    """
+
+    if 'reset' in pub.keys():
+        pubs = []
+
+    if 'reset' not in pub.keys():
+        pubs = retrieve_json('crossref_missing_affs')['pubs']
+        pubs.append(pub)
+
+    pubs_json = {}
+    pubs_json ['count'] = len(pubs)
+    pubs_json ['pubs'] = pubs
+    fil_dst = retrieve_path('crossref_missing_affs')
+    with open(fil_dst, "w") as fp:
+        json.dump(pubs_json , fp, indent = 8)
+        fp.close()
+
+
 def search_scrub(title):
     """
     convert to lowercase
@@ -92,7 +120,7 @@ def search_scrub(title):
 
     title = str(title)
 
-    remove_strs = ['[HTML]', '[PDF]' ]
+    remove_strs = ['[HTML]', '[PDF]', '<scp>', '</scp>' , '<i>', '</i>', '[CITATION]' , '[C]' ]
     for remove_str in remove_strs:
         if remove_str in title:
             title = title.replace(remove_str, ' ')
@@ -237,6 +265,38 @@ def search_crossref(title):
 
     return(item)
 
+
+def find_hardcoded_crossref_affs(pub_src):
+    """
+
+    """
+
+    if 'author' not in pub_src.keys(): return(pub_src)
+
+    ref_json = retrieve_json('crossref_with_affs')
+
+    for pub in ref_json['pubs']:
+
+
+        if 'DOI' in pub.keys(): key = 'DOI'
+        elif 'title_link' in pub.keys(): key = 'title_link'
+
+        print('key = ' + str(key))
+
+        doi_src = str(pub_src[key])
+        print('1 doi_src = ' + str(doi_src))
+
+        doi_ref = str(pub[key])
+        print('2 doi_ref = ' + str(doi_ref))
+
+
+        if doi_src != doi_ref: continue
+
+        pub_src['author'] = pub['author']
+
+        return(pub_src)
+
+    return(pub_src)
 
 
 def list_affs(pub):

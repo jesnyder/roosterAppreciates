@@ -25,7 +25,7 @@ var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 //var map = L.map('map').setView([37.8, -96], 4);
 var map = L.map('map', {
-		center: [5, 20],
+		center: [15, 20],
 		zoom: 2,
 		minZoom: 2,
 		maxZoom: 18,

@@ -8,7 +8,7 @@ var table = new Tabulator("#tableRoosterBio_table", {
     addRowPos:"top",          //when adding a new row, add it to the top of the table
     history:true,             //allow undo and redo actions on the table
     pagination:"local",       //paginate the data
-    paginationSize:20,         //allow 7 rows per page of data
+    paginationSize:100,         //allow 7 rows per page of data
     paginationCounter:"rows", //display count of paginated rows in footer
     movableColumns:true,      //allow column order to be changed
     initialSort:[             //set the initial sort order of the data
@@ -23,23 +23,24 @@ var table = new Tabulator("#tableRoosterBio_table", {
         //{title:"Media", field:"g_media", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
         {title:"Umbilical cord", field:"g_umbilical_cord", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
 
-
         {title:"Published by", field:"journal", width:120, editor:"input"},
         {title:"Title", field:"title", width:80, editor:"input"},
-        {title:"Lead Affiliation", field:"lead_aff", width:80, editor:"input"},
-        {title:"author_lead", field:"author_lead", width:100, editor:"input"},
-        {title:"author_anchor", field:"author_anchor", width:100, editor:"input"},
-        {title:"Published by", field:"journal", width:100, editor:"input"},
+        {title:"Affiliation, Lead Author", field:"lead_aff", width:80, editor:"input"},
+        {title:"Author, Lead", field:"author_lead", width:100, editor:"input"},
+        {title:"Author, Anchor", field:"author_anchor", width:100, editor:"input"},
+        {title:"Publisher", field:"journal", width:100, editor:"input"},
         {title:"Funded by", field:"funder", width:100, editor:"input"},
-        {title:"DOI", field:"doi", width:80, formatter:"link", formatterParams:{
-            //labelField:"name",
-            urlPrefix:"https://doi.org/",
+
+        {title:"URL", field:"doi_url", width:10, formatter:"link", formatterParams:{
             target:"_blank",
         }},
+
         {title:"Cited by", field:"cites", width:60, editor:"input", bottomCalc:"sum", bottomCalcParams:{precision:0}},
 
-        {title:"doi_url", field:"doi_url", width:10, formatter:"link", formatterParams:{
-            target:"_blank",
+        {title:"DOI", field:"doi", width:80, formatter:"link", formatterParams:{
+          //labelField:"name",
+          urlPrefix:"https://doi.org/",
+          target:"_blank",
         }},
 
 
