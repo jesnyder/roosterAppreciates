@@ -1,0 +1,189 @@
+body {
+  background-color: #F05323;
+  color: #343741;
+  font: 16px Calibri;
+  }
+
+
+
+h1   {color: #F05323;
+      font: 18px Calibri;
+      font-weight: bold;
+     }
+h2   {color: #0099D8;
+      font: 18px Calibri;
+      font-weight: bold;
+      margin-bottom: 0px;
+      padding: 0;
+     }
+h3   {color: #565656;
+     font: 18px Calibri;
+     padding: 0;
+     margin-bottom: 0px;
+
+
+    }
+p    {color: #565656;
+      font: 16px Calibri}
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  width: 200vw;
+  height: 80vh;
+}
+
+#map2 {
+  width: 100vw;
+  height: 90vh;
+}
+
+.leaflet-bottom.leaflet-left {
+  width: 100%;
+}
+.leaflet-control-container .leaflet-timeline-controls {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#line-chart-cdf_count{
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+#line-chart-cdf_enroll{
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+#line-chart{
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+#line-chart-enroll{
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+#enrolled_scatter{
+  margin:0;
+  padding:0;
+  background-color: white;
+}
+
+@import "compass/css3";
+
+$sortcols: 'firstName', 'lastName', 'birth';
+
+%sortcol {
+background: rgba(white, .15);
+text-shadow: 0 1px #eee;
+
+&:before {
+box-shadow: 0 0 .5em navy;
+}
+
+&.prop__name {
+color: lightcyan;
+
+&[data-dir='1']:after { content: '▲'; }
+&[data-dir='-1']:after { content: '▼'; }
+}
+}
+
+* { box-sizing: inherit; }
+
+
+
+
+th { text-align: left; }
+
+tbody {
+display: flex;
+flex-direction: column;
+color: #000;
+}
+
+tr {
+display: block;
+overflow: hidden;
+width: 100%;
+}
+
+.odd {
+background: linear-gradient(#eee 1px, #ddd 1px, #00CCFF calc(100% - 1px), #999 calc(100% - 1px));
+}
+
+.even {
+background: linear-gradient(#eee 1px, #bbb 1px, #eee calc(100% - 1px), #999 calc(100% - 1px));
+}
+
+[class*='prop__'] {
+float: left;
+position: relative;
+padding: .35em 0.5em;
+width: 31%;
+
+&:last-child { width: 30%; }
+
+&:before {
+position: absolute;
+top: -.5em; right: 0; bottom: -5em; left: 0;
+content: ''
+}
+
+&:after {
+position: absolute;
+right: .5em;
+}
+}
+
+@each $col in $sortcols {
+[data-sort-by='#{$col}'] {
+[data-prop-name='#{$col}'] {
+@extend %sortcol;
+}
+}
+}
+
+#my-list {
+    padding-left: 50px;
+    padding: 0px;
+}
+
+li {
+  padding-left: 10px;
+  margin-bottom: 0px;
+  color: black;
+  text-indent: 0em;
+  margin-left: 2em;
+  color: #565656;
+  font: 16px Calibri;
+}
+
+
+a {color: #F05323;}
+
+
+.rangeslider{
+          width: 50%;
+  }
+
+.myslider {
+
+          width: 80%;
+          height: 20px;
+          opacity: 2;
+         }

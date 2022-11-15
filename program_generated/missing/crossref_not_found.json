@@ -1,0 +1,202 @@
+{
+        "pub_count": 20,
+        "pubs": [
+                {
+                        "searc_title": "3d culture of mesenchymal stem cells in peg-4mal hydrogels increases exosome production with bacterial sphingomyelinase treatment",
+                        "found_title": "Three-Dimensional Spheroid Culture Increases Exosome Secretion from Mesenchymal Stem Cells",
+                        "searc_title_scrub": "3dcultureofmesenchymalstemcellsinpeg4malhydrogelsincreasesexosomeproductionwithbacterialsphingomyelinasetreatment",
+                        "found_title_scrub": "threedimensionalspheroidcultureincreasesexosomesecretionfrommesenchymalstemcells",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=3d+culture+of+mesenchymal+stem+cells+in+peg-4mal+hydrogels+increases+exosome+production+with+bacterial+sphingomyelinase+treatment",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "lentiviral overexpression of vegfc in transplanted mscs leads to resolution of swelling in a mouse tail lymphedema model",
+                        "found_title": "Lentiviral overexpression of\n            <scp>VEGFC</scp>\n            in transplanted\n            <scp>MSCs</scp>\n            leads to resolution of swelling in a mouse tail lymphedema model",
+                        "searc_title_scrub": "lentiviraloverexpressionofvegfcintransplantedmscsleadstoresolutionofswellinginamousetaillymphedemamodel",
+                        "found_title_scrub": "lentiviraloverexpressionofscpvegfcscpintransplantedscpmscsscpleadstoresolutionofswellinginamousetaillymphedemamodel",
+                        "affs_found": 6,
+                        "url": "https://api.crossref.org/works?query.title=lentiviral+overexpression+of+vegfc+in+transplanted+mscs+leads+to+resolution+of+swelling+in+a+mouse+tail+lymphedema+model",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "mesenchymal stem cell time to confluence on 3d printed, porous, poly (propylene fumarate) scaffolds for bone tissue engineering",
+                        "found_title": "3D printing of resorbable poly(propylene fumarate) tissue engineering scaffolds",
+                        "searc_title_scrub": "mesenchymalstemcelltimetoconfluenceon3dprintedporouspolypropylenefumaratescaffoldsforbonetissueengineering",
+                        "found_title_scrub": "3dprintingofresorbablepolypropylenefumaratetissueengineeringscaffolds",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=mesenchymal+stem+cell+time+to+confluence+on+3d+printed,+porous,+poly+(propylene+fumarate)+scaffolds+for+bone+tissue+engineering",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "fabrication and characterization of osteogenic function of progenitor cell\u2010laden gelatin microcarriers",
+                        "found_title": "Fabrication and characterization of osteogenic function of progenitor\n            <scp>cell\u2010laden</scp>\n            gelatin microcarriers",
+                        "searc_title_scrub": "fabricationandcharacterizationofosteogenicfunctionofprogenitorcellladengelatinmicrocarriers",
+                        "found_title_scrub": "fabricationandcharacterizationofosteogenicfunctionofprogenitorscpcellladenscpgelatinmicrocarriers",
+                        "affs_found": 1,
+                        "url": "https://api.crossref.org/works?query.title=fabrication+and+characterization+of+osteogenic+function+of+progenitor+cell\u2010laden+gelatin+microcarriers",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "assessment of high purity mesenchymal stromal cells derived extracellular vesicles presenting nrp1 show functional suppression of activated immune cells",
+                        "found_title": "Purity Determines the Effect of Extracellular Vesicles Derived from Mesenchymal Stromal Cells",
+                        "searc_title_scrub": "assessmentofhighpuritymesenchymalstromalcellsderivedextracellularvesiclespresentingnrp1showfunctionalsuppressionofactivatedimmunecells",
+                        "found_title_scrub": "puritydeterminestheeffectofextracellularvesiclesderivedfrommesenchymalstromalcells",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=assessment+of+high+purity+mesenchymal+stromal+cells+derived+extracellular+vesicles+presenting+nrp1+show+functional+suppression+of+activated+immune+cells",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "success": "No",
+                        "searched_title": "  mayville state university, mayville, nd 58257",
+                        "error": "04 No author found in the items",
+                        "url": "https://api.crossref.org/works?query.title=++mayville+state+university,+mayville,+nd+58257",
+                        "message": "04 No author found in the items"
+                },
+                {
+                        "searc_title": "effect of growth factor-mimetic peptides on human mesenchymal stem cell osteogenesis and chondrogenesis",
+                        "found_title": "Mesenchymal stem cell chondrogenesis: composite growth factor\u2013bioreactor synergism for human stem cell chondrogenesis",
+                        "searc_title_scrub": "effectofgrowthfactormimeticpeptidesonhumanmesenchymalstemcellosteogenesisandchondrogenesis",
+                        "found_title_scrub": "mesenchymalstemcellchondrogenesiscompositegrowthfactorbioreactorsynergismforhumanstemcellchondrogenesis",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=effect+of+growth+factor-mimetic+peptides+on+human+mesenchymal+stem+cell+osteogenesis+and+chondrogenesis",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "hydrogel-embedded poly(lactic-co-glycolic acid) microspheres for the delivery of hmsc-derived exosomes to promote bioactive annulus fibrosus repair",
+                        "found_title": "Hydrogel-Embedded Poly(Lactic-<i>co</i>-Glycolic Acid) Microspheres for the Delivery of hMSC-Derived Exosomes to Promote Bioactive Annulus Fibrosus Repair",
+                        "searc_title_scrub": "hydrogelembeddedpolylacticcoglycolicacidmicrospheresforthedeliveryofhmscderivedexosomestopromotebioactiveannulusfibrosusrepair",
+                        "found_title_scrub": "hydrogelembeddedpolylacticicoiglycolicacidmicrospheresforthedeliveryofhmscderivedexosomestopromotebioactiveannulusfibrosusrepair",
+                        "affs_found": 8,
+                        "url": "https://api.crossref.org/works?query.title=hydrogel-embedded+poly(lactic-co-glycolic+acid)+microspheres+for+the+delivery+of+hmsc-derived+exosomes+to+promote+bioactive+annulus+fibrosus+repair",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "  study the mechanism of action of elixcyte (r), an allogenic stem cell product, on osteoartritis",
+                        "found_title": "Mesenchymal Stem/Stromal Cells: STUDY THE MECHANISM OF ACTION OF ELIXCYTE\u00ae, AN ALLOGENIC STEM CELL PRODUCT, ON OSTEOARTRITIS",
+                        "searc_title_scrub": "studythemechanismofactionofelixcyteranallogenicstemcellproductonosteoartritis",
+                        "found_title_scrub": "mesenchymalstemstromalcellsstudythemechanismofactionofelixcyteanallogenicstemcellproductonosteoartritis",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=++study+the+mechanism+of+action+of+elixcyte+(r),+an+allogenic+stem+cell+product,+on+osteoartritis",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "mscs potential to regenerate osteoarthritis cartilage in a collagenase-induced mouse model",
+                        "found_title": "Oocyte  Morphology  in  a  Mouse  Model  of  Collagenase- Induced Osteoarthritis",
+                        "searc_title_scrub": "mscspotentialtoregenerateosteoarthritiscartilageinacollagenaseinducedmousemodel",
+                        "found_title_scrub": "oocytemorphologyinamousemodelofcollagenaseinducedosteoarthritis",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=mscs+potential+to+regenerate+osteoarthritis+cartilage+in+a+collagenase-induced+mouse+model",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "improving the survivability of equine mesenchymal stromal cells in serum free culture",
+                        "found_title": "Culture and characterisation of equine peripheral blood mesenchymal stromal cells",
+                        "searc_title_scrub": "improvingthesurvivabilityofequinemesenchymalstromalcellsinserumfreeculture",
+                        "found_title_scrub": "cultureandcharacterisationofequineperipheralbloodmesenchymalstromalcells",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=improving+the+survivability+of+equine+mesenchymal+stromal+cells+in+serum+free+culture",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "injection of a cell lysate derived from wharton's jelly perivascular mesenchymal stromal cells for the treatment of inflammation in the temporomandibular joint",
+                        "found_title": "Mesenchymal Stem/Stromal Cells: SYSTEMIC WHARTON-JELLY DERIVED MESENCHYMAL STEM CELL INJECTION AMELIORATES CLINICAL MANIFESTATIONS OF CHRONIC DEMYELINATING PERIPHERAL NEUROPATHY",
+                        "searc_title_scrub": "injectionofacelllysatederivedfromwhartonsjellyperivascularmesenchymalstromalcellsforthetreatmentofinflammationinthetemporomandibularjoint",
+                        "found_title_scrub": "mesenchymalstemstromalcellssystemicwhartonjellyderivedmesenchymalstemcellinjectionamelioratesclinicalmanifestationsofchronicdemyelinatingperipheralneuropathy",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=injection+of+a+cell+lysate+derived+from+wharton's+jelly+perivascular+mesenchymal+stromal+cells+for+the+treatment+of+inflammation+in+the+temporomandibular+joint",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "[citation][c] biomechanics of vascular tissue engineering",
+                        "found_title": "Biomechanics and tissue engineering",
+                        "searc_title_scrub": "citationcbiomechanicsofvasculartissueengineering",
+                        "found_title_scrub": "biomechanicsandtissueengineering",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=[citation][c]+biomechanics+of+vascular+tissue+engineering",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "defect detection and process control in biological additive manufacturing",
+                        "found_title": "CenterNet-based defect detection for additive manufacturing",
+                        "searc_title_scrub": "defectdetectionandprocesscontrolinbiologicaladditivemanufacturing",
+                        "found_title_scrub": "centernetbaseddefectdetectionforadditivemanufacturing",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=defect+detection+and+process+control+in+biological+additive+manufacturing",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "fabrication, modification, and evaluation of modular, gelatin-based microcarriers for the delivery of progenitor cells in bone tissue engineering applications",
+                        "found_title": "Modular tissue engineering: fabrication of a gelatin-based construct",
+                        "searc_title_scrub": "fabricationmodificationandevaluationofmodulargelatinbasedmicrocarriersforthedeliveryofprogenitorcellsinbonetissueengineeringapplications",
+                        "found_title_scrub": "modulartissueengineeringfabricationofagelatinbasedconstruct",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=fabrication,+modification,+and+evaluation+of+modular,+gelatin-based+microcarriers+for+the+delivery+of+progenitor+cells+in+bone+tissue+engineering+applications",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "promoting the clinical relevance of 3d bioprinting",
+                        "found_title": "Relevance of Bio-Inks for 3D Bioprinting",
+                        "searc_title_scrub": "promotingtheclinicalrelevanceof3dbioprinting",
+                        "found_title_scrub": "relevanceofbioinksfor3dbioprinting",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=promoting+the+clinical+relevance+of+3d+bioprinting",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "evaluation of p. aeruginosa attachment on mineralized collagen scaffolds and addition of manuka honey to increase mesenchymal stem cell osteogenesis",
+                        "found_title": "Evaluation of <i>P. aeruginosa</i> attachment on mineralized collagen scaffolds and addition of manuka honey to increase mesenchymal stem cell osteogenesis",
+                        "searc_title_scrub": "evaluationofpaeruginosaattachmentonmineralizedcollagenscaffoldsandadditionofmanukahoneytoincreasemesenchymalstemcellosteogenesis",
+                        "found_title_scrub": "evaluationofipaeruginosaiattachmentonmineralizedcollagenscaffoldsandadditionofmanukahoneytoincreasemesenchymalstemcellosteogenesis",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=evaluation+of+p.+aeruginosa+attachment+on+mineralized+collagen+scaffolds+and+addition+of+manuka+honey+to+increase+mesenchymal+stem+cell+osteogenesis",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "micro-and macroscale spatiotemporal patterning of physical cues in cell-laden hydrogels for tissue engineering applications",
+                        "found_title": "Cell-Laden Hydrogels for Tissue Engineering",
+                        "searc_title_scrub": "microandmacroscalespatiotemporalpatterningofphysicalcuesincellladenhydrogelsfortissueengineeringapplications",
+                        "found_title_scrub": "cellladenhydrogelsfortissueengineering",
+                        "affs_found": 0,
+                        "url": "https://api.crossref.org/works?query.title=micro-and+macroscale+spatiotemporal+patterning+of+physical+cues+in+cell-laden+hydrogels+for+tissue+engineering+applications",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "bioactive poly (ethylene glycol) hydrogel composites for",
+                        "found_title": "Anisotropic Poly(Ethylene Glycol)/Polycaprolactone Hydrogel\u2013Fiber Composites for Heart Valve Tissue Engineering",
+                        "searc_title_scrub": "bioactivepolyethyleneglycolhydrogelcompositesfor",
+                        "found_title_scrub": "anisotropicpolyethyleneglycolpolycaprolactonehydrogelfibercompositesforheartvalvetissueengineering",
+                        "affs_found": 2,
+                        "url": "https://api.crossref.org/works?query.title=bioactive+poly+(ethylene+glycol)+hydrogel+composites+for",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                },
+                {
+                        "searc_title": "a multicellular, biomaterial-based platform for the engineering of vascularized bone",
+                        "found_title": "Multicellular Vascularized Engineered Tissues through User\u2010Programmable Biomaterial Photodegradation",
+                        "searc_title_scrub": "amulticellularbiomaterialbasedplatformfortheengineeringofvascularizedbone",
+                        "found_title_scrub": "multicellularvascularizedengineeredtissuesthroughuserprogrammablebiomaterialphotodegradation",
+                        "affs_found": 3,
+                        "url": "https://api.crossref.org/works?query.title=a+multicellular,+biomaterial-based+platform+for+the+engineering+of+vascularized+bone",
+                        "crossref_item_number": "not found",
+                        "match_found": false
+                }
+        ]
+}

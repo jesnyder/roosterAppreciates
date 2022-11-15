@@ -1,0 +1,64 @@
+var tabledata = tableRoosterBio_table;
+
+var table = new Tabulator("#tableRoosterBio_table", {
+    data:tabledata,           //load row data from array
+    layout:"fitColumns",      //fit columns to width of table
+    responsiveLayout:"hide",  //hide columns that dont fit on the table
+    tooltips:true,            //show tool tips on cells
+    addRowPos:"top",          //when adding a new row, add it to the top of the table
+    history:true,             //allow undo and redo actions on the table
+    pagination:"local",       //paginate the data
+    paginationSize:10,         //allow 7 rows per page of data
+    paginationCounter:"rows", //display count of paginated rows in footer
+    movableColumns:true,      //allow column order to be changed
+    initialSort:[             //set the initial sort order of the data
+        {column:"name", dir:"asc"},
+    ],
+    columns:[                 //define the table columns
+
+        {title:"Exosome", field:"g_exosome", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true, bottomCalc:"sum", bottomCalcParams:{precision:0}},
+        {title:"Bone", field:"g_bone", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+        {title:"Adipose", field:"g_adipose", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+        //{title:"Cells", field:"g_cells", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+        //{title:"Media", field:"g_media", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+        {title:"Umbilical cord", field:"g_umbilical_cord", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+
+
+        {title:"Published by", field:"journal", width:100, editor:"input"},
+        {title:"Title", field:"title", width:100, editor:"input"},
+        {title:"Lead Affiliation", field:"lead_aff", width:100, editor:"input"},
+        {title:"author_lead", field:"author_lead", width:100, editor:"input"},
+        {title:"author_anchor", field:"author_anchor", width:100, editor:"input"},
+        {title:"Published by", field:"journal", width:100, editor:"input"},
+        {title:"Funded by", field:"funder", width:100, editor:"input"},
+        {title:"DOI", field:"doi", width:100, formatter:"link", formatterParams:{
+            //labelField:"name",
+            urlPrefix:"https://doi.org/",
+            target:"_blank",
+        }},
+        {title:"Cited by", field:"cites", width:60, editor:"input", bottomCalc:"sum", bottomCalcParams:{precision:0}},
+
+        {title:"doi_url", field:"doi_url", width:10, formatter:"link", formatterParams:{
+            target:"_blank",
+        }},
+
+
+      //  {title:"Task Progress", field:"progress", hozAlign:"left", formatter:"progress", editor:true},
+      //  {title:"Gender", field:"gender", width:95, editor:"select", editorParams:{values:["male", "female"]}},
+      //  {title:"Rating", field:"rating", formatter:"star", hozAlign:"center", width:100, editor:true},
+        //{title:"Color", field:"col", width:130, editor:"input"},
+        //{title:"Date Of Birth", field:"dob", width:130, sorter:"date", hozAlign:"center"},
+        //{title:"Driver", field:"car", width:90,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
+    ],
+    });
+
+
+
+    //trigger download of data.xlsx file
+    document.getElementById("download-csv").addEventListener("click", function(){
+        table.download("csv", "RoosterBio.csv");
+    });
+
+    document.getElementById("download-xlsx").addEventListener("click", function(){
+        table.download("xlsx", "RoosterBio.xlsx", {sheetName:"My Data"});
+    });
