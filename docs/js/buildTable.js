@@ -23,7 +23,7 @@ var table = new Tabulator("#tableRoosterBio_table", {
         //{title:"Media", field:"g_media", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
         {title:"Umbilical cord", field:"g_umbilical_cord", width:10,  hozAlign:"center", formatter:"tickCross", sorter:"boolean", editor:true},
 
-        {title:"Published by", field:"journal", width:120, editor:"input"},
+        {title:"Published by", field:"journal", width:180, editor:"input"},
         {title:"Title", field:"title", width:80, editor:"input"},
         {title:"Affiliation, Lead Author", field:"lead_aff", width:80, editor:"input"},
         {title:"Author, Lead", field:"author_lead", width:100, editor:"input"},
