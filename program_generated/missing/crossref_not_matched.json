@@ -1,5 +1,5 @@
 {
-        "pub_count": 20,
+        "pub_count": 16,
         "pubs": [
                 {
                         "searc_title": "3d culture of mesenchymal stem cells in peg-4mal hydrogels increases exosome production with bacterial sphingomyelinase treatment",
@@ -12,32 +12,12 @@
                         "match_found": false
                 },
                 {
-                        "searc_title": "lentiviral overexpression of vegfc in transplanted mscs leads to resolution of swelling in a mouse tail lymphedema model",
-                        "found_title": "Lentiviral overexpression of\n            <scp>VEGFC</scp>\n            in transplanted\n            <scp>MSCs</scp>\n            leads to resolution of swelling in a mouse tail lymphedema model",
-                        "searc_title_scrub": "lentiviraloverexpressionofvegfcintransplantedmscsleadstoresolutionofswellinginamousetaillymphedemamodel",
-                        "found_title_scrub": "lentiviraloverexpressionofscpvegfcscpintransplantedscpmscsscpleadstoresolutionofswellinginamousetaillymphedemamodel",
-                        "affs_found": 6,
-                        "url": "https://api.crossref.org/works?query.title=lentiviral+overexpression+of+vegfc+in+transplanted+mscs+leads+to+resolution+of+swelling+in+a+mouse+tail+lymphedema+model",
-                        "crossref_item_number": "not found",
-                        "match_found": false
-                },
-                {
                         "searc_title": "mesenchymal stem cell time to confluence on 3d printed, porous, poly (propylene fumarate) scaffolds for bone tissue engineering",
                         "found_title": "3D printing of resorbable poly(propylene fumarate) tissue engineering scaffolds",
                         "searc_title_scrub": "mesenchymalstemcelltimetoconfluenceon3dprintedporouspolypropylenefumaratescaffoldsforbonetissueengineering",
                         "found_title_scrub": "3dprintingofresorbablepolypropylenefumaratetissueengineeringscaffolds",
                         "affs_found": 0,
                         "url": "https://api.crossref.org/works?query.title=mesenchymal+stem+cell+time+to+confluence+on+3d+printed,+porous,+poly+(propylene+fumarate)+scaffolds+for+bone+tissue+engineering",
-                        "crossref_item_number": "not found",
-                        "match_found": false
-                },
-                {
-                        "searc_title": "fabrication and characterization of osteogenic function of progenitor cell\u2010laden gelatin microcarriers",
-                        "found_title": "Fabrication and characterization of osteogenic function of progenitor\n            <scp>cell\u2010laden</scp>\n            gelatin microcarriers",
-                        "searc_title_scrub": "fabricationandcharacterizationofosteogenicfunctionofprogenitorcellladengelatinmicrocarriers",
-                        "found_title_scrub": "fabricationandcharacterizationofosteogenicfunctionofprogenitorscpcellladenscpgelatinmicrocarriers",
-                        "affs_found": 1,
-                        "url": "https://api.crossref.org/works?query.title=fabrication+and+characterization+of+osteogenic+function+of+progenitor+cell\u2010laden+gelatin+microcarriers",
                         "crossref_item_number": "not found",
                         "match_found": false
                 },
@@ -65,16 +45,6 @@
                         "found_title_scrub": "mesenchymalstemcellchondrogenesiscompositegrowthfactorbioreactorsynergismforhumanstemcellchondrogenesis",
                         "affs_found": 0,
                         "url": "https://api.crossref.org/works?query.title=effect+of+growth+factor-mimetic+peptides+on+human+mesenchymal+stem+cell+osteogenesis+and+chondrogenesis",
-                        "crossref_item_number": "not found",
-                        "match_found": false
-                },
-                {
-                        "searc_title": "hydrogel-embedded poly(lactic-co-glycolic acid) microspheres for the delivery of hmsc-derived exosomes to promote bioactive annulus fibrosus repair",
-                        "found_title": "Hydrogel-Embedded Poly(Lactic-<i>co</i>-Glycolic Acid) Microspheres for the Delivery of hMSC-Derived Exosomes to Promote Bioactive Annulus Fibrosus Repair",
-                        "searc_title_scrub": "hydrogelembeddedpolylacticcoglycolicacidmicrospheresforthedeliveryofhmscderivedexosomestopromotebioactiveannulusfibrosusrepair",
-                        "found_title_scrub": "hydrogelembeddedpolylacticicoiglycolicacidmicrospheresforthedeliveryofhmscderivedexosomestopromotebioactiveannulusfibrosusrepair",
-                        "affs_found": 8,
-                        "url": "https://api.crossref.org/works?query.title=hydrogel-embedded+poly(lactic-co-glycolic+acid)+microspheres+for+the+delivery+of+hmsc-derived+exosomes+to+promote+bioactive+annulus+fibrosus+repair",
                         "crossref_item_number": "not found",
                         "match_found": false
                 },
@@ -119,12 +89,12 @@
                         "match_found": false
                 },
                 {
-                        "searc_title": "[citation][c] biomechanics of vascular tissue engineering",
+                        "searc_title": "  biomechanics of vascular tissue engineering",
                         "found_title": "Biomechanics and tissue engineering",
-                        "searc_title_scrub": "citationcbiomechanicsofvasculartissueengineering",
+                        "searc_title_scrub": "biomechanicsofvasculartissueengineering",
                         "found_title_scrub": "biomechanicsandtissueengineering",
                         "affs_found": 0,
-                        "url": "https://api.crossref.org/works?query.title=[citation][c]+biomechanics+of+vascular+tissue+engineering",
+                        "url": "https://api.crossref.org/works?query.title=++biomechanics+of+vascular+tissue+engineering",
                         "crossref_item_number": "not found",
                         "match_found": false
                 },
@@ -155,16 +125,6 @@
                         "found_title_scrub": "relevanceofbioinksfor3dbioprinting",
                         "affs_found": 0,
                         "url": "https://api.crossref.org/works?query.title=promoting+the+clinical+relevance+of+3d+bioprinting",
-                        "crossref_item_number": "not found",
-                        "match_found": false
-                },
-                {
-                        "searc_title": "evaluation of p. aeruginosa attachment on mineralized collagen scaffolds and addition of manuka honey to increase mesenchymal stem cell osteogenesis",
-                        "found_title": "Evaluation of <i>P. aeruginosa</i> attachment on mineralized collagen scaffolds and addition of manuka honey to increase mesenchymal stem cell osteogenesis",
-                        "searc_title_scrub": "evaluationofpaeruginosaattachmentonmineralizedcollagenscaffoldsandadditionofmanukahoneytoincreasemesenchymalstemcellosteogenesis",
-                        "found_title_scrub": "evaluationofipaeruginosaiattachmentonmineralizedcollagenscaffoldsandadditionofmanukahoneytoincreasemesenchymalstemcellosteogenesis",
-                        "affs_found": 0,
-                        "url": "https://api.crossref.org/works?query.title=evaluation+of+p.+aeruginosa+attachment+on+mineralized+collagen+scaffolds+and+addition+of+manuka+honey+to+increase+mesenchymal+stem+cell+osteogenesis",
                         "crossref_item_number": "not found",
                         "match_found": false
                 },

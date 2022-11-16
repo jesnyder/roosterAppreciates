@@ -1,5 +1,5 @@
 {
-        "aff_count": 96,
+        "aff_count": 180,
         "affs": [
                 {
                         "name": "Departments of Molecular Microbiology and Immunology University of Southern California  Los Angeles California USA",
@@ -42,6 +42,74 @@
                         "edit_name": "Division of Cellular and Gene Therapies, Center for Biologics Evaluation and Research ,US Food and Drug Administration,  Silver Spring Maryland USA"
                 },
                 {
+                        "name": "Department of Biomedical Engineering, The Ohio State University, Columbus OH USA",
+                        "edit_name": "Department of Biomedical Engineering, The Ohio State University, Columbus OH USA"
+                },
+                {
+                        "name": "Department of Materials Science and Engineering, The Ohio State University, Columbus, OH USA",
+                        "edit_name": "Department of Materials Science and Engineering, The Ohio State University, Columbus, OH USA"
+                },
+                {
+                        "name": "Department of Plastic and Reconstructive Surgery, The Ohio State University, Columbus, OH USA",
+                        "edit_name": "Department of Plastic and Reconstructive Surgery, The Ohio State University, Columbus, OH USA"
+                },
+                {
+                        "name": "Center for Design and Manufacturing Excellence, The Ohio State University, Columbus, OH USA",
+                        "edit_name": "Center for Design and Manufacturing Excellence, The Ohio State University, Columbus, OH USA"
+                },
+                {
+                        "name": "School of Engineering and Sciences, Tecnologico de Monterrey, Monterrey Mexico",
+                        "edit_name": "School of Engineering and Sciences, Tecnologico de Monterrey, Monterrey Mexico"
+                },
+                {
+                        "name": "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico",
+                        "edit_name": "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico"
+                },
+                {
+                        "name": "Department of Biomedical Engineering, Florida International University, Miami FL USA",
+                        "edit_name": "Department of Biomedical Engineering, Florida International University, Miami FL USA"
+                },
+                {
+                        "name": "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond VA USA",
+                        "edit_name": "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond VA USA"
+                },
+                {
+                        "name": "Aurora BioSolutions Inc, Medicine Hat, Alberta, Canada",
+                        "edit_name": "Aurora BioSolutions Inc, Medicine Hat, Alberta, Canada"
+                },
+                {
+                        "name": "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, Canada",
+                        "edit_name": "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, Canada"
+                },
+                {
+                        "name": "Department of Mining and Materials Engineering, McGill University, Canada",
+                        "edit_name": "Department of Mining and Materials Engineering, McGill University, Canada"
+                },
+                {
+                        "name": "Division of Orthopedic Surgery, McGill University, Canada",
+                        "edit_name": "Division of Orthopedic Surgery, McGill University, Canada"
+                },
+                {
+                        "name": "Injury, Repair and Recovery Program, Research Institute of McGill University Health Centre, McGill University Health Centre, Canada",
+                        "edit_name": "Injury, Repair and Recovery Program, Research Institute of McGill University Health Centre, McGill University Health Centre, Canada"
+                },
+                {
+                        "name": "Department of Chemical and Biomedical Engineering, FAMU-FSU College of Engineering, Florida State University, Tallahassee, FL, USA",
+                        "edit_name": "Department of Chemical and Biomedical Engineering, FAMU-FSU College of Engineering, Florida State University, Tallahassee, FL, USA"
+                },
+                {
+                        "name": "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL, USA",
+                        "edit_name": "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL, USA"
+                },
+                {
+                        "name": "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL, USA",
+                        "edit_name": "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL, USA"
+                },
+                {
+                        "name": "PBS Biotech Inc, Camarillo, CA, USA",
+                        "edit_name": "PBS Biotech Inc, Camarillo, CA, USA"
+                },
+                {
                         "name": "Department of Surgery Laboratory of Bioregenerative Medicine &amp; Surgery Division of Plastic Surgery Weill Cornell Medical College  New York New York USA",
                         "edit_name": "Department of Surgery Laboratory of Bioregenerative Medicine &amp; Surgery Division of Plastic Surgery ,Weill Cornell Medical College,   New York New York USA"
                 },
@@ -52,6 +120,50 @@
                 {
                         "name": "Sibley School of Mechanical and Aerospace Engineering Cornell University  Ithaca New York USA",
                         "edit_name": "Sibley School of Mechanical and Aerospace Engineering ,Cornell University,   Ithaca New York USA"
+                },
+                {
+                        "name": "Department of Surgery, Division of Otolaryngology, Children's Hospital of Philadelphia, Philadelphia, PA, USA",
+                        "edit_name": "Department of Surgery, Division of Otolaryngology, Children's Hospital of Philadelphia, Philadelphia, PA, USA"
+                },
+                {
+                        "name": "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA USA",
+                        "edit_name": "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA USA"
+                },
+                {
+                        "name": "Ri.MED Foundation, Palermo, Italy",
+                        "edit_name": "Ri.MED Foundation, Palermo, Italy"
+                },
+                {
+                        "name": "Parker H. Petit Institute for Bioengineering and Bioscience Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                        "edit_name": "Parker H. Petit Institute for Bioengineering and Bioscience ,Georgia Institute of Technology,  315 Ferst Dr. NW, Atlanta, GA 30332  USA"
+                },
+                {
+                        "name": "George W. Woodruff School of Mechanical Engineering Georgia Institute of Technology 801 Ferst Drive, Atlanta, GA 30332  USA",
+                        "edit_name": "George W. Woodruff School of Mechanical Engineering ,Georgia Institute of Technology,  801 Ferst Drive, Atlanta, GA 30332  USA"
+                },
+                {
+                        "name": "Wallace H. Coulter Department of Biomedical Engineering Georgia Institute of Technology and Emory University 313 Ferst Drive, Atlanta, GA 30332  USA",
+                        "edit_name": "Wallace H. Coulter Department of Biomedical Engineering ,Georgia Institute of Technology,  and Emory University 313 Ferst Drive, Atlanta, GA 30332  USA"
+                },
+                {
+                        "name": "Neuroscience Department Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                        "edit_name": "Neuroscience Department ,Georgia Institute of Technology,  315 Ferst Dr. NW, Atlanta, GA 30332  USA"
+                },
+                {
+                        "name": "Phil and Penny Knight Campus for Accelerating Scientific Impact University of Oregon 97403  Eugene OR USA",
+                        "edit_name": "Phil and Penny Knight Campus for Accelerating Scientific Impact ,University of Oregon,  97403  Eugene OR USA"
+                },
+                {
+                        "name": "The Veterans Affairs Portland Health Care System 97239  Portland OR USA",
+                        "edit_name": "The Veterans Affairs Portland Health Care System, Oregon Health & Science University Portland OR USA"
+                },
+                {
+                        "name": "Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University, Georgia Institute of Technology, Atlanta, Georgia, USA",
+                        "edit_name": "Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University, ,Georgia Institute of Technology, , Atlanta, Georgia, USA"
+                },
+                {
+                        "name": "School of Chemical, Materials, and Biomedical Engineering, University of Georgia",
+                        "edit_name": "School of Chemical, Materials, and Biomedical Engineering, ,University of Georgia, "
                 },
                 {
                         "name": "The University of Chicago",
@@ -68,6 +180,14 @@
                 {
                         "name": "University of Illinois Chicago",
                         "edit_name": "University of Illinois Chicago"
+                },
+                {
+                        "name": "Division of MR Research, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+                        "edit_name": "Division of MR Research, The Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+                },
+                {
+                        "name": "Department of Chemistry, University of Science and Technology of China, Hefei, China",
+                        "edit_name": "Department of Chemistry, University of Science and Technology of China, Hefei, China"
                 },
                 {
                         "name": "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond, VA, USA",
@@ -90,6 +210,14 @@
                         "edit_name": "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, PA, USA"
                 },
                 {
+                        "name": "Department of Biomedical Engineering University of Michigan  Ann Arbor Michigan USA",
+                        "edit_name": "Department of Biomedical Engineering ,University of Michigan  Ann Arbor,  Michigan USA"
+                },
+                {
+                        "name": "Emmaus Life Sciences, Inc, Torrance CA USA",
+                        "edit_name": "Emmaus Life Sciences, Inc, Torrance CA USA"
+                },
+                {
                         "name": "Emory University School of Medicine, Atlanta, Georgia, USA",
                         "edit_name": "Emory University School of Medicine, Atlanta, Georgia, USA"
                 },
@@ -104,6 +232,10 @@
                 {
                         "name": "Phil and Penny Knight Campus for Accelerating Scientific Impact, University of Oregon, Eugene, OR, USA",
                         "edit_name": "Phil and Penny Knight Campus for Accelerating Scientific Impact, ,University of Oregon, , Eugene, OR, USA"
+                },
+                {
+                        "name": "University of Illinois Urbana-Champaign",
+                        "edit_name": "University of Illinois Urbana-Champaign"
                 },
                 {
                         "name": "School of Chemical and Biomolecular Engineering Georgia Institute of Technology  Atlanta GA 30318 USA",
@@ -130,6 +262,18 @@
                         "edit_name": "Woodruff School of Mechanical Engineering ,Georgia Institute of Technology,   Atlanta GA 30313 USA"
                 },
                 {
+                        "name": "Department of Orthopaedics, University of Maryland School of Medicine, Baltimore MD USA",
+                        "edit_name": "Department of Orthopaedics, University of Maryland School of Medicine, Baltimore MD USA"
+                },
+                {
+                        "name": "Department of Orthopaedic Surgery, Graduate School of Medicine, Osaka University, Osaka, Japan",
+                        "edit_name": "Department of Orthopaedic Surgery, Graduate School of Medicine, Osaka University, Osaka, Japan"
+                },
+                {
+                        "name": "Departments of Pharmacology and Biochemistry and Molecular Biology, Institute of Personalized Medicine, Penn State University, Hershey PA USA",
+                        "edit_name": "Departments of Pharmacology and Biochemistry and Molecular Biology, Institute of Personalized Medicine, Penn State University, Hershey PA USA"
+                },
+                {
                         "name": "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
                         "edit_name": "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine ,University of Otago Christchurch,   Christchurch 8011 New Zealand"
                 },
@@ -144,6 +288,10 @@
                 {
                         "name": "Department of Oral and Maxillofacial Surgery and Special Dental Care University Medical Center Utrecht  Utrecht GA 3508 The Netherlands",
                         "edit_name": "Department of Oral and Maxillofacial Surgery and Special Dental Care, University Medical Center, Heidelberglaan Utrecht, Netherlands"
+                },
+                {
+                        "name": "Department of Bioengineering, Rice University, Houston, TX, USA",
+                        "edit_name": "Department of Bioengineering, Rice University, Houston, TX, USA"
                 },
                 {
                         "name": "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
@@ -174,8 +322,48 @@
                         "edit_name": "Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials,  Guangzhou, China"
                 },
                 {
+                        "name": "Department of Obstetrics and Gynecology, University of Chicago, Chicago IL USA",
+                        "edit_name": "Department of Obstetrics and Gynecology, University of Chicago, Chicago IL USA"
+                },
+                {
+                        "name": "Department of Radiation Oncology, University of Kansas Medical Center, Kansas City, KS USA",
+                        "edit_name": "Department of Radiation Oncology, University of Kansas Medical Center, Kansas City, KS USA"
+                },
+                {
+                        "name": "Department of Ophthalmology and Visual Sciences, Illinois Eye and Ear Infirmary, University of Illinois at Chicago, Chicago IL USA",
+                        "edit_name": "Department of Ophthalmology and Visual Sciences, Illinois Eye and Ear Infirmary, University of Illinois at Chicago, Chicago IL USA"
+                },
+                {
                         "name": "Department of Biomedical Engineering University of Michigan Ann Arbor Michigan USA",
                         "edit_name": "Department of Biomedical Engineering, University of Michigan, USA"
+                },
+                {
+                        "name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                        "edit_name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
+                },
+                {
+                        "name": "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                        "edit_name": "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
+                },
+                {
+                        "name": "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand",
+                        "edit_name": "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand"
+                },
+                {
+                        "name": "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore",
+                        "edit_name": "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore"
+                },
+                {
+                        "name": "Faculty of Materials and Energy, Institute for Clean Energy and Advanced Materials, Southwest University, Chongqing, China ",
+                        "edit_name": "Faculty of Materials and Energy, Institute for Clean Energy and Advanced Materials, Southwest University, Chongqing, China "
+                },
+                {
+                        "name": "Department of Biomedical Engineering, University of Kentucky, Lexington KY USA",
+                        "edit_name": "Department of Biomedical Engineering, University of Kentucky, Lexington KY USA"
+                },
+                {
+                        "name": "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland",
+                        "edit_name": "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
                 },
                 {
                         "name": "Regenerative Biology Group, Oral and Biomedical Sciences, School of Dentistry, Cardiff University , Cardiff, Wales , UK",
@@ -214,6 +402,54 @@
                         "edit_name": "IKERBASQUE, Basque Foundation for Science , Bilbao, Bizkaia , Spain"
                 },
                 {
+                        "name": "Department of Surgery, University of California, San Francisco",
+                        "edit_name": "Department of Surgery, University of California, San Francisco"
+                },
+                {
+                        "name": "Vitalant Research Institute, San Francisco, California",
+                        "edit_name": "Vitalant Research Institute, San Francisco, California"
+                },
+                {
+                        "name": "Marrow Adiposity and Bone Lab, University of Lille, France",
+                        "edit_name": "Marrow Adiposity and Bone Lab, University of Lille, France"
+                },
+                {
+                        "name": "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA",
+                        "edit_name": "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA"
+                },
+                {
+                        "name": "Hospital Center University De Lille, 2 Av. Oscar Lambret, 59000 Lille, France",
+                        "edit_name": "Hospital Center University De Lille, 2 Av. Oscar Lambret, 59000 Lille, France"
+                },
+                {
+                        "name": "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, USA",
+                        "edit_name": "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, USA"
+                },
+                {
+                        "name": "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA",
+                        "edit_name": "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA"
+                },
+                {
+                        "name": "iBET, Instituto de Biologia Experimental e Tecnologica, Oeiras, Portugal",
+                        "edit_name": "iBET, Instituto de Biologia Experimental e Tecnologica, Oeiras, Portugal"
+                },
+                {
+                        "name": "GIAAPP/ISEL, Pulsed Power Advanced Applications Group, Lisbon Engineering Superior Institute, Lisbon, Portugal",
+                        "edit_name": "GIAAPP/ISEL, Pulsed Power Advanced Applications Group, Lisbon Engineering Superior Institute, Lisbon, Portugal"
+                },
+                {
+                        "name": "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Emory University, Atlanta, GA, USA",
+                        "edit_name": "Wallace H. Coulter Department of Biomedical Engineering, ,Georgia Institute of Technology, , Emory University, Atlanta, GA, USA"
+                },
+                {
+                        "name": "Department of Biomedical Engineering, Purdue School of Engineering, Indiana University-Purdue University Indianapolis, Indianapolis, IN, USA",
+                        "edit_name": "Department of Biomedical Engineering, Purdue School of Engineering, Indiana University-Purdue University Indianapolis, Indianapolis, IN, USA"
+                },
+                {
+                        "name": "Kolling Institute, Faculty of Medicine and Health, University of Sydney, NSW, Australia",
+                        "edit_name": "Kolling Institute, Faculty of Medicine and Health, University of Sydney, NSW, Australia"
+                },
+                {
                         "name": "Institute of Fundamental Technological Research, Polish Academy of Sciences, Pawinskiego 5b St., 02-106 Warsaw, Poland",
                         "edit_name": "Institute of Fundamental Technological Research, Polish Academy of Sciences, Pawinskiego 5b St., 02-106 Warsaw, Poland"
                 },
@@ -224,6 +460,14 @@
                 {
                         "name": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, 5 Pawinskiego St., 02-106 Warsaw, Poland",
                         "edit_name": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, 5 Pawinskiego St., 02-106 Warsaw, Poland"
+                },
+                {
+                        "name": "School of Chemical, Materials, and Biomedical Engineering, University of Georgia, Athens, Georgia, USA",
+                        "edit_name": "School of Chemical, Materials, and Biomedical Engineering, ,University of Georgia, , Athens, Georgia, USA"
+                },
+                {
+                        "name": "Mcketta Department of Chemical Engineering, University of Texas at Austin, Austin, TX",
+                        "edit_name": "Mcketta Department of Chemical Engineering, University of Texas at Austin, Austin, TX"
                 },
                 {
                         "name": "Embody, Inc.  Norfolk VA 23508 USA",
@@ -240,6 +484,46 @@
                 {
                         "name": "Department of Orthopaedic Surgery San Antonio Military Medical Center  USAF 59th MDW San Antonio TX 78234 USA",
                         "edit_name": "Department of Orthopaedic Surgery, San Antonio Military Medical Center, San Antonio TX USA"
+                },
+                {
+                        "name": "Advanced Solutions Life Sciences, Louisville, KY, USA",
+                        "edit_name": "Advanced Solutions Life Sciences, Louisville, KY, USA"
+                },
+                {
+                        "name": "Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Department of Chemical Engineering, The Cooper Union for the Advancement of Science and Art, New York, NY, USA",
+                        "edit_name": "Department of Chemical Engineering, The Cooper Union for the Advancement of Science and Art, New York, NY, USA"
+                },
+                {
+                        "name": "Department of Chemical Engineering, New Jersey Institute of Technology, Newark, NJ, USA",
+                        "edit_name": "Department of Chemical Engineering, New Jersey Institute of Technology, Newark, NJ, USA"
+                },
+                {
+                        "name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Mount Sinai Center for Transformative Disease Modeling, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Mount Sinai Center for Transformative Disease Modeling, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Cardiovascular Research Center, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Cardiovascular Research Center, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Orthopaedic Research Laboratories, Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                        "edit_name": "Orthopaedic Research Laboratories, Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                        "name": "Department of Biomedical Engineering, Pennsylvania State University, University Park, PA, USA",
+                        "edit_name": "Department of Biomedical Engineering, Pennsylvania State University, University Park, PA, USA"
                 },
                 {
                         "name": "Department of Mining and Materials Engineering McGill University  Montreal H3A 0E9 Canada",
@@ -290,24 +574,56 @@
                         "edit_name": "Department of Orthopedics ,University of Colorado Anschutz Medical Campus,   Aurora CO 80045 USA"
                 },
                 {
+                        "name": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
+                        "edit_name": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland"
+                },
+                {
+                        "name": "ICVS/3B's--PT, Government Associated Laboratory, Guimaraes, Portugal",
+                        "edit_name": "ICVS/3B's--PT, Government Associated Laboratory, Guimaraes, Portugal"
+                },
+                {
+                        "name": "FMC Biopolymer AS, Sandvika, Norway",
+                        "edit_name": "FMC Biopolymer AS, Sandvika, Norway"
+                },
+                {
+                        "name": "Institute of Micromechanics and Photonics, Warsaw University of Technology, Warsaw, Poland",
+                        "edit_name": "Institute of Micromechanics and Photonics, Warsaw University of Technology, Warsaw, Poland"
+                },
+                {
                         "name": "CAS, a Division of the American Chemical Society, 2540 Olentangy River Rd, Columbus, Ohio 43202, United States",
                         "edit_name": "CAS, a Division of the American Chemical Society, 2540 Olentangy River Rd, Columbus, Ohio 43202, United States"
                 },
                 {
-                        "name": "Universite de Montreal",
+                        "name": "Critical Analytics for Manufacturing of Personalized Medicine, Singapore-MIT Alliance for Research and Technology, National University of Singapore",
+                        "edit_name": "Critical Analytics for Manufacturing of Personalized Medicine, Singapore-MIT Alliance for Research and Technology, National University of Singapore"
+                },
+                {
+                        "name": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA",
+                        "edit_name": "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA"
+                },
+                {
+                        "name": "Codiak BioSciences, Cambridge, MA, USA",
+                        "edit_name": "Codiak BioSciences, Cambridge, MA, USA"
+                },
+                {
+                        "name": "Dept of Chemical and Biomolecular Engineering, Dept of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, TN, USA",
+                        "edit_name": "Dept of Chemical and Biomolecular Engineering, Dept of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, TN, USA"
+                },
+                {
+                        "name": "Department of Biomedical Sciences, Universite de Montreal, Montreal, QC, Canada",
                         "edit_name": "University of Montreal"
                 },
                 {
-                        "name": "Lebanese University: Universite Libanaise",
-                        "edit_name": "Lebanese University: Universite Libanaise"
+                        "name": "Department of Pharmacology and Physiology, Universite de Montreal, Montreal, Canada",
+                        "edit_name": "University of Montreal"
                 },
                 {
-                        "name": "McGill University",
-                        "edit_name": "McGill University"
+                        "name": "Department of Chemistry and Biochemistry, Lebanese University, Lebanon",
+                        "edit_name": "Department of Chemistry and Biochemistry, Lebanese University, Lebanon"
                 },
                 {
-                        "name": "CCRT",
-                        "edit_name": "CCRT"
+                        "name": "Fischell Department of Bioengineering, University of Maryland, College Park, MD USA",
+                        "edit_name": "Fischell Department of Bioengineering, University of Maryland, College Park, MD USA"
                 },
                 {
                         "name": "Department of Bioengineering, Henry Samueli School of Engineering, University of California, Los Angeles, California, USA.",
@@ -358,6 +674,10 @@
                         "edit_name": "Division of Plastic Surgery, Department of Surgery, Nemours/Alfred I. du Pont Hospital for Children, Wilmington, Delaware, USA."
                 },
                 {
+                        "name": "Penn State, University Park, PA, USA",
+                        "edit_name": "Penn State, University Park, PA, USA"
+                },
+                {
                         "name": "Regenerative Medicine Program, The Ottawa Hospital Research Institute, Ottawa, ON, Canada",
                         "edit_name": "Regenerative Medicine Program, ,The Ottawa Hospital Research Institute, , Ottawa, ON, Canada"
                 },
@@ -384,6 +704,22 @@
                 {
                         "name": "Department of Cellular and Molecular Medicine, University of Ottawa, Ottawa, ON, Canada",
                         "edit_name": "Department of Cellular and Molecular Medicine, University of Ottawa, Ottawa, ON, Canada"
+                },
+                {
+                        "name": "Dept. of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL",
+                        "edit_name": "Dept. of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL"
+                },
+                {
+                        "name": "Division of Biomaterials and Biomechanics, Department of Restorative Dentistry, School of Dentistry, Oregon Health & Science University, Portland, OR, USA",
+                        "edit_name": "Division of Biomaterials and Biomechanics, Department of Restorative Dentistry, School of Dentistry, Oregon Health & Science University, Portland, OR, USA"
+                },
+                {
+                        "name": "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland",
+                        "edit_name": "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"
+                },
+                {
+                        "name": "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA",
+                        "edit_name": "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA"
                 }
         ]
 }

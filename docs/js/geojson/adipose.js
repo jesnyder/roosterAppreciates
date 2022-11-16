@@ -10,7 +10,7 @@ var  adipose = {
                         "aff": "Emmaus Life Sciences, Inc, Torrance CA USA",
                         "title": "Posology and Serum-/Xeno-Free Engineered Adipose Stromal Cells Cell Sheets",
                         "url": "http://dx.doi.org/10.3389/fcell.2022.873603",
-                        "color": "rgb( 184 , 178 , 201 )",
+                        "color": "rgb( 203 , 164 , 171 )",
                         "radius": 10.0,
                         "opacity": 0.7,
                         "zindex": 490,
@@ -33,7 +33,7 @@ var  adipose = {
                         "aff": "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 194 , 221 , 153 )",
+                        "color": "rgb( 202 , 179 , 143 )",
                         "radius": 10.0,
                         "opacity": 0.7,
                         "zindex": 490,
@@ -56,7 +56,7 @@ var  adipose = {
                         "aff": "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 194 , 221 , 153 )",
+                        "color": "rgb( 202 , 179 , 143 )",
                         "radius": 10.0,
                         "opacity": 0.7,
                         "zindex": 490,
@@ -73,13 +73,59 @@ var  adipose = {
             {
                   "type": "Feature",
                   "properties": {
+                        "lat": "42.450550699999994",
+                        "lon": "-76.47835129554275",
+                        "display_name": "Cornell University, Town of Dryden, Tompkins County, New York, 14850, United States",
+                        "aff": "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
+                        "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37267",
+                        "color": "rgb( 199 , 221 , 133 )",
+                        "radius": 25.0,
+                        "opacity": 0.7,
+                        "zindex": 475,
+                        "paneName": "pane_975"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              -76.47835129554275,
+                              42.450550699999994
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
+                        "lat": "23.1301964",
+                        "lon": "113.2592945",
+                        "display_name": "\u5e7f\u5dde\u5e02, \u5e7f\u4e1c\u7701, \u4e2d\u56fd",
+                        "aff": "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China",
+                        "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37267",
+                        "color": "rgb( 199 , 221 , 133 )",
+                        "radius": 25.0,
+                        "opacity": 0.7,
+                        "zindex": 475,
+                        "paneName": "pane_975"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              113.2592945,
+                              23.1301964
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
                         "lat": "29.7029914",
                         "lon": "-95.4031517",
                         "display_name": "The University of Texas Health Science Center, 7000, Fannin Street, Texas Medical Center, Houston, Harris County, Texas, 77030, United States",
                         "aff": "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA",
                         "title": "Enhancing Mesenchymal Stromal Cell Potency: Inflammatory Licensing via Mechanotransduction",
                         "url": "http://dx.doi.org/10.3389/fimmu.2022.874698",
-                        "color": "rgb( 230 , 149 , 179 )",
+                        "color": "rgb( 157 , 235 , 247 )",
                         "radius": 10.0,
                         "opacity": 0.7,
                         "zindex": 490,
@@ -102,7 +148,7 @@ var  adipose = {
                         "aff": "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA",
                         "title": "Characterizing Human Mesenchymal Stromal Cells Immune Modulatory Potency Using Targeted Lipidomic Profiling of Sphingolipids",
                         "url": "http://dx.doi.org/10.1101/2021.06.01.446428",
-                        "color": "rgb( 229 , 198 , 244 )",
+                        "color": "rgb( 231 , 163 , 217 )",
                         "radius": 13.0,
                         "opacity": 0.7,
                         "zindex": 487,
@@ -125,7 +171,7 @@ var  adipose = {
                         "aff": "Advanced Solutions Life Sciences, Louisville, KY, USA",
                         "title": "A Biofabrication Strategy for a Custom-Shaped, Non-Synthetic Bone Graft Precursor with a Prevascularized Tissue Shell",
                         "url": "http://dx.doi.org/10.3389/fbioe.2022.838415",
-                        "color": "rgb( 204 , 129 , 205 )",
+                        "color": "rgb( 167 , 224 , 176 )",
                         "radius": 13.0,
                         "opacity": 0.7,
                         "zindex": 487,
@@ -148,7 +194,7 @@ var  adipose = {
                         "aff": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 131 , 227 , 166 )",
+                        "color": "rgb( 242 , 181 , 143 )",
                         "radius": 13.0,
                         "opacity": 0.7,
                         "zindex": 487,
@@ -171,7 +217,7 @@ var  adipose = {
                         "aff": "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 131 , 227 , 166 )",
+                        "color": "rgb( 242 , 181 , 143 )",
                         "radius": 13.0,
                         "opacity": 0.7,
                         "zindex": 487,
@@ -194,7 +240,7 @@ var  adipose = {
                         "aff": "FMC Biopolymer AS, Sandvika, Norway",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 131 , 227 , 166 )",
+                        "color": "rgb( 242 , 181 , 143 )",
                         "radius": 13.0,
                         "opacity": 0.7,
                         "zindex": 487,

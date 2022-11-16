@@ -100,9 +100,11 @@ def check_group(pub, group):
     check if the group
     """
 
-    keys = ['title', 'abstract', 'snippet', 'thesis']
+    keys = ['title', 'abstract', 'snippet']
 
     print('group = ' + str(group))
+
+    if 'thesis' in str(group).lower(): keys = ['thesis']
 
     terms = list(retrieve_df(os.path.join(retrieve_path('groups'), group))['term'])
 

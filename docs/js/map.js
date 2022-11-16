@@ -4,6 +4,7 @@ var pubLayer = L.layerGroup();
 var adiposeLayer = L.layerGroup();
 var boneLayer = L.layerGroup();
 var cellsLayer = L.layerGroup();
+var evboostLayer = L.layerGroup();
 var exosomeLayer = L.layerGroup();
 var mediaLayer = L.layerGroup();
 var thesisLayer = L.layerGroup();
@@ -44,9 +45,10 @@ var map = L.map('map', {
 		'Adipose Pubs': adiposeLayer,
 		'Bone Pubs': boneLayer,
 		'Cells Pubs': cellsLayer,
+		//'EV Boost Pubs': evboostLayer,
 		'Exosome Pubs': exosomeLayer,
 		'Media Pubs': mediaLayer,
-		'Thesis Pubs': thesisLayer,
+		//'Thesis Pubs': thesisLayer,
 		'Umbilical Cord Pubs': umbilical_cordLayer,
 		//'Background': background
 	};
@@ -226,6 +228,12 @@ var pubLayer = L.geoJson(cells, {
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(cellsLayer);
+
+var pubLayer = L.geoJson(evboost, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(evboostLayer);
 
 var pubLayer = L.geoJson(exosome, {
 		style: trialStyle,
