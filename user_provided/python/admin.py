@@ -10,6 +10,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import numpy as np
 import os
 from random import random
+import random
 import pandas as pd
 import plotly
 from plotly.tools import FigureFactory as ff
@@ -51,6 +52,26 @@ def lookup_type(company):
     types = list(df['types'])
     type = types[0]
     return(type)
+
+
+def make_color():
+    """
+    return a list of colors formatted as rgb
+    according to the color type and scaled
+    """
+
+    norm = 255*random.random()
+    print('norm = ' + str(norm))
+
+    #norm = 255*(value_max - value)/(value_max - value_min)
+
+    mods = [0.5, 0.5, 0.5]
+    r = int(255 - 255*random.random()*mods[0])
+    g = int(255 - 255*random.random()*mods[1])
+    b = int(255 - 255*random.random()*mods[2])
+
+    color_str = str('rgb( ' + str(r) + ' , ' +  str(g) + ' , ' + str(b) + ' )')
+    return(color_str)
 
 
 def print_progress(item, item_list, counter):

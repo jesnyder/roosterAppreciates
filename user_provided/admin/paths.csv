@@ -19,7 +19,8 @@ located_compiled,program_generated affs compiled_located.json
 affs_missing,program_generated missing affs_missing.json
 
 # write_geojson created
-map_geojson,docs js pubs.js
+map_geojson,docs js geojson pubs.js
+map_js,docs js geojson
 
 # group_pubs referenced
 groups,user_provided admin groups

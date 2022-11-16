@@ -1,5 +1,5 @@
 {
-        "count": 20,
+        "count": 63,
         "pubs": [
                 {
                         "year": 0,
@@ -2259,6 +2259,7 @@
                         ]
                 },
                 {
+                        "DOI": "10.1016/j.biomaterials.2022.121606",
                         "year": 0,
                         "title": [
                                 "Mechanical activation drives tenogenic differentiation of human mesenchymal stem cells in aligned dense collagen hydrogels"
@@ -5027,6 +5028,18 @@
                         "url": "https://api.crossref.org/works?query.title=3d+culture+of+mesenchymal+stem+cells+in+peg-4mal+hydrogels+increases+exosome+production+with+bacterial+sphingomyelinase+treatment",
                         "crossref_item_number": "not found",
                         "match_found": false,
+                        "thesis": "Thesis, Undergraduate",
+                        "author": [
+                          {
+                            "given": "William",
+                            "family": "York",
+                            "affiliation": [
+                              {"name": "Department of Biomedical Engineering, Georgia Tech"}
+                            ]
+                          }
+
+                        ],
+
                         "affs": [],
                         "groups": [
                                 "cells",
@@ -7798,6 +7811,18 @@
                         "url": "https://api.crossref.org/works?query.title=mesenchymal+stem+cell+time+to+confluence+on+3d+printed,+porous,+poly+(propylene+fumarate)+scaffolds+for+bone+tissue+engineering",
                         "crossref_item_number": "not found",
                         "match_found": false,
+                        "thesis": "Thesis, Undergraduate Honors",
+                        "author": [
+                            {
+                              "given": "Ryan",
+                              "family": "McIlvaine",
+                              "affiliation": [
+                                {
+                                  "name": "Department of Materials Science and Engineering, The Ohio State University"
+                                }
+                              ]
+                            }
+                          ],
                         "affs": [],
                         "groups": [
                                 "bone"
@@ -21797,10 +21822,24 @@
                         "found_title": "Purity Determines the Effect of Extracellular Vesicles Derived from Mesenchymal Stromal Cells",
                         "searc_title_scrub": "assessmentofhighpuritymesenchymalstromalcellsderivedextracellularvesiclespresentingnrp1showfunctionalsuppressionofactivatedimmunecells",
                         "found_title_scrub": "puritydeterminestheeffectofextracellularvesiclesderivedfrommesenchymalstromalcells",
+
+                        "DOI": "10.20381/ruor-27288",
+                        "thesis": "Thesis, Master",
+                        "author": [
+                          {
+                            "given": "Jonathan",
+                            "family": "Gobin",
+                            "affiliation": [
+                              {"name": "University Ottawa"}
+                            ]
+                          }
+                        ],
+
                         "affs_found": 0,
                         "url": "https://api.crossref.org/works?query.title=assessment+of+high+purity+mesenchymal+stromal+cells+derived+extracellular+vesicles+presenting+nrp1+show+functional+suppression+of+activated+immune+cells",
                         "crossref_item_number": "not found",
                         "match_found": false,
+                        "thesis": "Thesis, Doctorate",
                         "affs": [],
                         "groups": [
                                 "bone",
@@ -26916,6 +26955,19 @@
                         "url": "https://api.crossref.org/works?query.title=effect+of+growth+factor-mimetic+peptides+on+human+mesenchymal+stem+cell+osteogenesis+and+chondrogenesis",
                         "crossref_item_number": "not found",
                         "match_found": false,
+
+                        "thesis": "Thesis, Master",
+                         "author": [
+                           {
+                             "given": "Kelly",
+                             "family": "Seims",
+                             "affiliation": [
+                               {"name": "Materials Science Engineering, Lehigh University"}
+                             ]
+                           }
+                         ],
+
+
                         "affs": [],
                         "groups": [
                                 "bone"
@@ -28409,6 +28461,20 @@
                         "found_title": "Oocyte  Morphology  in  a  Mouse  Model  of  Collagenase- Induced Osteoarthritis",
                         "searc_title_scrub": "mscspotentialtoregenerateosteoarthritiscartilageinacollagenaseinducedmousemodel",
                         "found_title_scrub": "oocytemorphologyinamousemodelofcollagenaseinducedosteoarthritis",
+
+                        "thesis": "Thesis, Master",
+                        "author": [
+                          {
+                            "given": "Sara E.",
+                            "family": "Franklin",
+                            "affiliation": [
+                              {"name": "University of Georgia, Athens, GA"}
+                            ]
+                          }
+                        ],
+
+
+
                         "affs_found": 0,
                         "url": "https://api.crossref.org/works?query.title=mscs+potential+to+regenerate+osteoarthritis+cartilage+in+a+collagenase-induced+mouse+model",
                         "crossref_item_number": "not found",
@@ -31238,6 +31304,21 @@
                         "url": "https://api.crossref.org/works?query.title=improving+the+survivability+of+equine+mesenchymal+stromal+cells+in+serum+free+culture",
                         "crossref_item_number": "not found",
                         "match_found": false,
+
+                        "thesis": "Thesis, Master",
+                        "author": [
+                          {
+                            "given": "Cara",
+                            "family": "Pilgrim",
+                            "affiliation": [
+                              {"name": "Department of Biomedical Sciences, University of Guelph, Ontario"}
+                            ]
+                          }
+                        ],
+
+
+
+
                         "affs": [],
                         "groups": []
                 },
@@ -31260,6 +31341,18 @@
                         "url": "https://api.crossref.org/works?query.title=injection+of+a+cell+lysate+derived+from+wharton's+jelly+perivascular+mesenchymal+stromal+cells+for+the+treatment+of+inflammation+in+the+temporomandibular+joint",
                         "crossref_item_number": "not found",
                         "match_found": false,
+
+                        "thesis": "Thesis, Master",
+                        "author": [
+                          {
+                            "given": "Christopher K.B.",
+                            "family": "Ward",
+                            "affiliation": [
+                              {"name": "Faculty of Dentistry, University of Toronto"}
+                            ]
+                          }
+                        ],
+
                         "affs": [],
                         "groups": []
                 },
@@ -32438,6 +32531,18 @@
                         "url": "https://api.crossref.org/works?query.title=defect+detection+and+process+control+in+biological+additive+manufacturing",
                         "crossref_item_number": "not found",
                         "match_found": false,
+
+                        "thesis": "Thesis, Doctorate",
+                        "author": [
+                          {
+                            "given": "Samuel",
+                            "family": "Gerdes",
+                            "affiliation": [
+                              {"name": "Materials Engineering, University of Nebraska"}
+                            ]
+                          }
+                        ],
+
                         "affs": [],
                         "groups": []
                 },
@@ -34876,7 +34981,9 @@
                                         "given": "Ana",
                                         "family": "Ivanovska",
                                         "sequence": "first",
-                                        "affiliation": []
+                                        "affiliation": [
+                                          {"name": "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"}
+                                        ]
                                 },
                                 {
                                         "given": "Mengyu",
@@ -38631,6 +38738,7 @@
                         "url": "https://api.crossref.org/works?query.title=a+multicellular,+biomaterial-based+platform+for+the+engineering+of+vascularized+bone",
                         "crossref_item_number": "not found",
                         "match_found": false,
+                        "thesis": "Thesis, Doctorate",
                         "affs": [],
                         "groups": [
                                 "bone"

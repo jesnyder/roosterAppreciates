@@ -17,6 +17,7 @@ from statistics import mean
 import time
 
 
+from admin import make_color
 from admin import reset_df
 from admin import retrieve_df
 from admin import retrieve_json
@@ -64,8 +65,7 @@ def json_meta():
         for key in pub_meta.keys():
             pub[key] = pub_meta[key]
 
-
-        if len( list_affs(pub)) == 0:
+        if len(list_affs(pub)) == 0:
             pub = find_hardcoded_crossref_affs(pub)
 
         pub['affs'] = list_affs(pub)
@@ -73,6 +73,7 @@ def json_meta():
             list_crossref_without_aff(pub)
 
         pub['groups'] = find_pubs(pub)
+        pub['color'] = make_color()
 
         # don't add pubs if they don't have authors
         if 'author' not in pub.keys(): continue
@@ -278,8 +279,9 @@ def find_hardcoded_crossref_affs(pub_src):
     for pub in ref_json['pubs']:
 
 
-        if 'DOI' in pub.keys(): key = 'DOI'
-        elif 'title_link' in pub.keys(): key = 'title_link'
+        #if 'DOI' in pub.keys(): key = 'DOI'
+        #elif 'title_link' in pub.keys():
+        key = 'title_link'
 
         print('key = ' + str(key))
 

@@ -100,7 +100,7 @@ def write_contacts():
             email_subject = 'We appreciate your ' + str(journal) + ' paper'
             df_temp['email_subject'] = [str(email_subject)]
 
-            email_message = 'Good Day Dr. ' + str(pub['author'][0]['family']) + ', I found your 2022 paper - "' + str(title[:70]) + '... " - researching recent applications of RoosterBio products and expertise. Thank you for your fdascinating paper. We compiled there published articles as a map and table, finding an increasing number exploring exosomes. You are invited to explore the map here: https://jesnyder.github.io/roosterAppreciates/ Would you join a short meeting to discuss your research findings and how we could help in your next steps? Please suggest a few times and we will accomodate. Continued success to you and your team. Best Regards, Jess '
+            email_message = 'Good Day Dr. ' + str(pub['author'][0]['family']) + ', I found your 2022 paper - "' + str(title[:70]) + '... " - researching recent applications of RoosterBio products and expertise. Thank you for your fascinating paper. We compiled there published articles as a map and table, finding an increasing number exploring exosomes. You are invited to explore the map here: https://jesnyder.github.io/roosterAppreciates/ Would you join a short meeting to discuss your research findings and how we could help in your next steps? Please suggest a few times and we will accomodate. Continued success to you and your team. Best Regards, Jess '
             df_temp['email_message'] = [str(email_message)]
 
 

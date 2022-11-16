@@ -19,6 +19,7 @@ import unidecode
 import urllib.request
 
 
+from admin import make_color
 from admin import reset_df
 from admin import retrieve_df
 from admin import retrieve_json
@@ -36,30 +37,38 @@ def write_geojson():
 
     print("running write_geojson")
 
-    tasks = [1]
+    tasks = [1, 2]
 
-    if 1 in tasks: save_geojson()
+    if 1 in tasks: save_geojson('crossref_json')
+    if 2 in tasks: save_geojson('grouped')
 
 
     print("completed write_geojson")
 
 
 
-def save_geojson():
+def save_geojson(src_pathname):
     """
     for each aff or each pub
     create a line of geojson
     """
 
-    features = []
 
-    for fil in os.listdir(retrieve_path('crossref_json')):
+
+    for fil in os.listdir(retrieve_path(src_pathname)):
+
+        features = []
+
+        fil_name = fil.split('.')[0]
 
         if 'compiled' in fil: continue
         if '_located' in fil: continue
 
-        fil_src = os.path.join(retrieve_path('crossref_json'), fil)
-        for pub in retrieve_json(fil_src)['results']:
+        fil_src = os.path.join(retrieve_path(src_pathname), fil)
+        if 'results' in retrieve_json(fil_src).keys(): key = 'results'
+        elif 'pubs' in retrieve_json(fil_src).keys(): key = 'pubs'
+
+        for pub in retrieve_json(fil_src)[key]:
 
             color = make_color()
 
@@ -98,6 +107,16 @@ def save_geojson():
                 geojson['type'] = 'FeatureCollection'
                 geojson['features'] = features
 
+                dst_json = os.path.join(retrieve_path('map_js'), fil_name + '.js')
+                #print('dst_json = ' + str(dst_json))
+                with open(dst_json, "w") as f:
+                    f.write('var ' + ' ' + str(fil_name) + ' = ')
+                    json.dump(geojson, f, indent = 6)
+                    f.write(';')
+                f.close()
+
+
+                if src_pathname != 'crossref_json': continue
                 dst_json = os.path.join(retrieve_path('map_geojson'))
                 #print('dst_json = ' + str(dst_json))
                 with open(dst_json, "w") as f:
@@ -149,24 +168,3 @@ def make_prop(geolocated):
     for key in geolocated.keys():
         prop[key] = geolocated[key]
     return(prop)
-
-
-
-def make_color():
-    """
-    return a list of colors formatted as rgb
-    according to the color type and scaled
-    """
-
-    norm = 255*random.random()
-    print('norm = ' + str(norm))
-
-    #norm = 255*(value_max - value)/(value_max - value_min)
-
-    mods = [0.5, 0.5, 0.5]
-    r = int(255 - 255*random.random()*mods[0])
-    g = int(255 - 255*random.random()*mods[1])
-    b = int(255 - 255*random.random()*mods[2])
-
-    color_str = str('rgb( ' + str(r) + ' , ' +  str(g) + ' , ' + str(b) + ' )')
-    return(color_str)

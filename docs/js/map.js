@@ -1,12 +1,13 @@
-//var hudstats = geojson_hud_county;
-var pubstats = pubs;
-
-console.log('pubs =')
-console.log(pubs)
-
 var cities = L.layerGroup();
 var background = L.layerGroup();
 var pubLayer = L.layerGroup();
+var adiposeLayer = L.layerGroup();
+var boneLayer = L.layerGroup();
+var cellsLayer = L.layerGroup();
+var exosomeLayer = L.layerGroup();
+var mediaLayer = L.layerGroup();
+var thesisLayer = L.layerGroup();
+var umbilical_cordLayer = L.layerGroup();
 
 
 //var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
@@ -40,6 +41,13 @@ var map = L.map('map', {
 
 	var overlays = {
 		'2022 Pubs': pubLayer,
+		'Adipose Pubs': adiposeLayer,
+		'Bone Pubs': boneLayer,
+		'Cells Pubs': cellsLayer,
+		'Exosome Pubs': exosomeLayer,
+		'Media Pubs': mediaLayer,
+		'Thesis Pubs': thesisLayer,
+		'Umbilical Cord Pubs': umbilical_cordLayer,
 		//'Background': background
 	};
 
@@ -195,11 +203,54 @@ function trialToLayer(feature, latlng) {
 	  }
 
 
-var pubLayer = L.geoJson(pubstats, {
+var pubLayer = L.geoJson(pubs, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 		}).addTo(map).addTo(pubLayer);
+
+var pubLayer = L.geoJson(adipose, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(adiposeLayer);
+
+var pubLayer = L.geoJson(bone, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(boneLayer);
+
+var pubLayer = L.geoJson(cells, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(cellsLayer);
+
+var pubLayer = L.geoJson(exosome, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(exosomeLayer);
+
+var pubLayer = L.geoJson(media, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(mediaLayer);
+
+var pubLayer = L.geoJson(thesis, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(thesisLayer);
+
+var pubLayer = L.geoJson(umbilical_cord, {
+		style: trialStyle,
+		onEachFeature: onEachTrial,
+		pointToLayer: trialToLayer,
+	}).addTo(map).addTo(umbilical_cordLayer);
+
 
 
 /* cite source of information */

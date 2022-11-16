@@ -100,7 +100,7 @@ def check_group(pub, group):
     check if the group
     """
 
-    keys = ['title', 'abstract', 'snippet']
+    keys = ['title', 'abstract', 'snippet', 'thesis']
 
     print('group = ' + str(group))
 
