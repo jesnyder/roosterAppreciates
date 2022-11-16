@@ -45,7 +45,7 @@ var map = L.map('map', {
 		'Adipose Pubs': adiposeLayer,
 		'Bone Pubs': boneLayer,
 		'Cells Pubs': cellsLayer,
-		//'EV Boost Pubs': evboostLayer,
+		'EV Boost Pubs': evboostLayer,
 		'Exosome Pubs': exosomeLayer,
 		'Media Pubs': mediaLayer,
 		//'Thesis Pubs': thesisLayer,
@@ -211,49 +211,44 @@ var pubLayer = L.geoJson(pubs, {
 		pointToLayer: trialToLayer,
 		}).addTo(map).addTo(pubLayer);
 
-var pubLayer = L.geoJson(adipose, {
+var adiposeLayer = L.geoJson(adipose, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(adiposeLayer);
 
-var pubLayer = L.geoJson(bone, {
+var boneLayer = L.geoJson(bone, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(boneLayer);
 
-var pubLayer = L.geoJson(cells, {
+var cellsLayer = L.geoJson(cells, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(cellsLayer);
 
-var pubLayer = L.geoJson(evboost, {
+var evboostLayer = L.geoJson(evboost, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(evboostLayer);
 
-var pubLayer = L.geoJson(exosome, {
+var exosomeLayer = L.geoJson(exosome, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(exosomeLayer);
 
-var pubLayer = L.geoJson(media, {
+var mediaLayer = L.geoJson(media, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,
 	}).addTo(map).addTo(mediaLayer);
 
-var pubLayer = L.geoJson(thesis, {
-		style: trialStyle,
-		onEachFeature: onEachTrial,
-		pointToLayer: trialToLayer,
-	}).addTo(map).addTo(thesisLayer);
 
-var pubLayer = L.geoJson(umbilical_cord, {
+var umbilical_cordLayer = L.geoJson(umbilical_cord, {
 		style: trialStyle,
 		onEachFeature: onEachTrial,
 		pointToLayer: trialToLayer,

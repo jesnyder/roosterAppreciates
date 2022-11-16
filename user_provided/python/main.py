@@ -33,7 +33,8 @@ def main():
 
     print("running main")
 
-    tasks = [2, 3, 4, 5, 6, 7]
+    tasks = []
+    #tasks = [2, 3, 4, 5, 6, 7]
 
     if 1 in tasks: list_pubs()
     if 2 in tasks: meta_pubs()
