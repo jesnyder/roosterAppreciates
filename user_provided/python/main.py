@@ -25,6 +25,8 @@ from group_pubs import group_pubs
 from write_geojson import write_geojson
 from build_table import build_table
 from contact_list import contact_list
+from write_html import write_html
+
 
 def main():
     """
@@ -33,8 +35,8 @@ def main():
 
     print("running main")
 
-    tasks = []
-    #tasks = [2, 3, 4, 5, 6, 7]
+    #tasks = [1]
+    tasks = [5]
 
     if 1 in tasks: list_pubs()
     if 2 in tasks: meta_pubs()
@@ -43,6 +45,7 @@ def main():
     if 5 in tasks: write_geojson()
     if 6 in tasks: build_table()
     if 7 in tasks: contact_list()
+    if 8 in tasks: write_html()
 
     print("completed main")
 

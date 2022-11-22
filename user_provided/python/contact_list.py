@@ -82,10 +82,15 @@ def write_contacts():
             except:
                 journal = pub['institution'][0]['name']
 
+            try:
+                lead_author =  pub['author'][0]['given'] + ' ' + pub['author'][0]['family']
+                author_count = len(list(pub['author']))
+                anchor_author = pub['author'][author_count-1]['given'] + ' ' + pub['author'][author_count-1]['family']
 
-            lead_author =  pub['author'][0]['given'] + ' ' + pub['author'][0]['family']
-            author_count = len(list(pub['author']))
-            anchor_author = pub['author'][author_count-1]['given'] + ' ' + pub['author'][author_count-1]['family']
+            except:
+                lead_author = ''
+                anchor_author = ''
+
             url = 'https://doi.org/' + pub['DOI']
             title = unidecode.unidecode(pub['title'][0])
 

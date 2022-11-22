@@ -76,6 +76,8 @@ def assign_groups():
         src_fol = retrieve_path('crossref_json')
         for fil in os.listdir(src_fol):
 
+            fil_name = fil.split('.')[0]
+
             fil_src = os.path.join(src_fol, fil)
             json_src = retrieve_json(fil_src)
             for pub in json_src['results']:
@@ -88,7 +90,7 @@ def assign_groups():
                 json_temp['pubs'] = groups_pubs
 
                 # save the dictionary as json
-                fil_dst = os.path.join(retrieve_path('grouped'), group_name + '.json' )
+                fil_dst = os.path.join(retrieve_path('grouped'), fil_name  + '_' + group_name + '.json' )
                 #print('fil_dst = ' + str(fil_dst))
                 with open(fil_dst, "w") as fp:
                     json.dump(json_temp, fp, indent = 8)

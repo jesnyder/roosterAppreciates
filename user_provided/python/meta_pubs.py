@@ -35,24 +35,23 @@ def meta_pubs():
 
     print("running meta_pubs")
 
-    tasks = [1]
+    crossref_not_found({'reset': 'reset'})
+    list_crossref_without_aff({'reset': 'reset'})
 
-    if 1 in tasks: json_meta()
+    for fil_src in os.listdir(retrieve_path('gscholar_json_summary')):
+        print('fil_src = ' + str(fil_src))
+        json_meta(fil_src)
 
     print("completed meta_pubs")
 
 
-def json_meta():
+def json_meta(fil_src):
     """
     save meta for json
     """
 
-    crossref_not_found({'reset': 'reset'})
-    list_crossref_without_aff({'reset': 'reset'})
-
     list_meta = []
-    fil_src = os.listdir(retrieve_path('gscholar_json'))[-1]
-    fol_src = os.path.join(retrieve_path('gscholar_json'), fil_src)
+    fol_src = os.path.join(retrieve_path('gscholar_json_summary'), fil_src)
     json_src = retrieve_json(fol_src)
 
     for pub in json_src['results']:
@@ -60,6 +59,9 @@ def json_meta():
         print('title = ')
         print(pub['title'])
         pub['title_search'] = search_scrub(pub['title'])
+
+        if 'uscrip' in str(pub['title_search']): continue
+
         pub_meta = search_crossref(pub['title_search'])
 
         for key in pub_meta.keys():
@@ -122,10 +124,14 @@ def search_scrub(title):
     title = str(title)
 
     remove_strs = ['[HTML]', '[PDF]', '<scp>', '</scp>' , '<i>', '</i>', '[CITATION]' , '[C]' ]
+    remove_strs.append('-')
+    remove_strs.append('‐')
+
     for remove_str in remove_strs:
         if remove_str in title:
             title = title.replace(remove_str, ' ')
 
+    title = title.replace(' & ', ' and ')
     #title = re.sub(r'[\W_]+', '', title)
     if ' ' == title[0]: title = title[1:]
     if ' ' == title[-1]: title = title[:-1]
@@ -173,6 +179,8 @@ def search_crossref(title):
     cross_ref_url = 'https://api.crossref.org/works?query.'
     title_url = cross_ref_url + 'title'
     specific_url = title_url + '=' + title.replace(' ', '+')
+    print('specific_url = ')
+    print(specific_url)
     url_response = requests.get(specific_url)
 
     try:
@@ -197,6 +205,15 @@ def search_crossref(title):
         crossref_not_found(pub)
         return(pub)
 
+    if 'message' not in data.keys():
+        pub = {}
+        pub['success'] = 'No'
+        pub['error'] = 'No message in data.keys()'
+        pub['url'] = specific_url
+        pub['message'] = '03 No message in data.keys()'
+        crossref_not_found(pub)
+        return(pub)
+
     message = data['message']
 
     if 'items' not in message.keys():
@@ -204,7 +221,7 @@ def search_crossref(title):
         pub['success'] = 'No'
         pub['error'] = 'No items in data.message.keys'
         pub['url'] = specific_url
-        pub['message'] = '03 No items in data.message.keys'
+        pub['message'] = '04 No items in data.message.keys'
         crossref_not_found(pub)
         return(pub)
 
@@ -214,9 +231,9 @@ def search_crossref(title):
         pub = {}
         pub['success'] = 'No'
         pub['searched_title'] = title
-        pub['error'] = '04 No author found in the items'
+        pub['error'] = '05 No author found in the items'
         pub['url'] = specific_url
-        pub['message'] = '04 No author found in the items'
+        pub['message'] = '05 No author found in the items'
         crossref_not_found(pub)
         return(pub)
 
@@ -294,9 +311,9 @@ def find_hardcoded_crossref_affs(pub_src):
 
         if doi_src != doi_ref: continue
 
-        pub_src['author'] = pub['author']
-
-        return(pub_src)
+        if 'author' in pub.keys():
+            pub_src['author'] = pub['author']
+            return(pub_src)
 
     return(pub_src)
 
@@ -332,7 +349,8 @@ def crossref_not_found(item):
             print('missing_json not found.')
 
         pubs = missing_json['pubs']
-        pubs.append(item)
+        if item not in pubs:
+            pubs.append(item)
 
         missing_json['pub_count'] = len(pubs)
         missing_json['pubs'] = pubs

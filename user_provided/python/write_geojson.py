@@ -53,13 +53,11 @@ def save_geojson(src_pathname):
     create a line of geojson
     """
 
-
-
     for fil in os.listdir(retrieve_path(src_pathname)):
 
         features = []
 
-        fil_name = fil.split('.')[0]
+        fil_name = 'group' + '_' + fil.split('.')[0]
 
         if 'compiled' in fil: continue
         if '_located' in fil: continue
@@ -76,10 +74,14 @@ def save_geojson(src_pathname):
 
                 found = retrieve_geolocated(aff)
 
+                if found == {}: continue
+
                 print('aff = ' + str(aff))
 
                 print('found = ')
                 print(found)
+
+                if 'lat' not in found.keys(): continue
 
 
                 geolocated = {}
@@ -90,8 +92,12 @@ def save_geojson(src_pathname):
                 geolocated['title'] = pub['title'][0]
                 geolocated['url'] = pub['doi_url']
                 geolocated['color'] = color
-                geolocated['radius'] = 10 + 3*float(pub['is-referenced-by-count'])
-                geolocated['opacity'] = 0.7
+
+                cites = float(pub['is-referenced-by-count'])
+                radius = int(math.sqrt(cites)*0.5) + 30
+                geolocated['radius'] = float(pub['is-referenced-by-count']) + 10
+
+                geolocated['opacity'] = 0.6
                 geolocated['zindex'] = int(500 - geolocated['radius'])
                 geolocated['paneName'] = 'pane_' + str(int(1000 - geolocated['radius']))
                 #geolocated['journal'] = pub['container-title']
@@ -132,11 +138,11 @@ def retrieve_geolocated(aff):
     """
 
     print('fil_src = ')
-    print(retrieve_path('located_compiled'))
+    print(retrieve_path('all_located'))
 
     aff = unidecode.unidecode(aff)
 
-    for found in retrieve_json('located_compiled')['affs']:
+    for found in retrieve_json('all_located')['affs']:
 
         if found['name'] != aff: continue
 
@@ -147,6 +153,8 @@ def retrieve_geolocated(aff):
         print(found)
 
         return(found)
+
+    return({})
 
 
 def make_geo(geolocated):

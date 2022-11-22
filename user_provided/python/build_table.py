@@ -49,7 +49,7 @@ def write_js():
 
     for file in os.listdir(retrieve_path('crossref_json')):
 
-        term = file.split('_')[0]
+        term = file.split('.')[0]
         table_name = term + '_table'
 
         table_pubs = []
@@ -81,9 +81,16 @@ def write_js():
             temp['doi_url'] = 'https://doi.org/' + pub['DOI']
             temp['groups'] = pub['groups']
 
-            temp['author_lead'] = pub['author'][0]['family'] + ', ' + pub['author'][0]['given']
-            author_count = len(list(pub['author']))
-            temp['author_anchor'] = pub['author'][author_count-1]['family'] + ', ' + pub['author'][author_count-1]['given']
+            try:
+                if 'author' in pub.keys():
+                    if 'family' in pub['author'][0].keys():
+                        temp['author_lead'] = pub['author'][0]['family'] + ', ' + pub['author'][0]['given']
+                        author_count = len(list(pub['author']))
+                        temp['author_anchor'] = pub['author'][author_count-1]['family'] + ', ' + pub['author'][author_count-1]['given']
+
+            except:
+                temp['author_lead'] = ''
+                temp['author_anchor'] = ''
 
             for fil in os.listdir(retrieve_path('groups')):
 
@@ -93,13 +100,17 @@ def write_js():
                     temp[str('g_' + fil_name)] = 1
 
 
-            if 'funder' in pub.keys():
-                names = ''
-                for funder in pub['funder']:
-                    name = funder['name']
-                    names = names + name + ' | '
+            try:
+                if 'funder' in pub.keys():
+                    names = ''
+                    for funder in pub['funder']:
+                        name = funder['name']
+                        names = names + name + ' | '
 
-                temp['funder'] = names
+                    temp['funder'] = names
+
+            except:
+                temp['funder'] = ''
 
             try:
                 temp['journal'] = pub['container-title'][0]

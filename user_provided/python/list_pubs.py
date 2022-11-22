@@ -17,6 +17,7 @@ import time
 
 
 from admin import reset_df
+from admin import retrieve_json
 from admin import retrieve_list
 from admin import retrieve_path
 from admin import retrieve_ref
@@ -29,24 +30,82 @@ def list_pubs():
 
     print("running list_pubs")
 
-
-    terms = ['RoosterBio']
-    year_range = [2022]
-
     tasks = [1]
-    if 1 in tasks: search_gscholar(terms, year_range)
+    #tasks = [2, 3, 4]
+
+    if 1 in tasks:
+
+        years = [2019]
+        terms = []
+        terms.append('RoosterBio')
+        #terms.append('Multivascular networks and functional intravascular topologies within biocompatible hydrogels')
+        ref_json = {'years': years, 'terms': terms}
+        search_gscholar(ref_json)
+
+    if 2 in tasks:
+        ref_json = {'years': [2022], 'name': '2022'}
+        build_json_src_list(ref_json)
+
+    if 3 in tasks:
+        ref_json = {'years': [2021, 2022], 'name': 'recent'}
+        build_json_src_list(ref_json)
+
+    if 4 in tasks:
+        ref_json = {'years': ['all'], 'name': 'all'}
+        build_json_src_list(ref_json)
 
     print("completed list_pubs")
 
 
-def search_gscholar(terms, year_range):
+
+def build_json_src_list(ref_json):
+    """
+    return json for
+    provide a list of inclusive years
+    """
+
+    list_meta = []
+
+    for fil in os.listdir(retrieve_path('gscholar_json_scrape')):
+
+        #print('fil = ' + str(fil))
+        fil_year = int(fil.split('_')[1])
+        for year in ref_json['years']:
+
+            if year == 'all': year = fil_year
+            if fil_year != year: continue
+            #print('fil = ' + str(fil))
+
+            fol_src = os.path.join(retrieve_path('gscholar_json_scrape'), fil)
+            print('fol_src = ' + str(fol_src))
+            json_src = retrieve_json(fol_src)
+
+            for pub in json_src['results']:
+
+                if pub in list_meta: continue
+                list_meta.append(pub)
+                json_meta = {}
+                json_meta['results_count'] = len(list_meta)
+                json_meta['results'] = list_meta
+
+                # save the dictionary as json
+                fil_dst = os.path.join(retrieve_path('gscholar_json_summary'), str(ref_json['name']) + '.json')
+                # print('fil_dst = ' + str(fil_dst))
+                with open(fil_dst, "w") as fp:
+                    json.dump(json_meta, fp, indent = 8)
+                    fp.close()
+
+
+def search_gscholar(ref_json):
     """
     Retrieve json year by year
     """
 
     num_range = np.arange(0, 100, 1)
 
-    for term in terms:
+    for term in ref_json['terms']:
+
+        print(term)
 
         print('searching gscholar for term = ' + term)
 
@@ -72,9 +131,9 @@ def search_gscholar(terms, year_range):
             num_range = np.arange(0, 100, 1, dtype=int)
         """
 
-        result_list = []
+        for year in ref_json['years']:
 
-        for year in year_range:
+            result_list = []
 
             #work_completed('begin_acquire_gscholar_json_' + str(year), 0)
             for num in num_range:
@@ -113,6 +172,7 @@ def search_gscholar(terms, year_range):
                     #work_completed('begin_acquire_gscholar_json_' + str(year), 1)
 
                 for item in data:
+                    item['search_year'] = year
                     result_list.append(item)
 
                 json_results = {}
@@ -120,7 +180,7 @@ def search_gscholar(terms, year_range):
                 json_results['results'] = result_list
 
                 # save the dictionary as json
-                fil_dst = os.path.join(retrieve_path('gscholar_json'), term + '_' + str(year) + '_' + str(num*10).zfill(3) + '.json')
+                fil_dst = os.path.join(retrieve_path('gscholar_json_scrape'), term + '_' + str(year) + '_' + str(len(result_list)).zfill(3) + '.json')
                 #print('fil_dst = ' + str(fil_dst))
                 with open(fil_dst, "w") as fp:
                     json.dump(json_results, fp, indent = 8)

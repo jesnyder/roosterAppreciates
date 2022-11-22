@@ -4,7 +4,8 @@ name,path
 ref_variable,user_provided admin ref_variable.csv
 
 # list_pubs created
-gscholar_json,program_generated gscholar_json
+gscholar_json_scrape,program_generated gscholar_json scrape
+gscholar_json_summary,program_generated gscholar_json summary
 
 # meta_pubs created
 crossref_json,program_generated crossref_json
@@ -14,6 +15,8 @@ crossref_with_affs,user_provided crossref_with_affs crossref_with_affs.json
 
 
 # geoloate_affs created
+all_affs,program_generated affs all_affs.json
+all_located,program_generated affs all_located.json
 affs_json,program_generated affs
 located_compiled,program_generated affs compiled_located.json
 affs_missing,program_generated missing affs_missing.json
@@ -27,12 +30,15 @@ groups,user_provided admin groups
 grouped,program_generated grouped
 
 # build_table created
-tables_var,docs js
+tables_var,docs js tableData
 
 
 # contact_list created
 contact_list,program_generated contact_list contact_list.csv
 pubs_xlsx,program_generated contact_list 2022_Pubs_Contact_List.csv
+
+# write_html created
+html_temp,docs html_temp.html
 
 
 # build_json referenced

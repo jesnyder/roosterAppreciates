@@ -36,7 +36,7 @@ def geolocate_affs():
 
     print("running geolocate_affs")
 
-    tasks = [1, 2, 3, 4]
+    tasks = [1, 2, 4]
 
     if 1 in tasks: list_missing({'reset': 'reset'})
     if 2 in tasks: list_all_affs()
@@ -88,9 +88,21 @@ def edit_aff(name):
     return name with commas to be readable by openstreetmaps
     """
 
+
+
     term = 'Universite de Montreal'
     if term in name:
         name = 'University of Montreal'
+
+    term = 'Fischell Department of BioengineeringUniversity of MarylandCollege Park Maryland20742'
+    if term in name:
+        name = 'Fischell Department of Bioengineering, University of Maryland, College Park Maryland'
+        return(name)
+
+    term = 'Department of Biochemistry, National University of Singapore, 119260 Singapore'
+    if term in name:
+        name = 'Department of Biochemistry, National University of Singapore'
+        return(name)
 
     # substitutions
     term = 'Southern California Research Center for ALPD and Cirrhosis  Los Angeles California USA'
@@ -153,6 +165,11 @@ def edit_aff(name):
         name = 'West Pharmaceutical Services Inc, United Kingdom'
         return(name)
 
+    term = 'The University of Texas M. D. Anderson Cancer Center'
+    if term in name:
+        name = ' M. D. Anderson Cancer Center, The University of Texas'
+        return(name)
+
     term = 'Theradep'
     if term in name:
         name = 'TheraDep, San Jose CA USA'
@@ -173,6 +190,28 @@ def edit_aff(name):
     if term in name:
         name = 'Peking University, Beijing'
         return(name)
+
+    term = 'Fischell Department of BioengineeringUniversity of MarylandCollege Park Maryland20742'
+    if term in name:
+        name = 'Fischell Department of Bioengineering, University of Maryland, College Park Maryland'
+        return(term)
+
+    term = 'Harvard Stem Cell Institute Cambridge Massachusetts'
+    if 'term' in name:
+        name = 'Harvard Stem Cell Institute, 7 Divinity Ave Cambridge, MA'
+        return(name)
+
+    term = 'RoosterBio'
+    if term in name:
+        term = 'RoosterBio, 5295 Westview Dr, Frederick, MD'
+        return(name)
+
+    term = 'Broad Institute of Harvard and MIT Cambridge Massachusetts'
+    if term in name:
+        term = 'Broad Institute of Harvard and MIT Cambridge Massachusetts, 415 Main St Cambridge, MA'
+        return(name)
+
+
     terms = []
     terms.append('Childrens Hospital Los Angeles')
     terms.append('Clemson University')
@@ -186,15 +225,19 @@ def edit_aff(name):
     terms.append('Santa Ana California')
     terms.append('The Ottawa Hospital Research Institute')
 
+    terms.append('Virginia Commonwealth University')
+
     terms.append('University of Arkansas ')
     terms.append('University of Colorado Anschutz Medical Campus')
     terms.append('University of Georgia')
     terms.append('University of New South Wales')
+    terms.append('University of Maryland')
     terms.append('University Medical Center Utrecht')
     terms.append('University of Michigan  Ann Arbor')
     terms.append('University of Otago Christchurch')
     terms.append('University of Oregon')
     terms.append(' University of Ottawa ')
+    terms.append('University of Oxford')
     terms.append(' University of Southern California ')
     terms.append(' University of Virginia ')
 
@@ -208,10 +251,65 @@ def edit_aff(name):
             comma_term = str(',' + term + ', ')
             name = re.sub(term, comma_term, name)
 
+    if ';' in name: name = name.replace(';', ',')
+
+    term = 'EngineeringUniversity'
+    if term in name:
+        name = name.replace(term, 'Engineering, University')
+
+    term = 'MedicineBaltimoreMDUSA'
+    if term in name:
+        name = name.replace(term, 'Medicine, Baltimore, MD, USA')
+
     return(name)
 
 
 def openmaps_affs():
+    """
+
+    """
+    located_affs = []
+
+    json_src = retrieve_json('all_affs')
+    for aff in json_src['affs']:
+
+        aff['name_edit'] = edit_aff(aff['name'])
+
+        response = {}
+
+        try:
+            found_json = retrieve_json('located_compiled')
+            for found in found_json['affs']:
+                if found['name'] == aff['name']:
+                    response = found
+                    continue
+        except:
+            print('not working')
+
+        if response == {}: response = lookup_openmaps(aff)
+
+        print('response = ')
+        print(response)
+
+        if 'lat' not in response.keys(): list_missing(aff)
+
+        for key in response.keys(): aff[key] = response[key]
+
+        located_affs.append(aff)
+
+        located_json = {}
+        located_json['count'] = len(located_affs)
+        located_json['affs'] = located_affs
+
+        # save the dictionary as json
+        fil_dst = os.path.join(retrieve_path('all_located'))
+        #print('fil_dst = ' + str(fil_dst))
+        with open(fil_dst, "w") as fp:
+            json.dump(located_json, fp, indent = 8)
+            fp.close()
+
+
+def archive_openmaps_affs():
     """
 
     """
@@ -390,13 +488,17 @@ def list_all_affs():
     save affs as a json list
     """
 
+    affs = []
+
     for fil in os.listdir(retrieve_path('crossref_json')):
 
 
         if '_located' in fil: continue
         if 'located_compiled' in fil: continue
 
-        term = fil.split('_')[0]
+        if '_' in fil: term = fil.split('_')[0]
+        elif '.' in fil: term = fil.split('.')[0]
+        else: term = fil
 
         fil_src = os.path.join(retrieve_path('crossref_json'), fil)
         print('fil_src = ' + str(fil_src))
@@ -404,11 +506,7 @@ def list_all_affs():
 
         print(len(json_src['results']))
 
-        affs = []
-
         for pub in json_src['results']:
-
-
 
             for aff in list_affs(pub):
 
@@ -428,7 +526,7 @@ def list_all_affs():
                 affs_json['affs'] = affs
 
             # save the dictionary as json
-            fil_dst = os.path.join(retrieve_path('affs_json'), term + '.json')
+            fil_dst = os.path.join(retrieve_path('all_affs'))
             #print('fil_dst = ' + str(fil_dst))
             with open(fil_dst, "w") as fp:
                 json.dump(affs_json, fp, indent = 8)
