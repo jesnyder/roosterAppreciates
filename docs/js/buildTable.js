@@ -41,7 +41,7 @@ var tableMaker = function functionTableMaker(setVars)
               target:"_blank",
           }},
 
-          {title:"Cited by", field:"cites", width:60, editor:"input", bottomCalc:"sum", bottomCalcParams:{precision:0}},
+          {title:"Cited by", field:"cites", width:20, editor:"input", bottomCalc:"sum", bottomCalcParams:{precision:0}},
 
           {title:"DOI", field:"doi", width:80, formatter:"link", formatterParams:{
             //labelField:"name",

@@ -10,7 +10,7 @@ var  group_2022_evboost = {
                         "aff": "Department of Biomedical Engineering, Florida International University, Miami FL USA",
                         "title": "Stem Cell-Secreted Allogeneic Elastin-Rich Matrix with Subsequent Decellularization for the Treatment of Critical Valve Diseases in the Young",
                         "url": "http://dx.doi.org/10.3390/bioengineering9100587",
-                        "color": "rgb( 228 , 241 , 150 )",
+                        "color": "rgb( 244 , 155 , 139 )",
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
