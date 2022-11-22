@@ -35,14 +35,57 @@ def meta_pubs():
 
     print("running meta_pubs")
 
-    crossref_not_found({'reset': 'reset'})
-    list_crossref_without_aff({'reset': 'reset'})
+    tasks = [1, 2]
 
-    for fil_src in os.listdir(retrieve_path('gscholar_json_summary')):
-        print('fil_src = ' + str(fil_src))
-        json_meta(fil_src)
+    if 1 in tasks:
+        # lookup crossref for only compiled gscholar results
+        crossref_not_found({'reset': 'reset'})
+        list_crossref_without_aff({'reset': 'reset'})
+
+        # lookup each title
+        for fil_src in os.listdir(retrieve_path('gscholar_json_summary')):
+            if 'compiled' not in fil_src: continue
+            print('fil_src = ' + str(fil_src))
+            json_meta(fil_src)
+
+    if 2 in tasks:
+        # copy over crossref for each group from the compiled file
+        for fil_src in os.listdir(retrieve_path('gscholar_json_summary')):
+            if 'compiled' in fil_src: continue
+            print('fil_src = ' + str(fil_src))
+            json_group(fil_src)
 
     print("completed meta_pubs")
+
+
+def json_group(fil_src):
+    """
+    create json for each group by copying from compiled
+    """
+
+    list_meta = []
+    fol_src = os.path.join(retrieve_path('gscholar_json_summary'), fil_src)
+    fil_ref = os.path.join(retrieve_path('crossref_json'), 'compiled.json')
+
+    for pub in retrieve_json(fol_src)['results']:
+
+        for pub_ref in retrieve_json(fil_ref)['results']:
+
+            if pub['title_link'] != pub_ref['title_link']: continue
+            if pub_ref in list_meta: continue
+            list_meta.append(pub_ref)
+            break
+
+    json_meta = {}
+    json_meta['results_count'] = len(list_meta)
+    json_meta['results'] = list_meta
+
+    # save the dictionary as json
+    fil_dst = os.path.join(retrieve_path('crossref_json'), fil_src)
+    #print('fil_dst = ' + str(fil_dst))
+    with open(fil_dst, "w") as fp:
+        json.dump(json_meta, fp, indent = 8)
+        fp.close()
 
 
 def json_meta(fil_src):
@@ -71,6 +114,9 @@ def json_meta(fil_src):
             pub = find_hardcoded_crossref_affs(pub)
 
         pub['affs'] = list_affs(pub)
+        pub['affs_found'] = list_affs(pub)
+        pub['affs_combine'] = combine_affs(pub)
+        pub['affs'] = combine_affs(pub)
         if len( list_affs(pub)) == 0:
             list_crossref_without_aff(pub)
 
@@ -329,7 +375,58 @@ def list_affs(pub):
         for name in author['affiliation']:
             aff = name['name']
             if aff not in affs: affs.append(aff)
+
     return(affs)
+
+
+def combine_affs(pub):
+    """
+    some affs are split across lines
+    check for a keyword showing they were split
+    then combine
+    """
+
+    affs = list_affs(pub)
+
+    countries = ['Canada', 'Russia', 'USA', 'United States', 'Singapore', 'Australia', 'New Zealand', '117510 Singapore', 'University of Kansas']
+
+    if combine_check(affs, countries) == False: return(affs)
+
+    j = 0
+    new_affs = []
+
+    for aff in affs:
+
+        for country in countries:
+
+            if aff.lower() != country.lower(): continue
+
+            i = affs.index(aff)
+            aff = ', '.join(affs[j:i+1])
+            j = i+1
+            new_affs.append(aff)
+
+    assert len(new_affs) > 0
+
+    print('affs = ')
+    print(affs)
+    print('new_affs = ')
+    print(new_affs)
+
+    return(new_affs)
+
+
+def combine_check(affs, countries):
+    """
+    return true or false
+    if the affs need to combined
+    """
+
+    for aff in affs:
+        for country in countries:
+            if aff.lower() == country.lower():
+                return(True)
+    return(False)
 
 
 def crossref_not_found(item):

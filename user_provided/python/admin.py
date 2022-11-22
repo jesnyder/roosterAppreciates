@@ -191,7 +191,9 @@ def retrieve_json(path):
         f.close()
 
     else:
+        #print('path = ' + str(path))
         f = open(retrieve_path(path))
+        #print('f = ' + str(f))
         file_json = json.load(f)
         f.close()
 

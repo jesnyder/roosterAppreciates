@@ -15,6 +15,7 @@ crossref_with_affs,user_provided crossref_with_affs crossref_with_affs.json
 
 
 # geoloate_affs created
+affs_assigned,user_provided affs_assigned affs_assigned.json
 all_affs,program_generated affs all_affs.json
 all_located,program_generated affs all_located.json
 affs_json,program_generated affs

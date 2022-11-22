@@ -36,7 +36,7 @@ def geolocate_affs():
 
     print("running geolocate_affs")
 
-    tasks = [1, 2, 4]
+    tasks = [1, 2, 3, 4]
 
     if 1 in tasks: list_missing({'reset': 'reset'})
     if 2 in tasks: list_all_affs()
@@ -88,6 +88,17 @@ def edit_aff(name):
     return name with commas to be readable by openstreetmaps
     """
 
+
+    # check hardcoded changes to affiliation names
+    # saved in user_provided affs_assigned affs_assigned.json
+
+    print(retrieve_path('affs_assigned'))
+    for aff in retrieve_json('affs_assigned')['affs']:
+        if aff['name'] != name: continue
+        if 'replacement' not in aff.keys(): continue
+        name = aff['replacement']
+        if aff['match_type'] == 'exact': name = aff['replacement']
+        return(name)
 
 
     term = 'Universite de Montreal'
@@ -492,9 +503,7 @@ def list_all_affs():
 
     for fil in os.listdir(retrieve_path('crossref_json')):
 
-
-        if '_located' in fil: continue
-        if 'located_compiled' in fil: continue
+        if 'compiled' not in fil: continue
 
         if '_' in fil: term = fil.split('_')[0]
         elif '.' in fil: term = fil.split('.')[0]

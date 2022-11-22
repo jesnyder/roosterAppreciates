@@ -30,7 +30,7 @@ def list_pubs():
 
     print("running list_pubs")
 
-    tasks = [1]
+    tasks = [1, 2, 3, 4, 5]
     #tasks = [2, 3, 4]
 
     if 1 in tasks:
@@ -52,6 +52,10 @@ def list_pubs():
 
     if 4 in tasks:
         ref_json = {'years': ['all'], 'name': 'all'}
+        build_json_src_list(ref_json)
+
+    if 5 in tasks:
+        ref_json = {'years': ['all'], 'name': 'compiled'}
         build_json_src_list(ref_json)
 
     print("completed list_pubs")
