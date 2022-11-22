@@ -1,5 +1,5 @@
 {
-        "count": 8,
+        "count": 9,
         "affs": [
                 {
                         "name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
@@ -40,6 +40,11 @@
                         "name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
                         "edit_name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
                         "name_edit": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China"
+                },
+                {
+                        "name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
+                        "edit_name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
+                        "name_edit": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden"
                 }
         ]
 }

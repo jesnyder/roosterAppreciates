@@ -1,5 +1,5 @@
 {
-        "count": 544,
+        "count": 535,
         "affs": [
                 {
                         "name": "Department of Bioengineering, Rice University, Houston, TX 77005, USA.",
@@ -1463,11 +1463,6 @@
                         "importance": 0.7399999999999999
                 },
                 {
-                        "name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
-                        "edit_name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
-                        "name_edit": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore"
-                },
-                {
                         "name": "Stem Cell Laboratories, Guy's Assisted Conception Unit, Department of Women & Children's Health, Faculty of Life Sciences & Medicine, King's College London, London, UK",
                         "edit_name": "Stem Cell Laboratories, Guy's Assisted Conception Unit, Department of Women & Children's Health, Faculty of Life Sciences & Medicine, King's College London, London, UK",
                         "name_edit": "Stem Cell Laboratories, Guy's Assisted Conception Unit, Department of Women & Children's Health, Faculty of Life Sciences & Medicine, King's College London, London, UK",
@@ -2777,11 +2772,6 @@
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
                 },
                 {
-                        "name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland",
-                        "edit_name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center , )Johns Hopkins UniversityBaltimoreMaryland",
-                        "name_edit": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center , )Johns Hopkins UniversityBaltimoreMaryland"
-                },
-                {
                         "name": "Department of Materials Science and Engineering University of Maryland  College Park Maryland",
                         "edit_name": "Department of Materials Science and Engineering ,University of Maryland,   College Park Maryland",
                         "name_edit": "Department of Materials Science and Engineering ,University of Maryland,   College Park Maryland",
@@ -3327,16 +3317,6 @@
                         "importance": 0.7101
                 },
                 {
-                        "name": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
-                        "edit_name": "Bioprocessing Technology Institute , ), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
-                        "name_edit": "Bioprocessing Technology Institute , ), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore"
-                },
-                {
-                        "name": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
-                        "edit_name": "Singapore Bioimaging Consortium , ), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
-                        "name_edit": "Singapore Bioimaging Consortium , ), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore"
-                },
-                {
                         "name": "1The James Buchanan Brady Urological Institute, Department of Urology, Johns Hopkins School of Medicine, Baltimore, Maryland.",
                         "edit_name": "1The James Buchanan Brady Urological Institute, Department of Urology, Johns Hopkins School of Medicine, Baltimore, Maryland.",
                         "name_edit": "1The James Buchanan Brady Urological Institute, Department of Urology, Johns Hopkins School of Medicine, Baltimore, Maryland.",
@@ -3578,11 +3558,6 @@
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/amenity_library.p.20.png"
                 },
                 {
-                        "name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
-                        "edit_name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology , ), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
-                        "name_edit": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology , ), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634"
-                },
-                {
                         "name": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research (A*STAR), Centros Singapore 138668",
                         "edit_name": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research , ), Centros Singapore 138668",
                         "name_edit": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research , ), Centros Singapore 138668",
@@ -3756,11 +3731,6 @@
                         "type": "university",
                         "importance": 1.1472524353626237,
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
-                },
-                {
-                        "name": "Centre for Nanofibers &amp; NanotechnologyNUS Nanoscience &amp; Nanotechnology Initiative Singapore",
-                        "edit_name": "Centre for Nanofibers &amp, NanotechnologyNUS Nanoscience &amp, Nanotechnology Initiative Singapore",
-                        "name_edit": "Centre for Nanofibers &amp, NanotechnologyNUS Nanoscience &amp, Nanotechnology Initiative Singapore"
                 },
                 {
                         "name": "Department of Biological Engineering, University of Idaho, Moscow, USA",
@@ -4175,11 +4145,6 @@
                         "type": "university",
                         "importance": 1.004120989443361,
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/education_university.p.20.png"
-                },
-                {
-                        "name": "Biomedical Engineering and ScienceVirginia Tech-Wake Forest University School of Biomedical Engineering and Science Winston-Salem North Carolina",
-                        "edit_name": "Biomedical Engineering and ScienceVirginia Tech-Wake Forest University School of Biomedical Engineering and Science Winston-Salem North Carolina",
-                        "name_edit": "Biomedical Engineering and ScienceVirginia Tech-Wake Forest University School of Biomedical Engineering and Science Winston-Salem North Carolina"
                 },
                 {
                         "name": "Department of Chemical EngineeringVirginia Tech Blacksburg Virginia",
@@ -4616,11 +4581,6 @@
                         "type": "city",
                         "importance": 0.5716580731495573,
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_place_city.p.20.png"
-                },
-                {
-                        "name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
-                        "edit_name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
-                        "name_edit": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China"
                 },
                 {
                         "name": "Department of Pathology &amp; Microbiology, University of Nebraska Medical Center, Omaha, Nebraska, USA",
@@ -6192,11 +6152,6 @@
                         "type": "hospital",
                         "importance": 0.4864960634925197,
                         "icon": "https://nominatim.openstreetmap.org/ui/mapicons/health_hospital.p.20.png"
-                },
-                {
-                        "name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
-                        "edit_name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
-                        "name_edit": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden"
                 },
                 {
                         "name": "Department of Obstetrics and Gynecology, University of Chicago, IL, USA",

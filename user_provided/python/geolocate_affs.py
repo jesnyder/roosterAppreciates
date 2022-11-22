@@ -101,8 +101,7 @@ def edit_aff(name):
         if ')' in name:
             i = name.index('(')
             j = name.index(')')
-
-            name = str(name[0:i] + ', ' + name[j:])
+            name = str(name[0:i] + ', ' + name[j+1:])
 
 
     term = 'Universite de Montreal'
