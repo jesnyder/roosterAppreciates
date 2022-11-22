@@ -27,8 +27,6 @@ from admin import retrieve_list
 from admin import retrieve_path
 from admin import retrieve_ref
 
-from meta_pubs import list_affs
-
 
 def write_geojson():
     """
@@ -94,8 +92,11 @@ def save_geojson(src_pathname):
                 geolocated['color'] = color
 
                 cites = float(pub['is-referenced-by-count'])
-                radius = int(math.sqrt(cites)*0.5) + 30
-                geolocated['radius'] = float(pub['is-referenced-by-count']) + 10
+                geolocated['cites'] = cites
+                radius = cites + 10
+                geolocated['radius'] = radius
+                if radius > 100:
+                    geolocated['radius'] = 100
 
                 geolocated['opacity'] = 0.6
                 geolocated['zindex'] = int(500 - geolocated['radius'])

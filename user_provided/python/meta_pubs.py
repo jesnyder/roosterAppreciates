@@ -388,7 +388,7 @@ def combine_affs(pub):
 
     affs = list_affs(pub)
 
-    countries = ['Canada', 'Russia', 'USA', 'United States', 'Singapore', 'Australia', 'New Zealand', '117510 Singapore', 'University of Kansas']
+    countries = ['Canada', 'Russia', 'USA', 'United States', 'Singapore', 'Australia', 'New Zealand', '117510 Singapore', 'University of Kansas', 'USA']
 
     if combine_check(affs, countries) == False: return(affs)
 

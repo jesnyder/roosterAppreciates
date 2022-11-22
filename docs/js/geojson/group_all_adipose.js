@@ -10,7 +10,8 @@ var  group_all_adipose = {
                         "aff": "Emmaus Life Sciences, Inc, Torrance CA USA",
                         "title": "Posology and Serum-/Xeno-Free Engineered Adipose Stromal Cells Cell Sheets",
                         "url": "http://dx.doi.org/10.3389/fcell.2022.873603",
-                        "color": "rgb( 240 , 172 , 211 )",
+                        "color": "rgb( 190 , 139 , 226 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -33,7 +34,8 @@ var  group_all_adipose = {
                         "aff": "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 237 , 232 , 146 )",
+                        "color": "rgb( 193 , 193 , 127 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -56,7 +58,8 @@ var  group_all_adipose = {
                         "aff": "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 237 , 232 , 146 )",
+                        "color": "rgb( 193 , 193 , 127 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -79,7 +82,8 @@ var  group_all_adipose = {
                         "aff": "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
                         "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
                         "url": "http://dx.doi.org/10.1002/jbm.a.37267",
-                        "color": "rgb( 208 , 148 , 194 )",
+                        "color": "rgb( 208 , 164 , 224 )",
+                        "cites": 5.0,
                         "radius": 15.0,
                         "opacity": 0.6,
                         "zindex": 485,
@@ -102,7 +106,8 @@ var  group_all_adipose = {
                         "aff": "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China",
                         "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
                         "url": "http://dx.doi.org/10.1002/jbm.a.37267",
-                        "color": "rgb( 208 , 148 , 194 )",
+                        "color": "rgb( 208 , 164 , 224 )",
+                        "cites": 5.0,
                         "radius": 15.0,
                         "opacity": 0.6,
                         "zindex": 485,
@@ -125,7 +130,8 @@ var  group_all_adipose = {
                         "aff": "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA",
                         "title": "Enhancing Mesenchymal Stromal Cell Potency: Inflammatory Licensing via Mechanotransduction",
                         "url": "http://dx.doi.org/10.3389/fimmu.2022.874698",
-                        "color": "rgb( 173 , 205 , 128 )",
+                        "color": "rgb( 157 , 180 , 212 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -148,7 +154,8 @@ var  group_all_adipose = {
                         "aff": "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA",
                         "title": "Characterizing Human Mesenchymal Stromal Cells Immune Modulatory Potency Using Targeted Lipidomic Profiling of Sphingolipids",
                         "url": "http://dx.doi.org/10.1101/2021.06.01.446428",
-                        "color": "rgb( 213 , 132 , 175 )",
+                        "color": "rgb( 137 , 209 , 127 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -171,7 +178,8 @@ var  group_all_adipose = {
                         "aff": "Advanced Solutions Life Sciences, Louisville, KY, USA",
                         "title": "A Biofabrication Strategy for a Custom-Shaped, Non-Synthetic Bone Graft Precursor with a Prevascularized Tissue Shell",
                         "url": "http://dx.doi.org/10.3389/fbioe.2022.838415",
-                        "color": "rgb( 159 , 138 , 141 )",
+                        "color": "rgb( 239 , 230 , 212 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -194,7 +202,8 @@ var  group_all_adipose = {
                         "aff": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 128 , 159 , 244 )",
+                        "color": "rgb( 241 , 152 , 245 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -217,7 +226,8 @@ var  group_all_adipose = {
                         "aff": "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 128 , 159 , 244 )",
+                        "color": "rgb( 241 , 152 , 245 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -240,7 +250,8 @@ var  group_all_adipose = {
                         "aff": "FMC Biopolymer AS, Sandvika, Norway",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 128 , 159 , 244 )",
+                        "color": "rgb( 241 , 152 , 245 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -263,7 +274,8 @@ var  group_all_adipose = {
                         "aff": "Combat Trauma and Burn Injury Research, US Army Institute of Surgical Research, San Antonio Military Medical Center, JBSA Ft Sam Houston, San Antonio, TX, USA",
                         "title": "Tissue Source and Cell Expansion Condition Influence Phenotypic Changes of Adipose-Derived Stem Cells",
                         "url": "http://dx.doi.org/10.1155/2017/7108458",
-                        "color": "rgb( 192 , 218 , 149 )",
+                        "color": "rgb( 204 , 202 , 249 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -286,7 +298,8 @@ var  group_all_adipose = {
                         "aff": "Coagulation and Blood Research, US Army Institute of Surgical Research, San Antonio Military Medical Center, JBSA Ft Sam Houston, San Antonio, TX, USA",
                         "title": "Tissue Source and Cell Expansion Condition Influence Phenotypic Changes of Adipose-Derived Stem Cells",
                         "url": "http://dx.doi.org/10.1155/2017/7108458",
-                        "color": "rgb( 192 , 218 , 149 )",
+                        "color": "rgb( 204 , 202 , 249 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -303,59 +316,14 @@ var  group_all_adipose = {
             {
                   "type": "Feature",
                   "properties": {
-                        "lat": "6.6739937000000005",
-                        "lon": "3.157250565951615",
-                        "display_name": "Department of Chemical and Petroleum Engineering, Idi-Iroko Road, Onibukun, Ado Odo/Ota, Ogun, Nigeria",
-                        "aff": "Department of Chemical and Petroleum Engineering",
-                        "title": "Deciphering the role of substrate stiffness in enhancing the internalization efficiency of plasmid DNA in stem cells using lipid-based nanocarriers",
-                        "url": "http://dx.doi.org/10.1039/c8nr01516c",
-                        "color": "rgb( 209 , 171 , 182 )",
-                        "radius": 25.0,
-                        "opacity": 0.6,
-                        "zindex": 475,
-                        "paneName": "pane_975"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              3.157250565951615,
-                              6.6739937000000005
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "10.04852505",
-                        "lon": "76.33126168335185",
-                        "display_name": "School of Engineering, Pipeline Road, Pathadipalam, Kalamassery, Kanayannur, Ernakulam district, Kerala, 683503, India",
-                        "aff": "School of Engineering",
-                        "title": "Deciphering the role of substrate stiffness in enhancing the internalization efficiency of plasmid DNA in stem cells using lipid-based nanocarriers",
-                        "url": "http://dx.doi.org/10.1039/c8nr01516c",
-                        "color": "rgb( 209 , 171 , 182 )",
-                        "radius": 25.0,
-                        "opacity": 0.6,
-                        "zindex": 475,
-                        "paneName": "pane_975"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              76.33126168335185,
-                              10.04852505
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
                         "lat": "38.953491799999995",
                         "lon": "-95.26308879955823",
                         "display_name": "University of Kansas, 1450, Jayhawk Boulevard, Lawrence, Douglas County, Kansas, 66045, United States",
-                        "aff": "University of Kansas",
+                        "aff": "BioIntel Research Laboratory, Department of Chemical and Petroleum Engineering, Bioengineering Graduate Program, School of Engineering, University of Kansas",
                         "title": "Deciphering the role of substrate stiffness in enhancing the internalization efficiency of plasmid DNA in stem cells using lipid-based nanocarriers",
                         "url": "http://dx.doi.org/10.1039/c8nr01516c",
-                        "color": "rgb( 209 , 171 , 182 )",
+                        "color": "rgb( 228 , 223 , 143 )",
+                        "cites": 15.0,
                         "radius": 25.0,
                         "opacity": 0.6,
                         "zindex": 475,
@@ -378,7 +346,8 @@ var  group_all_adipose = {
                         "aff": "Southwest Research Institute, Department of Pharmaceuticals and Bioengineering, San Antonio, TX, USA",
                         "title": "An electrochemically deposited collagen wound matrix combined with adipose-derived stem cells improves cutaneous wound healing in a mouse model of type 2 diabetes",
                         "url": "http://dx.doi.org/10.1177/0885328218803754",
-                        "color": "rgb( 137 , 234 , 155 )",
+                        "color": "rgb( 132 , 144 , 143 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -401,7 +370,8 @@ var  group_all_adipose = {
                         "aff": "University of Texas at San Antonio, Department of Biomedical Engineering, San Antonio, TX, USA",
                         "title": "An electrochemically deposited collagen wound matrix combined with adipose-derived stem cells improves cutaneous wound healing in a mouse model of type 2 diabetes",
                         "url": "http://dx.doi.org/10.1177/0885328218803754",
-                        "color": "rgb( 137 , 234 , 155 )",
+                        "color": "rgb( 132 , 144 , 143 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -424,7 +394,8 @@ var  group_all_adipose = {
                         "aff": "University of Michigan, Department of Surgery, Ann Arbor, MI, USA",
                         "title": "An electrochemically deposited collagen wound matrix combined with adipose-derived stem cells improves cutaneous wound healing in a mouse model of type 2 diabetes",
                         "url": "http://dx.doi.org/10.1177/0885328218803754",
-                        "color": "rgb( 137 , 234 , 155 )",
+                        "color": "rgb( 132 , 144 , 143 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -447,7 +418,8 @@ var  group_all_adipose = {
                         "aff": "University of Texas Health Science Center at San Antonio, Department of Medicine, San Antonio, TX, USA",
                         "title": "An electrochemically deposited collagen wound matrix combined with adipose-derived stem cells improves cutaneous wound healing in a mouse model of type 2 diabetes",
                         "url": "http://dx.doi.org/10.1177/0885328218803754",
-                        "color": "rgb( 137 , 234 , 155 )",
+                        "color": "rgb( 132 , 144 , 143 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -470,7 +442,8 @@ var  group_all_adipose = {
                         "aff": "United States Army Institute of Surgical Research, Fort Sam Houston, TX, USA",
                         "title": "An electrochemically deposited collagen wound matrix combined with adipose-derived stem cells improves cutaneous wound healing in a mouse model of type 2 diabetes",
                         "url": "http://dx.doi.org/10.1177/0885328218803754",
-                        "color": "rgb( 137 , 234 , 155 )",
+                        "color": "rgb( 132 , 144 , 143 )",
+                        "cites": 9.0,
                         "radius": 19.0,
                         "opacity": 0.6,
                         "zindex": 481,
@@ -487,36 +460,14 @@ var  group_all_adipose = {
             {
                   "type": "Feature",
                   "properties": {
-                        "lat": "10.04852505",
-                        "lon": "76.33126168335185",
-                        "display_name": "School of Engineering, Pipeline Road, Pathadipalam, Kalamassery, Kanayannur, Ernakulam district, Kerala, 683503, India",
-                        "aff": "School of Engineering",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              76.33126168335185,
-                              10.04852505
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
                         "lat": "38.953491799999995",
                         "lon": "-95.26308879955823",
                         "display_name": "University of Kansas, 1450, Jayhawk Boulevard, Lawrence, Douglas County, Kansas, 66045, United States",
-                        "aff": "University of Kansas",
+                        "aff": "Bioengineering Graduate Program, School of Engineering, University of Kansas",
                         "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
                         "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
+                        "color": "rgb( 183 , 219 , 251 )",
+                        "cites": 4.0,
                         "radius": 14.0,
                         "opacity": 0.6,
                         "zindex": 486,
@@ -536,10 +487,11 @@ var  group_all_adipose = {
                         "lat": "38.9719384",
                         "lon": "-95.2359496",
                         "display_name": "Lawrence, Douglas County, Kansas, United States",
-                        "aff": "Lawrence",
+                        "aff": "Lawrence, USA",
                         "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
                         "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
+                        "color": "rgb( 183 , 219 , 251 )",
+                        "cites": 4.0,
                         "radius": 14.0,
                         "opacity": 0.6,
                         "zindex": 486,
@@ -556,13 +508,14 @@ var  group_all_adipose = {
             {
                   "type": "Feature",
                   "properties": {
-                        "lat": "39.7837304",
-                        "lon": "-100.445882",
-                        "display_name": "United States",
-                        "aff": "USA",
+                        "lat": "42.9832406",
+                        "lon": "-81.243372",
+                        "display_name": "London, Southwestern Ontario, Ontario, N6A 3N7, Canada",
+                        "aff": "Department of Biomedical Engineering, The University of Texas at San Antonio, San Antonio, Department of Chemical and Biochemical Engineering, Department of Chemistry, The University of Western Ontario, London, Canada",
                         "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
                         "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
+                        "color": "rgb( 183 , 219 , 251 )",
+                        "cites": 4.0,
                         "radius": 14.0,
                         "opacity": 0.6,
                         "zindex": 486,
@@ -571,146 +524,8 @@ var  group_all_adipose = {
                   "geometry": {
                         "type": "Point",
                         "coordinates": [
-                              -100.445882,
-                              39.7837304
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "-37.801700249999996",
-                        "lon": "144.96178465",
-                        "display_name": "Department of Biomedical Engineering, 203, Bouverie Street, Melbourne Innovation District, Carlton, Melbourne, City of Melbourne, Victoria, 3010, Australia",
-                        "aff": "Department of Biomedical Engineering",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              144.96178465,
-                              -37.801700249999996
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "29.583331049999998",
-                        "lon": "-98.6194450505688",
-                        "display_name": "The University of Texas at San Antonio, 1, UTSA Circle, San Antonio, Bexar County, Texas, 78249, United States",
-                        "aff": "The University of Texas at San Antonio",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              -98.6194450505688,
-                              29.583331049999998
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "29.4246002",
-                        "lon": "-98.4951405",
-                        "display_name": "San Antonio, Bexar County, Texas, United States",
-                        "aff": "San Antonio",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              -98.4951405,
-                              29.4246002
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "45.8261258",
-                        "lon": "15.9889232",
-                        "display_name": "PMF Kemija, 102a, Horvatovac, Mjesni odbor Vo\u0107arska, Gradska \u010detvrt Gornji grad - Medve\u0161\u010dak, Zagreb, Grad Zagreb, 10000, Hrvatska",
-                        "aff": "Department of Chemistry",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              15.9889232,
-                              45.8261258
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "51.5073219",
-                        "lon": "-0.1276474",
-                        "display_name": "London, Greater London, England, United Kingdom",
-                        "aff": "London",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              -0.1276474,
-                              51.5073219
-                        ]
-                  }
-            },
-            {
-                  "type": "Feature",
-                  "properties": {
-                        "lat": "61.0666922",
-                        "lon": "-107.991707",
-                        "display_name": "Canada",
-                        "aff": "Canada",
-                        "title": "Investigation of human adipose stem cell-derived nanoparticles as a biomimetic carrier for intracellular drug delivery",
-                        "url": "http://dx.doi.org/10.1039/d0nr06571d",
-                        "color": "rgb( 254 , 224 , 234 )",
-                        "radius": 14.0,
-                        "opacity": 0.6,
-                        "zindex": 486,
-                        "paneName": "pane_986"
-                  },
-                  "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                              -107.991707,
-                              61.0666922
+                              -81.243372,
+                              42.9832406
                         ]
                   }
             },
@@ -723,7 +538,8 @@ var  group_all_adipose = {
                         "aff": "United States Army Institute of Surgical Research, JBSA Fort Sam Houston, Texas, USA",
                         "title": "Minimal Effects of Intravenous Administration of Xenogeneic Adipose Derived Stem Cells on Organ Function in a Porcine 40% TBSA Burn Model",
                         "url": "http://dx.doi.org/10.1093/jbcr/irab094",
-                        "color": "rgb( 246 , 241 , 245 )",
+                        "color": "rgb( 212 , 158 , 180 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -746,7 +562,8 @@ var  group_all_adipose = {
                         "aff": "Uniformed Services University of the Health Sciences, Bethesda, Maryland, USA",
                         "title": "Minimal Effects of Intravenous Administration of Xenogeneic Adipose Derived Stem Cells on Organ Function in a Porcine 40% TBSA Burn Model",
                         "url": "http://dx.doi.org/10.1093/jbcr/irab094",
-                        "color": "rgb( 246 , 241 , 245 )",
+                        "color": "rgb( 212 , 158 , 180 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -763,13 +580,110 @@ var  group_all_adipose = {
             {
                   "type": "Feature",
                   "properties": {
+                        "lat": "29.583331049999998",
+                        "lon": "-98.6194450505688",
+                        "display_name": "The University of Texas at San Antonio, 1, UTSA Circle, San Antonio, Bexar County, Texas, 78249, United States",
+                        "aff": "Department of Biomedical Engineering The University of Texas at San Antonio  San Antonio Texas USA",
+                        "title": "Investigation of human adipose\u2010derived stem\u2010cell behavior using a cell\u2010instructive polydopamine\u2010coated gelatin\u2013alginate hydrogel",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37253",
+                        "color": "rgb( 144 , 235 , 161 )",
+                        "cites": 3.0,
+                        "radius": 13.0,
+                        "opacity": 0.6,
+                        "zindex": 487,
+                        "paneName": "pane_987"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              -98.6194450505688,
+                              29.583331049999998
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
+                        "lat": "38.953491799999995",
+                        "lon": "-95.26308879955823",
+                        "display_name": "University of Kansas, 1450, Jayhawk Boulevard, Lawrence, Douglas County, Kansas, 66045, United States",
+                        "aff": "Department of Chemical and Petroleum Engineering, Bioengineering Graduate Program, School of Engineering University of Kansas  Lawrence Kansas USA",
+                        "title": "Investigation of human adipose\u2010derived stem\u2010cell behavior using a cell\u2010instructive polydopamine\u2010coated gelatin\u2013alginate hydrogel",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37253",
+                        "color": "rgb( 144 , 235 , 161 )",
+                        "cites": 3.0,
+                        "radius": 13.0,
+                        "opacity": 0.6,
+                        "zindex": 487,
+                        "paneName": "pane_987"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              -95.26308879955823,
+                              38.953491799999995
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
+                        "lat": "39.05699635",
+                        "lon": "-94.60953952536904",
+                        "display_name": "University of Kansas Medical Center, 3901, Rainbow Boulevard, Kansas City, Wyandotte County, Kansas, 66160, United States",
+                        "aff": "Department of Plastic and Burn Surgery University of Kansas Medical Center  Kansas City Kansas USA",
+                        "title": "Investigation of human adipose\u2010derived stem\u2010cell behavior using a cell\u2010instructive polydopamine\u2010coated gelatin\u2013alginate hydrogel",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37253",
+                        "color": "rgb( 144 , 235 , 161 )",
+                        "cites": 3.0,
+                        "radius": 13.0,
+                        "opacity": 0.6,
+                        "zindex": 487,
+                        "paneName": "pane_987"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              -94.60953952536904,
+                              39.05699635
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
+                        "lat": "42.9832406",
+                        "lon": "-81.243372",
+                        "display_name": "London, Southwestern Ontario, Ontario, N6A 3N7, Canada",
+                        "aff": "Department of Chemical and Biochemical Engineering, Department of Chemistry The University of Western Ontario  London Ontario Canada",
+                        "title": "Investigation of human adipose\u2010derived stem\u2010cell behavior using a cell\u2010instructive polydopamine\u2010coated gelatin\u2013alginate hydrogel",
+                        "url": "http://dx.doi.org/10.1002/jbm.a.37253",
+                        "color": "rgb( 144 , 235 , 161 )",
+                        "cites": 3.0,
+                        "radius": 13.0,
+                        "opacity": 0.6,
+                        "zindex": 487,
+                        "paneName": "pane_987"
+                  },
+                  "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                              -81.243372,
+                              42.9832406
+                        ]
+                  }
+            },
+            {
+                  "type": "Feature",
+                  "properties": {
                         "lat": "33.8570331",
                         "lon": "-118.35462687108185",
                         "display_name": "Rainforest Flora, Inc, Hawthorne Boulevard, Dudmore, Torrance, Los Angeles County, CAL Fire Southern Region, California, 90503, United States",
                         "aff": "Emmaus Life Sciences, Inc, Torrance CA USA",
                         "title": "Posology and Serum-/Xeno-Free Engineered Adipose Stromal Cells Cell Sheets",
                         "url": "http://dx.doi.org/10.3389/fcell.2022.873603",
-                        "color": "rgb( 134 , 229 , 239 )",
+                        "color": "rgb( 144 , 198 , 147 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -792,7 +706,8 @@ var  group_all_adipose = {
                         "aff": "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 196 , 240 , 165 )",
+                        "color": "rgb( 203 , 172 , 251 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -815,7 +730,8 @@ var  group_all_adipose = {
                         "aff": "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                         "title": "Biophysical quantification of reorganization dynamics of human pancreatic islets during co-culture with adipose-derived stem cells",
                         "url": "http://dx.doi.org/10.1039/d2an00222a",
-                        "color": "rgb( 196 , 240 , 165 )",
+                        "color": "rgb( 203 , 172 , 251 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -838,7 +754,8 @@ var  group_all_adipose = {
                         "aff": "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
                         "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
                         "url": "http://dx.doi.org/10.1002/jbm.a.37267",
-                        "color": "rgb( 163 , 150 , 131 )",
+                        "color": "rgb( 242 , 228 , 193 )",
+                        "cites": 5.0,
                         "radius": 15.0,
                         "opacity": 0.6,
                         "zindex": 485,
@@ -861,7 +778,8 @@ var  group_all_adipose = {
                         "aff": "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China",
                         "title": "Incorporating nanocrystalline cellulose into a multifunctional hydrogel for heart valve tissue engineering applications",
                         "url": "http://dx.doi.org/10.1002/jbm.a.37267",
-                        "color": "rgb( 163 , 150 , 131 )",
+                        "color": "rgb( 242 , 228 , 193 )",
+                        "cites": 5.0,
                         "radius": 15.0,
                         "opacity": 0.6,
                         "zindex": 485,
@@ -884,7 +802,8 @@ var  group_all_adipose = {
                         "aff": "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA",
                         "title": "Enhancing Mesenchymal Stromal Cell Potency: Inflammatory Licensing via Mechanotransduction",
                         "url": "http://dx.doi.org/10.3389/fimmu.2022.874698",
-                        "color": "rgb( 135 , 199 , 195 )",
+                        "color": "rgb( 128 , 185 , 136 )",
+                        "cites": 0.0,
                         "radius": 10.0,
                         "opacity": 0.6,
                         "zindex": 490,
@@ -907,7 +826,8 @@ var  group_all_adipose = {
                         "aff": "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA",
                         "title": "Characterizing Human Mesenchymal Stromal Cells Immune Modulatory Potency Using Targeted Lipidomic Profiling of Sphingolipids",
                         "url": "http://dx.doi.org/10.1101/2021.06.01.446428",
-                        "color": "rgb( 132 , 158 , 175 )",
+                        "color": "rgb( 165 , 165 , 184 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -930,7 +850,8 @@ var  group_all_adipose = {
                         "aff": "Advanced Solutions Life Sciences, Louisville, KY, USA",
                         "title": "A Biofabrication Strategy for a Custom-Shaped, Non-Synthetic Bone Graft Precursor with a Prevascularized Tissue Shell",
                         "url": "http://dx.doi.org/10.3389/fbioe.2022.838415",
-                        "color": "rgb( 250 , 143 , 132 )",
+                        "color": "rgb( 232 , 241 , 144 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -953,7 +874,8 @@ var  group_all_adipose = {
                         "aff": "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 147 , 206 , 188 )",
+                        "color": "rgb( 242 , 210 , 254 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -976,7 +898,8 @@ var  group_all_adipose = {
                         "aff": "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 147 , 206 , 188 )",
+                        "color": "rgb( 242 , 210 , 254 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,
@@ -999,7 +922,8 @@ var  group_all_adipose = {
                         "aff": "FMC Biopolymer AS, Sandvika, Norway",
                         "title": "Manganese-Labeled Alginate Hydrogels for Image-Guided Cell Transplantation",
                         "url": "http://dx.doi.org/10.3390/ijms23052465",
-                        "color": "rgb( 147 , 206 , 188 )",
+                        "color": "rgb( 242 , 210 , 254 )",
+                        "cites": 1.0,
                         "radius": 11.0,
                         "opacity": 0.6,
                         "zindex": 489,

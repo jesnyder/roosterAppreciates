@@ -110,6 +110,8 @@ function onEachTrial(feature, layer) {
 		         + feature.properties.title
 		         + '</b><br>'
 		         + feature.properties.aff
+		         + '<br> Cited by: '
+						 + feature.properties.cites
 		         + '<br>'
 		         + '<a href="' + feature.properties.url + '" target="_blank" rel="noopener">'
 		         + feature.properties.url + '</a>'

@@ -574,7 +574,7 @@
                                 "date-time": "2022-09-20T11:56:07Z",
                                 "timestamp": 1663674967000
                         },
-                        "score": 89.45863,
+                        "score": 89.460365,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hep4.1924"
@@ -647,10 +647,28 @@
                                 "Childrens Hospital Los Angeles  Los Angeles California USA",
                                 "Southern California Research Center for ALPD and Cirrhosis  Los Angeles California USA"
                         ],
+                        "affs_found": [
+                                "Departments of Molecular Microbiology and Immunology University of Southern California  Los Angeles California USA",
+                                "PrimeGenUS Inc.  Santa Ana California USA",
+                                "Department of Pathology University of Southern California  Los Angeles California USA",
+                                "Department of Population and Public Health Sciences University of Southern California  Los Angeles California USA",
+                                "Department of Surgery University of Southern California  Los Angeles California USA",
+                                "Childrens Hospital Los Angeles  Los Angeles California USA",
+                                "Southern California Research Center for ALPD and Cirrhosis  Los Angeles California USA"
+                        ],
+                        "affs_combine": [
+                                "Departments of Molecular Microbiology and Immunology University of Southern California  Los Angeles California USA",
+                                "PrimeGenUS Inc.  Santa Ana California USA",
+                                "Department of Pathology University of Southern California  Los Angeles California USA",
+                                "Department of Population and Public Health Sciences University of Southern California  Los Angeles California USA",
+                                "Department of Surgery University of Southern California  Los Angeles California USA",
+                                "Childrens Hospital Los Angeles  Los Angeles California USA",
+                                "Southern California Research Center for ALPD and Cirrhosis  Los Angeles California USA"
+                        ],
                         "groups": [
                                 "umbilical_cord"
                         ],
-                        "color": "rgb( 178 , 223 , 218 )"
+                        "color": "rgb( 132 , 183 , 232 )"
                 },
                 {
                         "year": 0,
@@ -1283,7 +1301,7 @@
                                 "date-time": "2022-01-11T12:49:17Z",
                                 "timestamp": 1641905357000
                         },
-                        "score": 84.850784,
+                        "score": 84.8521,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/bit.27974"
@@ -1386,11 +1404,21 @@
                                 "Regenerative Bioscience Center University of Georgia Athens Georgia USA",
                                 "Division of Cellular and Gene Therapies, Center for Biologics Evaluation and Research US Food and Drug Administration Silver Spring Maryland USA"
                         ],
+                        "affs_found": [
+                                "School of Chemical, Materials and Biomedical Engineering University of Georgia Athens Georgia USA",
+                                "Regenerative Bioscience Center University of Georgia Athens Georgia USA",
+                                "Division of Cellular and Gene Therapies, Center for Biologics Evaluation and Research US Food and Drug Administration Silver Spring Maryland USA"
+                        ],
+                        "affs_combine": [
+                                "School of Chemical, Materials and Biomedical Engineering University of Georgia Athens Georgia USA",
+                                "Regenerative Bioscience Center University of Georgia Athens Georgia USA",
+                                "Division of Cellular and Gene Therapies, Center for Biologics Evaluation and Research US Food and Drug Administration Silver Spring Maryland USA"
+                        ],
                         "groups": [
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 216 , 171 , 213 )"
+                        "color": "rgb( 138 , 208 , 224 )"
                 },
                 {
                         "year": 0,
@@ -1703,7 +1731,7 @@
                                 "date-time": "2022-08-26T23:13:52Z",
                                 "timestamp": 1661555632000
                         },
-                        "score": 60.532654,
+                        "score": 60.430523,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2212827122008265"
@@ -1784,12 +1812,28 @@
                                 "School of Engineering and Sciences, Tecnologico de Monterrey, Monterrey Mexico",
                                 "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering, The Ohio State University, Columbus OH USA",
+                                "Department of Materials Science and Engineering, The Ohio State University, Columbus, OH USA",
+                                "Department of Plastic and Reconstructive Surgery, The Ohio State University, Columbus, OH USA",
+                                "Center for Design and Manufacturing Excellence, The Ohio State University, Columbus, OH USA",
+                                "School of Engineering and Sciences, Tecnologico de Monterrey, Monterrey Mexico",
+                                "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering, The Ohio State University, Columbus OH USA",
+                                "Department of Materials Science and Engineering, The Ohio State University, Columbus, OH USA",
+                                "Department of Plastic and Reconstructive Surgery, The Ohio State University, Columbus, OH USA",
+                                "Center for Design and Manufacturing Excellence, The Ohio State University, Columbus, OH USA",
+                                "School of Engineering and Sciences, Tecnologico de Monterrey, Monterrey Mexico",
+                                "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 167 , 190 , 242 )"
+                        "color": "rgb( 140 , 165 , 249 )"
                 },
                 {
                         "year": 0,
@@ -2128,7 +2172,7 @@
                                 "date-time": "2022-10-24T01:31:25Z",
                                 "timestamp": 1666575085000
                         },
-                        "score": 75.676506,
+                        "score": 75.72767,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/2306-5354/9/10/587"
@@ -2187,12 +2231,18 @@
                         "affs": [
                                 "Department of Biomedical Engineering, Florida International University, Miami FL USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering, Florida International University, Miami FL USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering, Florida International University, Miami FL USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "evboost",
                                 "exosome"
                         ],
-                        "color": "rgb( 244 , 246 , 200 )"
+                        "color": "rgb( 172 , 160 , 165 )"
                 },
                 {
                         "year": 0,
@@ -2563,7 +2613,7 @@
                                 "date-time": "2022-04-22T16:06:16Z",
                                 "timestamp": 1650643576000
                         },
-                        "score": 56.43647,
+                        "score": 56.434937,
                         "resource": {
                                 "primary": {
                                         "URL": "https://link.springer.com/10.1007/978-1-0716-2128-8_25"
@@ -2622,13 +2672,19 @@
                         "affs": [
                                 "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond VA USA"
                         ],
+                        "affs_found": [
+                                "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond VA USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond VA USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "exosome",
                                 "media"
                         ],
-                        "color": "rgb( 248 , 192 , 173 )"
+                        "color": "rgb( 180 , 230 , 145 )"
                 },
                 {
                         "year": 0,
@@ -3643,7 +3699,7 @@
                                 "date-time": "2022-07-18T13:15:45Z",
                                 "timestamp": 1658150145000
                         },
-                        "score": 66.53189,
+                        "score": 66.53053,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.917790/full"
@@ -3693,11 +3749,19 @@
                                 "Aurora BioSolutions Inc, Medicine Hat, Alberta, Canada",
                                 "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, Canada"
                         ],
+                        "affs_found": [
+                                "Aurora BioSolutions Inc, Medicine Hat, Alberta, Canada",
+                                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, Canada"
+                        ],
+                        "affs_combine": [
+                                "Aurora BioSolutions Inc, Medicine Hat, Alberta, Canada",
+                                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, Canada"
+                        ],
                         "groups": [
                                 "bone",
                                 "umbilical_cord"
                         ],
-                        "color": "rgb( 132 , 251 , 200 )"
+                        "color": "rgb( 133 , 201 , 217 )"
                 },
                 {
                         "year": 0,
@@ -4832,7 +4896,7 @@
                                 "date-time": "2022-06-25T22:20:42Z",
                                 "timestamp": 1656195642000
                         },
-                        "score": 81.12036,
+                        "score": 81.11864,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0142961222002460"
@@ -4917,12 +4981,22 @@
                                 "Division of Orthopedic Surgery, McGill University, Canada",
                                 "Injury, Repair and Recovery Program, Research Institute of McGill University Health Centre, McGill University Health Centre, Canada"
                         ],
+                        "affs_found": [
+                                "Department of Mining and Materials Engineering, McGill University, Canada",
+                                "Division of Orthopedic Surgery, McGill University, Canada",
+                                "Injury, Repair and Recovery Program, Research Institute of McGill University Health Centre, McGill University Health Centre, Canada"
+                        ],
+                        "affs_combine": [
+                                "Department of Mining and Materials Engineering, McGill University, Canada",
+                                "Division of Orthopedic Surgery, McGill University, Canada",
+                                "Injury, Repair and Recovery Program, Research Institute of McGill University Health Centre, McGill University Health Centre, Canada"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 229 , 146 , 142 )"
+                        "color": "rgb( 208 , 212 , 192 )"
                 },
                 {
                         "year": 0,
@@ -6386,7 +6460,7 @@
                                 "date-time": "2022-08-09T05:01:25Z",
                                 "timestamp": 1660021285000
                         },
-                        "score": 88.974976,
+                        "score": 88.97515,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2452199X22002997"
@@ -6469,10 +6543,22 @@
                                 "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL, USA",
                                 "PBS Biotech Inc, Camarillo, CA, USA"
                         ],
+                        "affs_found": [
+                                "Department of Chemical and Biomedical Engineering, FAMU-FSU College of Engineering, Florida State University, Tallahassee, FL, USA",
+                                "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL, USA",
+                                "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL, USA",
+                                "PBS Biotech Inc, Camarillo, CA, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Chemical and Biomedical Engineering, FAMU-FSU College of Engineering, Florida State University, Tallahassee, FL, USA",
+                                "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL, USA",
+                                "College of Pharmacy and Pharmaceutical Sciences, Florida A&M University, Tallahassee, FL, USA",
+                                "PBS Biotech Inc, Camarillo, CA, USA"
+                        ],
                         "groups": [
                                 "exosome"
                         ],
-                        "color": "rgb( 179 , 233 , 179 )"
+                        "color": "rgb( 198 , 172 , 165 )"
                 },
                 {
                         "year": 0,
@@ -6898,7 +6984,7 @@
                                 "date-time": "2022-11-08T17:28:52Z",
                                 "timestamp": 1667928532000
                         },
-                        "score": 68.546906,
+                        "score": 68.56434,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/term.3332"
@@ -7001,12 +7087,22 @@
                                 "Nancy E. and Peter C. Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
                                 "Sibley School of Mechanical and Aerospace Engineering Cornell University  Ithaca New York USA"
                         ],
+                        "affs_found": [
+                                "Department of Surgery Laboratory of Bioregenerative Medicine &amp; Surgery Division of Plastic Surgery Weill Cornell Medical College  New York New York USA",
+                                "Nancy E. and Peter C. Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
+                                "Sibley School of Mechanical and Aerospace Engineering Cornell University  Ithaca New York USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Surgery Laboratory of Bioregenerative Medicine &amp; Surgery Division of Plastic Surgery Weill Cornell Medical College  New York New York USA",
+                                "Nancy E. and Peter C. Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
+                                "Sibley School of Mechanical and Aerospace Engineering Cornell University  Ithaca New York USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 254 , 171 , 178 )"
+                        "color": "rgb( 237 , 139 , 242 )"
                 },
                 {
                         "year": 0,
@@ -7547,7 +7643,7 @@
                                 "date-time": "2022-07-05T03:30:35Z",
                                 "timestamp": 1656991835000
                         },
-                        "score": 87.7621,
+                        "score": 87.71153,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.30.498323"
@@ -7583,11 +7679,21 @@
                                 "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA USA",
                                 "Ri.MED Foundation, Palermo, Italy"
                         ],
+                        "affs_found": [
+                                "Department of Surgery, Division of Otolaryngology, Children's Hospital of Philadelphia, Philadelphia, PA, USA",
+                                "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA USA",
+                                "Ri.MED Foundation, Palermo, Italy"
+                        ],
+                        "affs_combine": [
+                                "Department of Surgery, Division of Otolaryngology, Children's Hospital of Philadelphia, Philadelphia, PA, USA",
+                                "Department of Bioengineering, School of Engineering and Applied Science, University of Pennsylvania, Philadelphia, PA USA",
+                                "Ri.MED Foundation, Palermo, Italy"
+                        ],
                         "groups": [
                                 "bone",
                                 "media"
                         ],
-                        "color": "rgb( 136 , 187 , 227 )"
+                        "color": "rgb( 229 , 203 , 140 )"
                 },
                 {
                         "year": 0,
@@ -7803,7 +7909,7 @@
                                 "date-time": "2022-11-12T09:44:35Z",
                                 "timestamp": 1668246275000
                         },
-                        "score": 73.767586,
+                        "score": 73.77953,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1111/micc.12792"
@@ -7899,8 +8005,24 @@
                                 "Phil and Penny Knight Campus for Accelerating Scientific Impact University of Oregon 97403  Eugene OR USA",
                                 "The Veterans Affairs Portland Health Care System 97239  Portland OR USA"
                         ],
+                        "affs_found": [
+                                "Parker H. Petit Institute for Bioengineering and Bioscience Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                                "George W. Woodruff School of Mechanical Engineering Georgia Institute of Technology 801 Ferst Drive, Atlanta, GA 30332  USA",
+                                "Wallace H. Coulter Department of Biomedical Engineering Georgia Institute of Technology and Emory University 313 Ferst Drive, Atlanta, GA 30332  USA",
+                                "Neuroscience Department Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                                "Phil and Penny Knight Campus for Accelerating Scientific Impact University of Oregon 97403  Eugene OR USA",
+                                "The Veterans Affairs Portland Health Care System 97239  Portland OR USA"
+                        ],
+                        "affs_combine": [
+                                "Parker H. Petit Institute for Bioengineering and Bioscience Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                                "George W. Woodruff School of Mechanical Engineering Georgia Institute of Technology 801 Ferst Drive, Atlanta, GA 30332  USA",
+                                "Wallace H. Coulter Department of Biomedical Engineering Georgia Institute of Technology and Emory University 313 Ferst Drive, Atlanta, GA 30332  USA",
+                                "Neuroscience Department Georgia Institute of Technology 315 Ferst Dr. NW, Atlanta, GA 30332  USA",
+                                "Phil and Penny Knight Campus for Accelerating Scientific Impact University of Oregon 97403  Eugene OR USA",
+                                "The Veterans Affairs Portland Health Care System 97239  Portland OR USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 141 , 227 , 221 )"
+                        "color": "rgb( 163 , 160 , 195 )"
                 },
                 {
                         "year": 0,
@@ -8539,7 +8661,7 @@
                                 "date-time": "2022-10-11T08:04:47Z",
                                 "timestamp": 1665475487000
                         },
-                        "score": 72.751045,
+                        "score": 72.75064,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1465324922006818"
@@ -8634,8 +8756,14 @@
                         "affs": [
                                 "Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University, Georgia Institute of Technology, Atlanta, Georgia, USA"
                         ],
+                        "affs_found": [
+                                "Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University, Georgia Institute of Technology, Atlanta, Georgia, USA"
+                        ],
+                        "affs_combine": [
+                                "Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University, Georgia Institute of Technology, Atlanta, Georgia, USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 213 , 169 , 188 )"
+                        "color": "rgb( 231 , 143 , 214 )"
                 },
                 {
                         "year": 0,
@@ -9079,7 +9207,7 @@
                                 "date-time": "2022-05-28T17:35:27Z",
                                 "timestamp": 1653759327000
                         },
-                        "score": 83.1,
+                        "score": 83.10085,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.25.493514"
@@ -9113,10 +9241,16 @@
                         "affs": [
                                 "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
                         ],
+                        "affs_found": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
+                        ],
+                        "affs_combine": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
+                        ],
                         "groups": [
                                 "media"
                         ],
-                        "color": "rgb( 254 , 252 , 183 )"
+                        "color": "rgb( 145 , 228 , 216 )"
                 },
                 {
                         "year": 0,
@@ -10167,7 +10301,7 @@
                                 "date-time": "2022-10-24T18:33:37Z",
                                 "timestamp": 1666636417000
                         },
-                        "score": 54.051758,
+                        "score": 54.049088,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.researchsquare.com/article/rs-2151593/v1"
@@ -10204,10 +10338,22 @@
                                 "Sohag University",
                                 "University of Illinois Chicago"
                         ],
+                        "affs_found": [
+                                "The University of Chicago",
+                                "University of Kansas Medical Center",
+                                "Sohag University",
+                                "University of Illinois Chicago"
+                        ],
+                        "affs_combine": [
+                                "The University of Chicago",
+                                "University of Kansas Medical Center",
+                                "Sohag University",
+                                "University of Illinois Chicago"
+                        ],
                         "groups": [
                                 "exosome"
                         ],
-                        "color": "rgb( 142 , 228 , 129 )"
+                        "color": "rgb( 232 , 230 , 210 )"
                 },
                 {
                         "year": 0,
@@ -11080,7 +11226,7 @@
                                 "date-time": "2022-05-27T17:04:10Z",
                                 "timestamp": 1653671050000
                         },
-                        "score": 80.204,
+                        "score": 80.20461,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.nature.com/articles/s41551-021-00822-w"
@@ -11185,8 +11331,16 @@
                                 "Division of MR Research, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
                                 "Department of Chemistry, University of Science and Technology of China, Hefei, China"
                         ],
+                        "affs_found": [
+                                "Division of MR Research, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+                                "Department of Chemistry, University of Science and Technology of China, Hefei, China"
+                        ],
+                        "affs_combine": [
+                                "Division of MR Research, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+                                "Department of Chemistry, University of Science and Technology of China, Hefei, China"
+                        ],
                         "groups": [],
-                        "color": "rgb( 217 , 203 , 230 )"
+                        "color": "rgb( 175 , 158 , 188 )"
                 },
                 {
                         "year": 0,
@@ -11664,7 +11818,7 @@
                                 "date-time": "2022-07-20T12:08:34Z",
                                 "timestamp": 1658318914000
                         },
-                        "score": 64.3541,
+                        "score": 64.55576,
                         "resource": {
                                 "primary": {
                                         "URL": "http://journals.sagepub.com/doi/10.1177/00220345221084975"
@@ -11732,11 +11886,25 @@
                                 "Department of Oral Medicine, Infection, and Immunity, Harvard School of Dental Medicine, Boston, MA, USA",
                                 "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, PA, USA"
                         ],
+                        "affs_found": [
+                                "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond, VA, USA",
+                                "Department of Periodontology, Peking University School and Hospital of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Laboratory for Digital and Material Technology of Stomatology, Beijing Key Laboratory of Digital Stomatology, Beijing, People\u2019s Republic of China",
+                                "Department of Biomedical Engineering, Virginia Commonwealth University, Richmond, VA, USA",
+                                "Department of Oral Medicine, Infection, and Immunity, Harvard School of Dental Medicine, Boston, MA, USA",
+                                "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, PA, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Periodontics, School of Dentistry, Virginia Commonwealth University, Richmond, VA, USA",
+                                "Department of Periodontology, Peking University School and Hospital of Stomatology, National Clinical Research Center for Oral Diseases, National Engineering Laboratory for Digital and Material Technology of Stomatology, Beijing Key Laboratory of Digital Stomatology, Beijing, People\u2019s Republic of China",
+                                "Department of Biomedical Engineering, Virginia Commonwealth University, Richmond, VA, USA",
+                                "Department of Oral Medicine, Infection, and Immunity, Harvard School of Dental Medicine, Boston, MA, USA",
+                                "Department of Periodontics, School of Dental Medicine, University of Pennsylvania, PA, USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 129 , 197 , 135 )"
+                        "color": "rgb( 135 , 173 , 234 )"
                 },
                 {
                         "year": 0,
@@ -12284,7 +12452,7 @@
                                 "date-time": "2022-04-09T14:00:50Z",
                                 "timestamp": 1649512850000
                         },
-                        "score": 62.050262,
+                        "score": 61.959843,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/jbm.b.34998"
@@ -12384,12 +12552,18 @@
                         "affs": [
                                 "Department of Biomedical Engineering University of Michigan  Ann Arbor Michigan USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering University of Michigan  Ann Arbor Michigan USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering University of Michigan  Ann Arbor Michigan USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 155 , 158 , 229 )"
+                        "color": "rgb( 244 , 157 , 195 )"
                 },
                 {
                         "year": 0,
@@ -13228,7 +13402,7 @@
                                 "date-time": "2022-09-23T18:37:33Z",
                                 "timestamp": 1663958253000
                         },
-                        "score": 78.1762,
+                        "score": 78.17656,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fcell.2022.873603/full"
@@ -13277,11 +13451,17 @@
                         "affs": [
                                 "Emmaus Life Sciences, Inc, Torrance CA USA"
                         ],
+                        "affs_found": [
+                                "Emmaus Life Sciences, Inc, Torrance CA USA"
+                        ],
+                        "affs_combine": [
+                                "Emmaus Life Sciences, Inc, Torrance CA USA"
+                        ],
                         "groups": [
                                 "adipose",
                                 "cells"
                         ],
-                        "color": "rgb( 203 , 193 , 207 )"
+                        "color": "rgb( 148 , 240 , 236 )"
                 },
                 {
                         "year": 0,
@@ -13809,7 +13989,7 @@
                                 "date-time": "2022-09-23T22:14:53Z",
                                 "timestamp": 1663971293000
                         },
-                        "score": 70.42215,
+                        "score": 70.36838,
                         "resource": {
                                 "primary": {
                                         "URL": "http://journals.sagepub.com/doi/10.1177/03635465221083610"
@@ -13876,8 +14056,20 @@
                                 "Georgia Institute of Technology, Atlanta, Georgia, USA",
                                 "Phil and Penny Knight Campus for Accelerating Scientific Impact, University of Oregon, Eugene, OR, USA"
                         ],
+                        "affs_found": [
+                                "Emory University School of Medicine, Atlanta, Georgia, USA",
+                                "Atlanta Veterans Affairs Hospital, Atlanta, Georgia, USA",
+                                "Georgia Institute of Technology, Atlanta, Georgia, USA",
+                                "Phil and Penny Knight Campus for Accelerating Scientific Impact, University of Oregon, Eugene, OR, USA"
+                        ],
+                        "affs_combine": [
+                                "Emory University School of Medicine, Atlanta, Georgia, USA",
+                                "Atlanta Veterans Affairs Hospital, Atlanta, Georgia, USA",
+                                "Georgia Institute of Technology, Atlanta, Georgia, USA",
+                                "Phil and Penny Knight Campus for Accelerating Scientific Impact, University of Oregon, Eugene, OR, USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 192 , 151 , 230 )"
+                        "color": "rgb( 210 , 147 , 130 )"
                 },
                 {
                         "year": 0,
@@ -13980,7 +14172,7 @@
                                 "date-time": "2022-04-05T03:23:37Z",
                                 "timestamp": 1649129017000
                         },
-                        "score": 90.42874,
+                        "score": 90.41662,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.ssrn.com/abstract=4074835"
@@ -14025,10 +14217,16 @@
                         "affs": [
                                 "University of Illinois Urbana-Champaign"
                         ],
+                        "affs_found": [
+                                "University of Illinois Urbana-Champaign"
+                        ],
+                        "affs_combine": [
+                                "University of Illinois Urbana-Champaign"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 238 , 134 , 198 )"
+                        "color": "rgb( 214 , 205 , 193 )"
                 },
                 {
                         "year": 0,
@@ -14582,7 +14780,7 @@
                                 "date-time": "2022-01-19T08:48:43Z",
                                 "timestamp": 1642582123000
                         },
-                        "score": 59.99592,
+                        "score": 60.003616,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/adhm.202101995"
@@ -14678,11 +14876,27 @@
                                 "Department of Pediatrics Division of Pediatric Hematology/Oncology Aflac Cancer Center &amp; Blood Disorders Service of Children's Healthcare of Atlanta Emory University School of Medicine  Atlanta GA 30322 USA",
                                 "Woodruff School of Mechanical Engineering Georgia Institute of Technology  Atlanta GA 30313 USA"
                         ],
+                        "affs_found": [
+                                "School of Chemical and Biomolecular Engineering Georgia Institute of Technology  Atlanta GA 30318 USA",
+                                "Petit Institute of Bioengineering and Bioscience Georgia Institute of Technology  Atlanta GA 30332 USA",
+                                "College of Sciences Georgia Institute of Technology  Atlanta GA 30313 USA",
+                                "Coulter Department of Biomedical Engineering Georgia Institute of Technology &amp; Emory University  Atlanta GA 30332 USA",
+                                "Department of Pediatrics Division of Pediatric Hematology/Oncology Aflac Cancer Center &amp; Blood Disorders Service of Children's Healthcare of Atlanta Emory University School of Medicine  Atlanta GA 30322 USA",
+                                "Woodruff School of Mechanical Engineering Georgia Institute of Technology  Atlanta GA 30313 USA"
+                        ],
+                        "affs_combine": [
+                                "School of Chemical and Biomolecular Engineering Georgia Institute of Technology  Atlanta GA 30318 USA",
+                                "Petit Institute of Bioengineering and Bioscience Georgia Institute of Technology  Atlanta GA 30332 USA",
+                                "College of Sciences Georgia Institute of Technology  Atlanta GA 30313 USA",
+                                "Coulter Department of Biomedical Engineering Georgia Institute of Technology &amp; Emory University  Atlanta GA 30332 USA",
+                                "Department of Pediatrics Division of Pediatric Hematology/Oncology Aflac Cancer Center &amp; Blood Disorders Service of Children's Healthcare of Atlanta Emory University School of Medicine  Atlanta GA 30322 USA",
+                                "Woodruff School of Mechanical Engineering Georgia Institute of Technology  Atlanta GA 30313 USA"
+                        ],
                         "groups": [
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 179 , 246 , 147 )"
+                        "color": "rgb( 189 , 223 , 137 )"
                 },
                 {
                         "year": 0,
@@ -15220,7 +15434,7 @@
                                 "date-time": "2022-01-26T02:38:26Z",
                                 "timestamp": 1643164706000
                         },
-                        "score": 65.34361,
+                        "score": 65.34253,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/1422-0067/23/3/1017"
@@ -15288,11 +15502,21 @@
                                 "Department of Orthopaedic Surgery, Graduate School of Medicine, Osaka University, Osaka, Japan",
                                 "Departments of Pharmacology and Biochemistry and Molecular Biology, Institute of Personalized Medicine, Penn State University, Hershey PA USA"
                         ],
+                        "affs_found": [
+                                "Department of Orthopaedics, University of Maryland School of Medicine, Baltimore MD USA",
+                                "Department of Orthopaedic Surgery, Graduate School of Medicine, Osaka University, Osaka, Japan",
+                                "Departments of Pharmacology and Biochemistry and Molecular Biology, Institute of Personalized Medicine, Penn State University, Hershey PA USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Orthopaedics, University of Maryland School of Medicine, Baltimore MD USA",
+                                "Department of Orthopaedic Surgery, Graduate School of Medicine, Osaka University, Osaka, Japan",
+                                "Departments of Pharmacology and Biochemistry and Molecular Biology, Institute of Personalized Medicine, Penn State University, Hershey PA USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 246 , 224 , 153 )"
+                        "color": "rgb( 226 , 155 , 130 )"
                 },
                 {
                         "year": 0,
@@ -16088,7 +16312,7 @@
                                 "date-time": "2022-01-19T08:47:59Z",
                                 "timestamp": 1642582079000
                         },
-                        "score": 66.43888,
+                        "score": 66.43585,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/adhm.202101873"
@@ -16182,10 +16406,22 @@
                                 "Graduate School of Biomedical Engineering University of New South Wales  Sydney 2006 Australia",
                                 "Department of Oral and Maxillofacial Surgery and Special Dental Care University Medical Center Utrecht  Utrecht GA 3508 The Netherlands"
                         ],
+                        "affs_found": [
+                                "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
+                                "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
+                                "Graduate School of Biomedical Engineering University of New South Wales  Sydney 2006 Australia",
+                                "Department of Oral and Maxillofacial Surgery and Special Dental Care University Medical Center Utrecht  Utrecht GA 3508 The Netherlands"
+                        ],
+                        "affs_combine": [
+                                "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
+                                "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
+                                "Graduate School of Biomedical Engineering University of New South Wales  Sydney 2006 Australia",
+                                "Department of Oral and Maxillofacial Surgery and Special Dental Care University Medical Center Utrecht  Utrecht GA 3508 The Netherlands"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 169 , 252 , 130 )"
+                        "color": "rgb( 164 , 175 , 223 )"
                 },
                 {
                         "year": 0,
@@ -18004,7 +18240,7 @@
                                 "date-time": "2022-08-26T06:45:46Z",
                                 "timestamp": 1661496346000
                         },
-                        "score": 75.74257,
+                        "score": 75.73398,
                         "resource": {
                                 "primary": {
                                         "URL": "https://iopscience.iop.org/article/10.1088/1758-5090/ac8768"
@@ -18129,11 +18365,17 @@
                         "affs": [
                                 "Department of Bioengineering, Rice University, Houston, TX, USA"
                         ],
+                        "affs_found": [
+                                "Department of Bioengineering, Rice University, Houston, TX, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Bioengineering, Rice University, Houston, TX, USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "media"
                         ],
-                        "color": "rgb( 162 , 254 , 232 )"
+                        "color": "rgb( 241 , 131 , 141 )"
                 },
                 {
                         "year": 0,
@@ -18758,7 +19000,7 @@
                                 "date-time": "2022-06-13T09:25:04Z",
                                 "timestamp": 1655112304000
                         },
-                        "score": 74.49486,
+                        "score": 74.48317,
                         "resource": {
                                 "primary": {
                                         "URL": "http://xlink.rsc.org/?DOI=D2AN00222A"
@@ -18821,10 +19063,18 @@
                                 "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
                                 "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA"
                         ],
+                        "affs_found": [
+                                "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
+                                "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Electrical & Computer Engineering, University of Virginia, Charlottesville, Virginia-22904, USA",
+                                "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia-22904, USA"
+                        ],
                         "groups": [
                                 "adipose"
                         ],
-                        "color": "rgb( 233 , 140 , 183 )"
+                        "color": "rgb( 198 , 216 , 214 )"
                 },
                 {
                         "year": 0,
@@ -19213,7 +19463,7 @@
                                 "date-time": "2022-06-16T18:15:31Z",
                                 "timestamp": 1655403331000
                         },
-                        "score": 49.709106,
+                        "score": 49.694084,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.liebertpub.com/doi/10.1089/ten.tec.2022.0048"
@@ -19282,10 +19532,20 @@
                                 "Department of Biomedical Engineering, University of California, Davis, Davis, California, USA.",
                                 "Department of Orthopedic Trauma Surgery, Forrest General Hospital, Hattiesburg, Mississippi, USA."
                         ],
+                        "affs_found": [
+                                "Department of Orthopedic Surgery, School of Medicine, University of California Davis Health, Sacramento, California, USA.",
+                                "Department of Biomedical Engineering, University of California, Davis, Davis, California, USA.",
+                                "Department of Orthopedic Trauma Surgery, Forrest General Hospital, Hattiesburg, Mississippi, USA."
+                        ],
+                        "affs_combine": [
+                                "Department of Orthopedic Surgery, School of Medicine, University of California Davis Health, Sacramento, California, USA.",
+                                "Department of Biomedical Engineering, University of California, Davis, Davis, California, USA.",
+                                "Department of Orthopedic Trauma Surgery, Forrest General Hospital, Hattiesburg, Mississippi, USA."
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 129 , 227 , 134 )"
+                        "color": "rgb( 192 , 187 , 159 )"
                 },
                 {
                         "year": 0,
@@ -19859,7 +20119,7 @@
                                 "date-time": "2022-01-25T13:29:14Z",
                                 "timestamp": 1643117354000
                         },
-                        "score": 64.151276,
+                        "score": 64.14751,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/jbm.a.37267"
@@ -19962,12 +20222,20 @@
                                 "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
                                 "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China"
                         ],
+                        "affs_found": [
+                                "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
+                                "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China"
+                        ],
+                        "affs_combine": [
+                                "Meinig School of Biomedical Engineering Cornell University  Ithaca New York USA",
+                                "Institute of Bioengineering, Guangdong Academy of Sciences Guangdong Provincial Engineering Technology Research Center of Biomaterials  Guangzhou China"
+                        ],
                         "groups": [
                                 "adipose",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 161 , 158 , 142 )"
+                        "color": "rgb( 198 , 159 , 136 )"
                 },
                 {
                         "year": 0,
@@ -20457,7 +20725,7 @@
                                 "date-time": "2022-04-22T10:21:26Z",
                                 "timestamp": 1650622886000
                         },
-                        "score": 66.185844,
+                        "score": 66.08142,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/1422-0067/23/9/4633"
@@ -20524,10 +20792,18 @@
                                 "Department of Obstetrics and Gynecology, University of Chicago, Chicago IL USA",
                                 "Department of Radiation Oncology, University of Kansas Medical Center, Kansas City, KS USA"
                         ],
+                        "affs_found": [
+                                "Department of Obstetrics and Gynecology, University of Chicago, Chicago IL USA",
+                                "Department of Radiation Oncology, University of Kansas Medical Center, Kansas City, KS USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Obstetrics and Gynecology, University of Chicago, Chicago IL USA",
+                                "Department of Radiation Oncology, University of Kansas Medical Center, Kansas City, KS USA"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 155 , 211 , 204 )"
+                        "color": "rgb( 148 , 131 , 171 )"
                 },
                 {
                         "year": 0,
@@ -21608,7 +21884,7 @@
                                 "date-time": "2022-11-18T18:10:35Z",
                                 "timestamp": 1668795035000
                         },
-                        "score": 70.85581,
+                        "score": 70.85272,
                         "resource": {
                                 "primary": {
                                         "URL": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-022-03128-z"
@@ -21738,11 +22014,17 @@
                         "affs": [
                                 "Department of Ophthalmology and Visual Sciences, Illinois Eye and Ear Infirmary, University of Illinois at Chicago, Chicago IL USA"
                         ],
+                        "affs_found": [
+                                "Department of Ophthalmology and Visual Sciences, Illinois Eye and Ear Infirmary, University of Illinois at Chicago, Chicago IL USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Ophthalmology and Visual Sciences, Illinois Eye and Ear Infirmary, University of Illinois at Chicago, Chicago IL USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 195 , 244 , 165 )"
+                        "color": "rgb( 211 , 216 , 157 )"
                 },
                 {
                         "year": 0,
@@ -22144,7 +22426,7 @@
                                 "date-time": "2022-10-08T13:12:59Z",
                                 "timestamp": 1665234779000
                         },
-                        "score": 85.45228,
+                        "score": 85.44716,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/bit.28201"
@@ -22245,10 +22527,16 @@
                         "affs": [
                                 "Department of Biomedical Engineering University of Michigan Ann Arbor Michigan USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering University of Michigan Ann Arbor Michigan USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering University of Michigan Ann Arbor Michigan USA"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 215 , 230 , 136 )"
+                        "color": "rgb( 227 , 205 , 158 )"
                 },
                 {
                         "year": 0,
@@ -23211,7 +23499,7 @@
                                 "date-time": "2022-07-24T22:15:16Z",
                                 "timestamp": 1658700916000
                         },
-                        "score": 91.59561,
+                        "score": 91.58822,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S8756328221003641"
@@ -23294,10 +23582,20 @@
                                 "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
                                 "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand"
                         ],
+                        "affs_found": [
+                                "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                                "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                                "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand"
+                        ],
+                        "affs_combine": [
+                                "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                                "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
+                                "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 238 , 165 , 175 )"
+                        "color": "rgb( 169 , 181 , 179 )"
                 },
                 {
                         "year": 0,
@@ -23900,7 +24198,7 @@
                                 "date-time": "2022-07-11T09:56:31Z",
                                 "timestamp": 1657533391000
                         },
-                        "score": 63.762028,
+                        "score": 63.732853,
                         "resource": {
                                 "primary": {
                                         "URL": "https://iopscience.iop.org/article/10.1088/1748-605X/ac7cac"
@@ -24023,10 +24321,18 @@
                                 "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore",
                                 "Faculty of Materials and Energy, Institute for Clean Energy and Advanced Materials, Southwest University, Chongqing, China "
                         ],
+                        "affs_found": [
+                                "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore",
+                                "Faculty of Materials and Energy, Institute for Clean Energy and Advanced Materials, Southwest University, Chongqing, China "
+                        ],
+                        "affs_combine": [
+                                "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore",
+                                "Faculty of Materials and Energy, Institute for Clean Energy and Advanced Materials, Southwest University, Chongqing, China "
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 146 , 203 , 141 )"
+                        "color": "rgb( 127 , 197 , 183 )"
                 },
                 {
                         "year": 0,
@@ -24566,7 +24872,7 @@
                                 "date-time": "2022-10-28T19:53:59Z",
                                 "timestamp": 1666986839000
                         },
-                        "score": 86.86889,
+                        "score": 86.86566,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.11.05.467366"
@@ -24609,11 +24915,17 @@
                         "affs": [
                                 "Department of Biomedical Engineering, University of Kentucky, Lexington KY USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering, University of Kentucky, Lexington KY USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering, University of Kentucky, Lexington KY USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells"
                         ],
-                        "color": "rgb( 158 , 146 , 193 )"
+                        "color": "rgb( 206 , 208 , 198 )"
                 },
                 {
                         "year": 0,
@@ -25923,7 +26235,7 @@
                                 "date-time": "2022-08-19T21:37:28Z",
                                 "timestamp": 1660945048000
                         },
-                        "score": 71.10149,
+                        "score": 71.0986,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0142961222003143"
@@ -26006,8 +26318,14 @@
                         "affs": [
                                 "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
                         ],
+                        "affs_found": [
+                                "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
+                        ],
+                        "affs_combine": [
+                                "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
+                        ],
                         "groups": [],
-                        "color": "rgb( 246 , 230 , 237 )"
+                        "color": "rgb( 197 , 186 , 242 )"
                 },
                 {
                         "year": 0,
@@ -27018,7 +27336,7 @@
                                 "date-time": "2022-08-23T17:23:57Z",
                                 "timestamp": 1661275437000
                         },
-                        "score": 71.82878,
+                        "score": 71.827194,
                         "resource": {
                                 "primary": {
                                         "URL": "https://academic.oup.com/stcltm/article/11/8/861/6610955"
@@ -27108,11 +27426,33 @@
                                 "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de enfermedades hep\u00e1ticas y digestivas (CIBERehd), Instituto de Salud Carlos III , Madrid , Spain",
                                 "IKERBASQUE, Basque Foundation for Science , Bilbao, Bizkaia , Spain"
                         ],
+                        "affs_found": [
+                                "Regenerative Biology Group, Oral and Biomedical Sciences, School of Dentistry, Cardiff University , Cardiff, Wales , UK",
+                                "Cardiff Institute of Tissue Engineering and Repair, Cardiff University , Cardiff, Wales , UK",
+                                "PETIC, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Division of Cancer and Genetics, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Systems Immunity Research Institute, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Division of Infection and Immunity, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Exosomes Laboratory, Center for Cooperative Research in Biosciences (CIC bioGUNE), Basque Research and Technology Alliance (BRTA) , Derio, Bizkaia , Spain",
+                                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de enfermedades hep\u00e1ticas y digestivas (CIBERehd), Instituto de Salud Carlos III , Madrid , Spain",
+                                "IKERBASQUE, Basque Foundation for Science , Bilbao, Bizkaia , Spain"
+                        ],
+                        "affs_combine": [
+                                "Regenerative Biology Group, Oral and Biomedical Sciences, School of Dentistry, Cardiff University , Cardiff, Wales , UK",
+                                "Cardiff Institute of Tissue Engineering and Repair, Cardiff University , Cardiff, Wales , UK",
+                                "PETIC, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Division of Cancer and Genetics, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Systems Immunity Research Institute, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Division of Infection and Immunity, School of Medicine, Cardiff University , Cardiff, Wales , UK",
+                                "Exosomes Laboratory, Center for Cooperative Research in Biosciences (CIC bioGUNE), Basque Research and Technology Alliance (BRTA) , Derio, Bizkaia , Spain",
+                                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de enfermedades hep\u00e1ticas y digestivas (CIBERehd), Instituto de Salud Carlos III , Madrid , Spain",
+                                "IKERBASQUE, Basque Foundation for Science , Bilbao, Bizkaia , Spain"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 236 , 202 , 188 )"
+                        "color": "rgb( 182 , 190 , 183 )"
                 },
                 {
                         "year": 0,
@@ -27762,7 +28102,7 @@
                                 "date-time": "2022-05-23T10:06:36Z",
                                 "timestamp": 1653300396000
                         },
-                        "score": 70.714294,
+                        "score": 70.7184,
                         "resource": {
                                 "primary": {
                                         "URL": "https://journals.lww.com/10.1097/TA.0000000000003487"
@@ -27824,11 +28164,19 @@
                                 "Department of Surgery, University of California, San Francisco",
                                 "Vitalant Research Institute, San Francisco, California"
                         ],
+                        "affs_found": [
+                                "Department of Surgery, University of California, San Francisco",
+                                "Vitalant Research Institute, San Francisco, California"
+                        ],
+                        "affs_combine": [
+                                "Department of Surgery, University of California, San Francisco",
+                                "Vitalant Research Institute, San Francisco, California"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 195 , 204 , 190 )"
+                        "color": "rgb( 194 , 161 , 153 )"
                 },
                 {
                         "year": 0,
@@ -28908,7 +29256,7 @@
                                 "date-time": "2022-11-19T10:38:30Z",
                                 "timestamp": 1668854310000
                         },
-                        "score": 79.99794,
+                        "score": 79.99876,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352187222004569"
@@ -28988,11 +29336,17 @@
                         "affs": [
                                 "Marrow Adiposity and Bone Lab, University of Lille, France"
                         ],
+                        "affs_found": [
+                                "Marrow Adiposity and Bone Lab, University of Lille, France"
+                        ],
+                        "affs_combine": [
+                                "Marrow Adiposity and Bone Lab, University of Lille, France"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells"
                         ],
-                        "color": "rgb( 197 , 212 , 180 )"
+                        "color": "rgb( 196 , 200 , 129 )"
                 },
                 {
                         "year": 0,
@@ -29938,7 +30292,7 @@
                                 "date-time": "2022-07-06T13:30:30Z",
                                 "timestamp": 1657114230000
                         },
-                        "score": 72.40502,
+                        "score": 72.403244,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.874698/full"
@@ -29987,11 +30341,17 @@
                         "affs": [
                                 "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA"
                         ],
+                        "affs_found": [
+                                "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Pediatric Surgery, McGovern Medical School, University of Texas Health, Houston, TX, USA"
+                        ],
                         "groups": [
                                 "adipose",
                                 "bone"
                         ],
-                        "color": "rgb( 145 , 173 , 208 )"
+                        "color": "rgb( 166 , 164 , 245 )"
                 },
                 {
                         "year": 0,
@@ -30521,7 +30881,7 @@
                                 "date-time": "2022-07-06T17:21:56Z",
                                 "timestamp": 1657128116000
                         },
-                        "score": 58.010666,
+                        "score": 58.010117,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fendo.2022.881699/full"
@@ -30569,10 +30929,16 @@
                         "affs": [
                                 "Hospital Center University De Lille, 2 Av. Oscar Lambret, 59000 Lille, France"
                         ],
+                        "affs_found": [
+                                "Hospital Center University De Lille, 2 Av. Oscar Lambret, 59000 Lille, France"
+                        ],
+                        "affs_combine": [
+                                "Hospital Center University De Lille, 2 Av. Oscar Lambret, 59000 Lille, France"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 230 , 204 , 193 )"
+                        "color": "rgb( 234 , 127 , 187 )"
                 },
                 {
                         "year": 0,
@@ -31620,7 +31986,7 @@
                                 "date-time": "2022-06-04T10:42:38Z",
                                 "timestamp": 1654339358000
                         },
-                        "score": 81.13532,
+                        "score": 81.13468,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590006421001022"
@@ -31704,11 +32070,17 @@
                         "affs": [
                                 "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, USA"
                         ],
+                        "affs_found": [
+                                "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, USA"
+                        ],
+                        "affs_combine": [
+                                "Ralph E. Martin Department of Chemical Engineering, University of Arkansas, Fayetteville, AR, USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells"
                         ],
-                        "color": "rgb( 154 , 168 , 132 )"
+                        "color": "rgb( 189 , 244 , 247 )"
                 },
                 {
                         "year": 0,
@@ -32687,7 +33059,7 @@
                                 "date-time": "2022-05-25T19:49:02Z",
                                 "timestamp": 1653508142000
                         },
-                        "score": 87.55995,
+                        "score": 87.56133,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.01.446428"
@@ -32730,13 +33102,19 @@
                         "affs": [
                                 "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA"
                         ],
+                        "affs_found": [
+                                "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA"
+                        ],
+                        "affs_combine": [
+                                "The Wallace H. Coulter Department of Biomedical Engineering, Georgia Tech, Emory, Atlanta, GA"
+                        ],
                         "groups": [
                                 "adipose",
                                 "bone",
                                 "cells",
                                 "umbilical_cord"
                         ],
-                        "color": "rgb( 180 , 217 , 152 )"
+                        "color": "rgb( 236 , 213 , 213 )"
                 },
                 {
                         "year": 0,
@@ -33148,7 +33526,7 @@
                                 "date-time": "2022-06-09T15:06:14Z",
                                 "timestamp": 1654787174000
                         },
-                        "score": 71.16893,
+                        "score": 71.17031,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/2076-3417/12/12/5773"
@@ -33213,10 +33591,18 @@
                                 "iBET, Instituto de Biologia Experimental e Tecnol\u00f3gica, Oeiras, Portugal",
                                 "GIAAPP/ISEL, Pulsed Power Advanced Applications Group, Lisbon Engineering Superior Institute, Lisbon, Portugal"
                         ],
+                        "affs_found": [
+                                "iBET, Instituto de Biologia Experimental e Tecnol\u00f3gica, Oeiras, Portugal",
+                                "GIAAPP/ISEL, Pulsed Power Advanced Applications Group, Lisbon Engineering Superior Institute, Lisbon, Portugal"
+                        ],
+                        "affs_combine": [
+                                "iBET, Instituto de Biologia Experimental e Tecnol\u00f3gica, Oeiras, Portugal",
+                                "GIAAPP/ISEL, Pulsed Power Advanced Applications Group, Lisbon Engineering Superior Institute, Lisbon, Portugal"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 216 , 235 , 244 )"
+                        "color": "rgb( 210 , 161 , 243 )"
                 },
                 {
                         "year": 0,
@@ -33823,7 +34209,7 @@
                                 "date-time": "2022-08-08T13:20:29Z",
                                 "timestamp": 1659964829000
                         },
-                        "score": 57.51317,
+                        "score": 57.516434,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.03.502409"
@@ -33857,10 +34243,16 @@
                         "affs": [
                                 "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Emory University, Atlanta, GA, USA"
                         ],
+                        "affs_found": [
+                                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Emory University, Atlanta, GA, USA"
+                        ],
+                        "affs_combine": [
+                                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology, Emory University, Atlanta, GA, USA"
+                        ],
                         "groups": [
                                 "cells"
                         ],
-                        "color": "rgb( 239 , 170 , 141 )"
+                        "color": "rgb( 206 , 234 , 240 )"
                 },
                 {
                         "year": 0,
@@ -34381,7 +34773,7 @@
                                 "date-time": "2022-11-09T12:39:45Z",
                                 "timestamp": 1667997585000
                         },
-                        "score": 72.91839,
+                        "score": 72.74573,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/2076-3417/12/21/11015"
@@ -34445,10 +34837,16 @@
                         "affs": [
                                 "Department of Biomedical Engineering, Purdue School of Engineering, Indiana University-Purdue University Indianapolis, Indianapolis, IN, USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering, Purdue School of Engineering, Indiana University-Purdue University Indianapolis, Indianapolis, IN, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering, Purdue School of Engineering, Indiana University-Purdue University Indianapolis, Indianapolis, IN, USA"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 146 , 141 , 254 )"
+                        "color": "rgb( 242 , 250 , 231 )"
                 },
                 {
                         "year": 0,
@@ -34785,7 +35183,7 @@
                                 "date-time": "2022-08-29T09:55:19Z",
                                 "timestamp": 1661766919000
                         },
-                        "score": 56.25462,
+                        "score": 56.25418,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.25.505255"
@@ -34819,8 +35217,14 @@
                         "affs": [
                                 "Kolling Institute, Faculty of Medicine and Health, University of Sydney, NSW, Australia"
                         ],
+                        "affs_found": [
+                                "Kolling Institute, Faculty of Medicine and Health, University of Sydney, NSW, Australia"
+                        ],
+                        "affs_combine": [
+                                "Kolling Institute, Faculty of Medicine and Health, University of Sydney, NSW, Australia"
+                        ],
                         "groups": [],
-                        "color": "rgb( 188 , 214 , 164 )"
+                        "color": "rgb( 168 , 200 , 254 )"
                 },
                 {
                         "year": 0,
@@ -35046,7 +35450,7 @@
                                 "date-time": "2022-05-27T21:25:20Z",
                                 "timestamp": 1653686720000
                         },
-                        "score": 70.90083,
+                        "score": 70.89951,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.05.25.493259"
@@ -35080,8 +35484,14 @@
                         "affs": [
                                 "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
                         ],
+                        "affs_found": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
+                        ],
+                        "affs_combine": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia"
+                        ],
                         "groups": [],
-                        "color": "rgb( 246 , 243 , 153 )"
+                        "color": "rgb( 218 , 214 , 247 )"
                 },
                 {
                         "year": 0,
@@ -35765,7 +36175,7 @@
                                 "date-time": "2022-09-21T10:08:31Z",
                                 "timestamp": 1663754911000
                         },
-                        "score": 56.00774,
+                        "score": 56.11204,
                         "resource": {
                                 "primary": {
                                         "URL": "http://xlink.rsc.org/?DOI=D2RA04841H"
@@ -35821,8 +36231,18 @@
                                 "Faculty of Chemistry, Warsaw University of Technology, Noakowskiego 3 St., 00-664 Warsaw, Poland",
                                 "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, 5 Pawinskiego St., 02-106 Warsaw, Poland"
                         ],
+                        "affs_found": [
+                                "Institute of Fundamental Technological Research, Polish Academy of Sciences, Pawinskiego 5b St., 02-106 Warsaw, Poland",
+                                "Faculty of Chemistry, Warsaw University of Technology, Noakowskiego 3 St., 00-664 Warsaw, Poland",
+                                "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, 5 Pawinskiego St., 02-106 Warsaw, Poland"
+                        ],
+                        "affs_combine": [
+                                "Institute of Fundamental Technological Research, Polish Academy of Sciences, Pawinskiego 5b St., 02-106 Warsaw, Poland",
+                                "Faculty of Chemistry, Warsaw University of Technology, Noakowskiego 3 St., 00-664 Warsaw, Poland",
+                                "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, 5 Pawinskiego St., 02-106 Warsaw, Poland"
+                        ],
                         "groups": [],
-                        "color": "rgb( 206 , 154 , 239 )"
+                        "color": "rgb( 207 , 210 , 211 )"
                 },
                 {
                         "year": 0,
@@ -36771,7 +37191,7 @@
                                 "date-time": "2022-07-30T18:41:27Z",
                                 "timestamp": 1659206487000
                         },
-                        "score": 66.18683,
+                        "score": 66.185905,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1465324921007751"
@@ -36866,8 +37286,14 @@
                         "affs": [
                                 "School of Chemical, Materials, and Biomedical Engineering, University of Georgia, Athens, Georgia, USA"
                         ],
+                        "affs_found": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia, Athens, Georgia, USA"
+                        ],
+                        "affs_combine": [
+                                "School of Chemical, Materials, and Biomedical Engineering, University of Georgia, Athens, Georgia, USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 230 , 220 , 193 )"
+                        "color": "rgb( 210 , 134 , 181 )"
                 },
                 {
                         "year": 0,
@@ -37531,7 +37957,7 @@
                                 "date-time": "2022-08-08T12:30:52Z",
                                 "timestamp": 1659961852000
                         },
-                        "score": 83.35649,
+                        "score": 83.357735,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.03.502671"
@@ -37565,8 +37991,14 @@
                         "affs": [
                                 "Mcketta Department of Chemical Engineering, University of Texas at Austin, Austin, TX"
                         ],
+                        "affs_found": [
+                                "Mcketta Department of Chemical Engineering, University of Texas at Austin, Austin, TX"
+                        ],
+                        "affs_combine": [
+                                "Mcketta Department of Chemical Engineering, University of Texas at Austin, Austin, TX"
+                        ],
                         "groups": [],
-                        "color": "rgb( 171 , 165 , 170 )"
+                        "color": "rgb( 241 , 171 , 214 )"
                 },
                 {
                         "year": 0,
@@ -38223,7 +38655,7 @@
                                 "date-time": "2022-02-02T08:31:50Z",
                                 "timestamp": 1643790710000
                         },
-                        "score": 90.821556,
+                        "score": 90.81587,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/adhm.202101357"
@@ -38317,8 +38749,20 @@
                                 "Depeartment of Electrical and Computer Engineering Old Dominion University  Norfolk VA 23508 USA",
                                 "Department of Orthopaedic Surgery San Antonio Military Medical Center  USAF 59th MDW San Antonio TX 78234 USA"
                         ],
+                        "affs_found": [
+                                "Embody, Inc.  Norfolk VA 23508 USA",
+                                "Department of Biomedical Engineering and Orthopaedic Surgery University of Virginia  Charlottesville VA 22903 USA",
+                                "Depeartment of Electrical and Computer Engineering Old Dominion University  Norfolk VA 23508 USA",
+                                "Department of Orthopaedic Surgery San Antonio Military Medical Center  USAF 59th MDW San Antonio TX 78234 USA"
+                        ],
+                        "affs_combine": [
+                                "Embody, Inc.  Norfolk VA 23508 USA",
+                                "Department of Biomedical Engineering and Orthopaedic Surgery University of Virginia  Charlottesville VA 22903 USA",
+                                "Depeartment of Electrical and Computer Engineering Old Dominion University  Norfolk VA 23508 USA",
+                                "Department of Orthopaedic Surgery San Antonio Military Medical Center  USAF 59th MDW San Antonio TX 78234 USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 127 , 219 , 133 )"
+                        "color": "rgb( 137 , 163 , 158 )"
                 },
                 {
                         "year": 0,
@@ -39025,7 +39469,7 @@
                                 "date-time": "2022-03-09T09:33:14Z",
                                 "timestamp": 1646818394000
                         },
-                        "score": 76.7424,
+                        "score": 76.71385,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fbioe.2022.838415/full"
@@ -39076,13 +39520,19 @@
                         "affs": [
                                 "Advanced Solutions Life Sciences, Louisville, KY, USA"
                         ],
+                        "affs_found": [
+                                "Advanced Solutions Life Sciences, Louisville, KY, USA"
+                        ],
+                        "affs_combine": [
+                                "Advanced Solutions Life Sciences, Louisville, KY, USA"
+                        ],
                         "groups": [
                                 "adipose",
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 157 , 182 , 146 )"
+                        "color": "rgb( 241 , 188 , 130 )"
                 },
                 {
                         "year": 0,
@@ -39868,7 +40318,7 @@
                                 "date-time": "2022-11-15T07:09:47Z",
                                 "timestamp": 1668496187000
                         },
-                        "score": 94.50514,
+                        "score": 94.28458,
                         "resource": {
                                 "primary": {
                                         "URL": "http://journals.sagepub.com/doi/10.1177/19476035221113959"
@@ -39939,10 +40389,30 @@
                                 "Cardiovascular Research Center, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
                                 "Orthopaedic Research Laboratories, Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
                         ],
+                        "affs_found": [
+                                "Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Department of Chemical Engineering, The Cooper Union for the Advancement of Science and Art, New York, NY, USA",
+                                "Department of Chemical Engineering, New Jersey Institute of Technology, Newark, NJ, USA",
+                                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Mount Sinai Center for Transformative Disease Modeling, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Cardiovascular Research Center, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Orthopaedic Research Laboratories, Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                        ],
+                        "affs_combine": [
+                                "Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Department of Chemical Engineering, The Cooper Union for the Advancement of Science and Art, New York, NY, USA",
+                                "Department of Chemical Engineering, New Jersey Institute of Technology, Newark, NJ, USA",
+                                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Mount Sinai Center for Transformative Disease Modeling, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Cardiovascular Research Center, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                                "Orthopaedic Research Laboratories, Leni and Peter W. May Department of Orthopaedics, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                        ],
                         "groups": [
                                 "exosome"
                         ],
-                        "color": "rgb( 217 , 159 , 251 )"
+                        "color": "rgb( 222 , 189 , 231 )"
                 },
                 {
                         "year": 0,
@@ -40513,7 +40983,7 @@
                                 "date-time": "2022-02-08T15:27:56Z",
                                 "timestamp": 1644334076000
                         },
-                        "score": 84.90006,
+                        "score": 84.886,
                         "resource": {
                                 "primary": {
                                         "URL": "https://iopscience.iop.org/article/10.1088/1758-5090/ac4dd8"
@@ -40638,12 +41108,18 @@
                         "affs": [
                                 "Department of Biomedical Engineering, Pennsylvania State University, University Park, PA, USA"
                         ],
+                        "affs_found": [
+                                "Department of Biomedical Engineering, Pennsylvania State University, University Park, PA, USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Biomedical Engineering, Pennsylvania State University, University Park, PA, USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "cells",
                                 "media"
                         ],
-                        "color": "rgb( 171 , 129 , 207 )"
+                        "color": "rgb( 192 , 135 , 146 )"
                 },
                 {
                         "year": 0,
@@ -41460,7 +41936,7 @@
                                 "date-time": "2022-07-15T03:24:31Z",
                                 "timestamp": 1657855471000
                         },
-                        "score": 86.335434,
+                        "score": 86.32702,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/mame.202100863"
@@ -41554,10 +42030,20 @@
                                 "Experimental Surgery McGill University  Montreal H3G 1A4 Canada",
                                 "Orthopaedic Department Faculty of Medicine King Abdulaziz University  Jeddah 22252 Saudi Arabia"
                         ],
+                        "affs_found": [
+                                "Department of Mining and Materials Engineering McGill University  Montreal H3A 0E9 Canada",
+                                "Experimental Surgery McGill University  Montreal H3G 1A4 Canada",
+                                "Orthopaedic Department Faculty of Medicine King Abdulaziz University  Jeddah 22252 Saudi Arabia"
+                        ],
+                        "affs_combine": [
+                                "Department of Mining and Materials Engineering McGill University  Montreal H3A 0E9 Canada",
+                                "Experimental Surgery McGill University  Montreal H3G 1A4 Canada",
+                                "Orthopaedic Department Faculty of Medicine King Abdulaziz University  Jeddah 22252 Saudi Arabia"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 227 , 221 , 188 )"
+                        "color": "rgb( 150 , 186 , 172 )"
                 },
                 {
                         "year": 0,
@@ -41740,7 +42226,7 @@
                                 "date-time": "2022-11-01T15:04:12Z",
                                 "timestamp": 1667315052000
                         },
-                        "score": 55.386826,
+                        "score": 55.460907,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.researchsquare.com/article/rs-2093359/v1"
@@ -41777,10 +42263,22 @@
                                 "Theradep",
                                 "University College London"
                         ],
+                        "affs_found": [
+                                "UCL: University College London",
+                                "West Pharmaceutical Services Inc",
+                                "Theradep",
+                                "University College London"
+                        ],
+                        "affs_combine": [
+                                "UCL: University College London",
+                                "West Pharmaceutical Services Inc",
+                                "Theradep",
+                                "University College London"
+                        ],
                         "groups": [
                                 "cells"
                         ],
-                        "color": "rgb( 134 , 154 , 234 )"
+                        "color": "rgb( 230 , 212 , 251 )"
                 },
                 {
                         "year": 0,
@@ -42204,7 +42702,7 @@
                                 "date-time": "2022-08-04T02:51:21Z",
                                 "timestamp": 1659581481000
                         },
-                        "score": 74.43718,
+                        "score": 74.41654,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/biot.202100605"
@@ -42275,8 +42773,18 @@
                                 "Department of Chemical and Biomolecular Engineering Clemson University  Clemson South Carolina USA",
                                 "Department of Biomedical Engineering University of Arkansas  Fayetteville Arkansas USA"
                         ],
+                        "affs_found": [
+                                "Ralph E. Martin Department of Chemical Engineering University of Arkansas  Fayetteville Arkansas USA",
+                                "Department of Chemical and Biomolecular Engineering Clemson University  Clemson South Carolina USA",
+                                "Department of Biomedical Engineering University of Arkansas  Fayetteville Arkansas USA"
+                        ],
+                        "affs_combine": [
+                                "Ralph E. Martin Department of Chemical Engineering University of Arkansas  Fayetteville Arkansas USA",
+                                "Department of Chemical and Biomolecular Engineering Clemson University  Clemson South Carolina USA",
+                                "Department of Biomedical Engineering University of Arkansas  Fayetteville Arkansas USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 224 , 224 , 242 )"
+                        "color": "rgb( 196 , 222 , 222 )"
                 },
                 {
                         "year": 0,
@@ -42733,7 +43241,7 @@
                                 "date-time": "2022-09-15T01:52:45Z",
                                 "timestamp": 1663206765000
                         },
-                        "score": 78.72342,
+                        "score": 78.71992,
                         "resource": {
                                 "primary": {
                                         "URL": "https://onlinelibrary.wiley.com/doi/10.1002/mabi.202200126"
@@ -42827,10 +43335,18 @@
                                 "Department of Chemical and Biological Engineering Colorado School of Mines  Golden CO 80401 USA",
                                 "Department of Orthopedics University of Colorado Anschutz Medical Campus  Aurora CO 80045 USA"
                         ],
+                        "affs_found": [
+                                "Department of Chemical and Biological Engineering Colorado School of Mines  Golden CO 80401 USA",
+                                "Department of Orthopedics University of Colorado Anschutz Medical Campus  Aurora CO 80045 USA"
+                        ],
+                        "affs_combine": [
+                                "Department of Chemical and Biological Engineering Colorado School of Mines  Golden CO 80401 USA",
+                                "Department of Orthopedics University of Colorado Anschutz Medical Campus  Aurora CO 80045 USA"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 223 , 142 , 180 )"
+                        "color": "rgb( 239 , 149 , 164 )"
                 },
                 {
                         "year": 0,
@@ -43259,7 +43775,7 @@
                                 "date-time": "2022-02-24T04:11:30Z",
                                 "timestamp": 1645675890000
                         },
-                        "score": 59.78032,
+                        "score": 59.77672,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/1422-0067/23/5/2465"
@@ -43327,10 +43843,20 @@
                                 "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
                                 "FMC Biopolymer AS, Sandvika, Norway"
                         ],
+                        "affs_found": [
+                                "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
+                                "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
+                                "FMC Biopolymer AS, Sandvika, Norway"
+                        ],
+                        "affs_combine": [
+                                "NeuroRepair Department, Mossakowski Medical Research Institute, Polish Academy of Sciences, Warsaw, Poland",
+                                "ICVS/3B\u2019s\u2014PT, Government Associated Laboratory, Guimaraes, Portugal",
+                                "FMC Biopolymer AS, Sandvika, Norway"
+                        ],
                         "groups": [
                                 "adipose"
                         ],
-                        "color": "rgb( 137 , 229 , 129 )"
+                        "color": "rgb( 193 , 176 , 249 )"
                 },
                 {
                         "year": 0,
@@ -43929,7 +44455,7 @@
                                 "date-time": "2022-06-25T23:26:33Z",
                                 "timestamp": 1656199593000
                         },
-                        "score": 81.22824,
+                        "score": 81.229324,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S014381662200121X"
@@ -44011,10 +44537,16 @@
                         "affs": [
                                 "Institute of Micromechanics and Photonics, Warsaw University of Technology, Warsaw, Poland"
                         ],
+                        "affs_found": [
+                                "Institute of Micromechanics and Photonics, Warsaw University of Technology, Warsaw, Poland"
+                        ],
+                        "affs_combine": [
+                                "Institute of Micromechanics and Photonics, Warsaw University of Technology, Warsaw, Poland"
+                        ],
                         "groups": [
                                 "media"
                         ],
-                        "color": "rgb( 167 , 159 , 187 )"
+                        "color": "rgb( 135 , 212 , 210 )"
                 },
                 {
                         "year": 0,
@@ -46757,7 +47289,7 @@
                                 "date-time": "2022-11-22T10:10:33Z",
                                 "timestamp": 1669111833000
                         },
-                        "score": 54.85875,
+                        "score": 54.856518,
                         "resource": {
                                 "primary": {
                                         "URL": "https://pubs.acs.org/doi/10.1021/acsnano.2c08774"
@@ -46824,10 +47356,16 @@
                         "affs": [
                                 "CAS, a Division of the American Chemical Society, 2540 Olentangy River Rd, Columbus, Ohio 43202, United States"
                         ],
+                        "affs_found": [
+                                "CAS, a Division of the American Chemical Society, 2540 Olentangy River Rd, Columbus, Ohio 43202, United States"
+                        ],
+                        "affs_combine": [
+                                "CAS, a Division of the American Chemical Society, 2540 Olentangy River Rd, Columbus, Ohio 43202, United States"
+                        ],
                         "groups": [
                                 "exosome"
                         ],
-                        "color": "rgb( 158 , 224 , 250 )"
+                        "color": "rgb( 161 , 154 , 137 )"
                 },
                 {
                         "year": 0,
@@ -47545,7 +48083,7 @@
                                 "date-time": "2022-06-04T08:25:41Z",
                                 "timestamp": 1654331141000
                         },
-                        "score": 65.965096,
+                        "score": 65.870735,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.01.494362"
@@ -47580,8 +48118,16 @@
                                 "Critical Analytics for Manufacturing of Personalized Medicine, Singapore-MIT Alliance for Research and Technology, National University of Singapore",
                                 "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA"
                         ],
+                        "affs_found": [
+                                "Critical Analytics for Manufacturing of Personalized Medicine, Singapore-MIT Alliance for Research and Technology, National University of Singapore",
+                                "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA"
+                        ],
+                        "affs_combine": [
+                                "Critical Analytics for Manufacturing of Personalized Medicine, Singapore-MIT Alliance for Research and Technology, National University of Singapore",
+                                "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 194 , 232 , 136 )"
+                        "color": "rgb( 175 , 250 , 187 )"
                 },
                 {
                         "year": 0,
@@ -48395,7 +48941,7 @@
                                 "date-time": "2022-09-08T23:10:01Z",
                                 "timestamp": 1662678601000
                         },
-                        "score": 58.29216,
+                        "score": 58.288956,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0958166922001100"
@@ -48477,10 +49023,18 @@
                                 "Codiak BioSciences, Cambridge, MA, USA",
                                 "Dept of Chemical and Biomolecular Engineering, Dept of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, TN, USA"
                         ],
+                        "affs_found": [
+                                "Codiak BioSciences, Cambridge, MA, USA",
+                                "Dept of Chemical and Biomolecular Engineering, Dept of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, TN, USA"
+                        ],
+                        "affs_combine": [
+                                "Codiak BioSciences, Cambridge, MA, USA",
+                                "Dept of Chemical and Biomolecular Engineering, Dept of Molecular Physiology and Biophysics, Vanderbilt University, Nashville, TN, USA"
+                        ],
                         "groups": [
                                 "exosome"
                         ],
-                        "color": "rgb( 216 , 189 , 209 )"
+                        "color": "rgb( 234 , 211 , 168 )"
                 },
                 {
                         "year": 0,
@@ -48689,7 +49243,7 @@
                                 "date-time": "2022-07-29T03:00:15Z",
                                 "timestamp": 1659063615000
                         },
-                        "score": 92.591805,
+                        "score": 92.59043,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.researchsquare.com/article/rs-847265/v1"
@@ -48736,11 +49290,25 @@
                                 "CCRT",
                                 "Universit\u00e9 de Montreal"
                         ],
+                        "affs_found": [
+                                "Universite de Montreal",
+                                "Lebanese University: Universite Libanaise",
+                                "McGill University",
+                                "CCRT",
+                                "Universit\u00e9 de Montreal"
+                        ],
+                        "affs_combine": [
+                                "Universite de Montreal",
+                                "Lebanese University: Universite Libanaise",
+                                "McGill University",
+                                "CCRT",
+                                "Universit\u00e9 de Montreal"
+                        ],
                         "groups": [
                                 "bone",
                                 "umbilical_cord"
                         ],
-                        "color": "rgb( 143 , 159 , 156 )"
+                        "color": "rgb( 202 , 128 , 133 )"
                 },
                 {
                         "year": 0,
@@ -48889,7 +49457,7 @@
                                 "date-time": "2018-09-23T03:22:32Z",
                                 "timestamp": 1537672952000
                         },
-                        "score": 76.0187,
+                        "score": 76.0229,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S146532491500660X"
@@ -48950,8 +49518,10 @@
                         "crossref_item_number": 0,
                         "doi_url": "http://dx.doi.org/10.1016/j.jcyt.2015.03.576",
                         "affs": [],
+                        "affs_found": [],
+                        "affs_combine": [],
                         "groups": [],
-                        "color": "rgb( 155 , 217 , 197 )"
+                        "color": "rgb( 179 , 238 , 216 )"
                 },
                 {
                         "year": 0,
@@ -49262,7 +49832,7 @@
                                 "date-time": "2022-06-02T09:00:00Z",
                                 "timestamp": 1654160400000
                         },
-                        "score": 73.62268,
+                        "score": 73.62355,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.mdpi.com/2073-4409/11/11/1816"
@@ -49322,8 +49892,16 @@
                                 "Department of Pharmacology and Physiology, Universite de Montreal, Montreal, Canada",
                                 "Department of Chemistry and Biochemistry, Lebanese University, Lebanon"
                         ],
+                        "affs_found": [
+                                "Department of Pharmacology and Physiology, Universite de Montreal, Montreal, Canada",
+                                "Department of Chemistry and Biochemistry, Lebanese University, Lebanon"
+                        ],
+                        "affs_combine": [
+                                "Department of Pharmacology and Physiology, Universite de Montreal, Montreal, Canada",
+                                "Department of Chemistry and Biochemistry, Lebanese University, Lebanon"
+                        ],
                         "groups": [],
-                        "color": "rgb( 245 , 162 , 140 )"
+                        "color": "rgb( 144 , 178 , 238 )"
                 },
                 {
                         "year": 0,
@@ -50087,7 +50665,7 @@
                                 "date-time": "2022-09-03T19:55:50Z",
                                 "timestamp": 1662234950000
                         },
-                        "score": 102.09671,
+                        "score": 102.15135,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.08.30.505860"
@@ -50121,11 +50699,17 @@
                         "affs": [
                                 "Fischell Department of Bioengineering, University of Maryland, College Park, MD USA"
                         ],
+                        "affs_found": [
+                                "Fischell Department of Bioengineering, University of Maryland, College Park, MD USA"
+                        ],
+                        "affs_combine": [
+                                "Fischell Department of Bioengineering, University of Maryland, College Park, MD USA"
+                        ],
                         "groups": [
                                 "bone",
                                 "exosome"
                         ],
-                        "color": "rgb( 163 , 171 , 154 )"
+                        "color": "rgb( 230 , 241 , 179 )"
                 },
                 {
                         "year": 0,
@@ -52481,7 +53065,7 @@
                                 "date-time": "2022-06-13T18:11:25Z",
                                 "timestamp": 1655143885000
                         },
-                        "score": 44.502594,
+                        "score": 44.502796,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.liebertpub.com/doi/10.1089/ten.teb.2021.0012"
@@ -52560,8 +53144,36 @@
                                 "Academic Department of Trauma and Orthopaedics, University of Leeds, Leeds, United Kingdom.",
                                 "Division of Plastic Surgery, Department of Surgery, Nemours/Alfred I. du Pont Hospital for Children, Wilmington, Delaware, USA."
                         ],
+                        "affs_found": [
+                                "Department of Bioengineering, Henry Samueli School of Engineering, University of California, Los Angeles, California, USA.",
+                                "Department of Biomedical Engineering, College of Engineering, Michigan State University, Michigan, USA.",
+                                "Advanced Pharmaceutics and Drug Delivery Laboratory, Leslie L. Dan Faculty of Pharmacy, University of Toronto, Toronto, Canada.",
+                                "Department of Chemistry, Faculty of Engineering, Istanbul University-Cerrahpasa, Istanbul, Turkey.",
+                                "Department of Materials Science and Engineering, Faculty of Engineering, University of Sheffield, Sheffield, United Kingdom.",
+                                "Faculty of Medicine, National Heart and Lung Institute, Imperial College London, London, United Kingdom.",
+                                "Department of Chemical Engineering and Material Science, College of Engineering, Michigan State University, East Lansing, Michigan, USA.",
+                                "Department of Radiological Sciences, David Geffen School of Medicine, University of California, Los Angeles, California, USA.",
+                                "Division of Cardiology, David Geffen School of Medicine, University of California, Los Angeles, and VA Greater Los Angeles Healthcare System, Los Angeles, California, USA.",
+                                "RoosterBio, Inc., Frederick, Maryland, USA.",
+                                "Academic Department of Trauma and Orthopaedics, University of Leeds, Leeds, United Kingdom.",
+                                "Division of Plastic Surgery, Department of Surgery, Nemours/Alfred I. du Pont Hospital for Children, Wilmington, Delaware, USA."
+                        ],
+                        "affs_combine": [
+                                "Department of Bioengineering, Henry Samueli School of Engineering, University of California, Los Angeles, California, USA.",
+                                "Department of Biomedical Engineering, College of Engineering, Michigan State University, Michigan, USA.",
+                                "Advanced Pharmaceutics and Drug Delivery Laboratory, Leslie L. Dan Faculty of Pharmacy, University of Toronto, Toronto, Canada.",
+                                "Department of Chemistry, Faculty of Engineering, Istanbul University-Cerrahpasa, Istanbul, Turkey.",
+                                "Department of Materials Science and Engineering, Faculty of Engineering, University of Sheffield, Sheffield, United Kingdom.",
+                                "Faculty of Medicine, National Heart and Lung Institute, Imperial College London, London, United Kingdom.",
+                                "Department of Chemical Engineering and Material Science, College of Engineering, Michigan State University, East Lansing, Michigan, USA.",
+                                "Department of Radiological Sciences, David Geffen School of Medicine, University of California, Los Angeles, California, USA.",
+                                "Division of Cardiology, David Geffen School of Medicine, University of California, Los Angeles, and VA Greater Los Angeles Healthcare System, Los Angeles, California, USA.",
+                                "RoosterBio, Inc., Frederick, Maryland, USA.",
+                                "Academic Department of Trauma and Orthopaedics, University of Leeds, Leeds, United Kingdom.",
+                                "Division of Plastic Surgery, Department of Surgery, Nemours/Alfred I. du Pont Hospital for Children, Wilmington, Delaware, USA."
+                        ],
                         "groups": [],
-                        "color": "rgb( 244 , 194 , 146 )"
+                        "color": "rgb( 186 , 253 , 153 )"
                 },
                 {
                         "year": 0,
@@ -53399,7 +54011,7 @@
                                 "date-time": "2022-11-18T16:21:50Z",
                                 "timestamp": 1668788510000
                         },
-                        "score": 94.52043,
+                        "score": 94.51481,
                         "resource": {
                                 "primary": {
                                         "URL": "https://iopscience.iop.org/article/10.1088/1758-5090/ac9f70"
@@ -53524,10 +54136,16 @@
                         "affs": [
                                 "Penn State, University Park, PA, USA"
                         ],
+                        "affs_found": [
+                                "Penn State, University Park, PA, USA"
+                        ],
+                        "affs_combine": [
+                                "Penn State, University Park, PA, USA"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 232 , 147 , 138 )"
+                        "color": "rgb( 238 , 186 , 221 )"
                 },
                 {
                         "year": 0,
@@ -54068,7 +54686,7 @@
                                 "date-time": "2022-03-03T15:21:17Z",
                                 "timestamp": 1646320877000
                         },
-                        "score": 54.9576,
+                        "score": 54.95775,
                         "resource": {
                                 "primary": {
                                         "URL": "https://academic.oup.com/stcltm/article/11/1/44/6534983"
@@ -54156,8 +54774,26 @@
                                 "Department of Anesthesiology and Pain Medicine, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
                                 "Department of Cellular and Molecular Medicine, University of Ottawa, Ottawa, ON, Canada"
                         ],
+                        "affs_found": [
+                                "Regenerative Medicine Program, The Ottawa Hospital Research Institute, Ottawa, ON, Canada",
+                                "Neonatal and Paediatric Intensive Care Unit, M. Bufalini Hospital, AUSL Romagna, Cesena, Italy",
+                                "Centre for Journalology, Clinical Epidemiology Program, The Ottawa Hospital Research Institute, Ottawa, ON, Canada",
+                                "School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
+                                "Neonatology, Department of Pediatrics, Children\u2019s Hospital of Eastern Ontario (CHEO) and CHEO Research Institute, Ottawa, ON, Canada",
+                                "Department of Anesthesiology and Pain Medicine, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
+                                "Department of Cellular and Molecular Medicine, University of Ottawa, Ottawa, ON, Canada"
+                        ],
+                        "affs_combine": [
+                                "Regenerative Medicine Program, The Ottawa Hospital Research Institute, Ottawa, ON, Canada",
+                                "Neonatal and Paediatric Intensive Care Unit, M. Bufalini Hospital, AUSL Romagna, Cesena, Italy",
+                                "Centre for Journalology, Clinical Epidemiology Program, The Ottawa Hospital Research Institute, Ottawa, ON, Canada",
+                                "School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
+                                "Neonatology, Department of Pediatrics, Children\u2019s Hospital of Eastern Ontario (CHEO) and CHEO Research Institute, Ottawa, ON, Canada",
+                                "Department of Anesthesiology and Pain Medicine, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
+                                "Department of Cellular and Molecular Medicine, University of Ottawa, Ottawa, ON, Canada"
+                        ],
                         "groups": [],
-                        "color": "rgb( 203 , 243 , 129 )"
+                        "color": "rgb( 192 , 175 , 129 )"
                 },
                 {
                         "year": 0,
@@ -54991,7 +55627,7 @@
                                 "date-time": "2022-02-01T13:26:14Z",
                                 "timestamp": 1643721974000
                         },
-                        "score": 76.92879,
+                        "score": 76.92676,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.01.28.478244"
@@ -55025,10 +55661,16 @@
                         "affs": [
                                 "Dept. of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL"
                         ],
+                        "affs_found": [
+                                "Dept. of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL"
+                        ],
+                        "affs_combine": [
+                                "Dept. of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL"
+                        ],
                         "groups": [
                                 "bone"
                         ],
-                        "color": "rgb( 210 , 190 , 233 )"
+                        "color": "rgb( 232 , 245 , 251 )"
                 },
                 {
                         "year": 0,
@@ -55340,7 +55982,7 @@
                                 "date-time": "2022-04-08T10:50:20Z",
                                 "timestamp": 1649415020000
                         },
-                        "score": 61.286774,
+                        "score": 61.17214,
                         "resource": {
                                 "primary": {
                                         "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.05.487240"
@@ -55374,8 +56016,14 @@
                         "affs": [
                                 "Division of Biomaterials and Biomechanics, Department of Restorative Dentistry, School of Dentistry, Oregon Health & Science University, Portland, OR, USA"
                         ],
+                        "affs_found": [
+                                "Division of Biomaterials and Biomechanics, Department of Restorative Dentistry, School of Dentistry, Oregon Health & Science University, Portland, OR, USA"
+                        ],
+                        "affs_combine": [
+                                "Division of Biomaterials and Biomechanics, Department of Restorative Dentistry, School of Dentistry, Oregon Health & Science University, Portland, OR, USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 251 , 219 , 127 )"
+                        "color": "rgb( 237 , 179 , 223 )"
                 },
                 {
                         "year": 0,
@@ -57884,7 +58532,7 @@
                                 "date-time": "2022-06-10T13:51:00Z",
                                 "timestamp": 1654869060000
                         },
-                        "score": 55.553463,
+                        "score": 55.553207,
                         "resource": {
                                 "primary": {
                                         "URL": "https://www.frontiersin.org/articles/10.3389/fvets.2022.897150/full"
@@ -57932,8 +58580,14 @@
                         "affs": [
                                 "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"
                         ],
+                        "affs_found": [
+                                "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"
+                        ],
+                        "affs_combine": [
+                                "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"
+                        ],
                         "groups": [],
-                        "color": "rgb( 168 , 177 , 200 )"
+                        "color": "rgb( 223 , 201 , 131 )"
                 },
                 {
                         "year": 0,
@@ -59094,7 +59748,7 @@
                                 "date-time": "2022-10-30T17:35:25Z",
                                 "timestamp": 1667151325000
                         },
-                        "score": 75.19736,
+                        "score": 75.075226,
                         "resource": {
                                 "primary": {
                                         "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0142961222004665"
@@ -59177,8 +59831,14 @@
                         "affs": [
                                 "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA"
                         ],
+                        "affs_found": [
+                                "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA"
+                        ],
+                        "affs_combine": [
+                                "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA"
+                        ],
                         "groups": [],
-                        "color": "rgb( 252 , 206 , 178 )"
+                        "color": "rgb( 161 , 245 , 172 )"
                 }
         ]
 }

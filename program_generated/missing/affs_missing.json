@@ -1,105 +1,35 @@
 {
-        "count": 33,
+        "count": 8,
         "affs": [
                 {
-                        "name": "Department of Thoracic/Head and Neck Medical Oncology",
-                        "edit_name": "Department of Thoracic/Head and Neck Medical Oncology",
-                        "name_edit": "Department of Thoracic/Head and Neck Medical Oncology"
-                },
-                {
-                        "name": "Department of Molecular and Cellular Oncology",
-                        "edit_name": "Department of Molecular and Cellular Oncology",
-                        "name_edit": "Department of Molecular and Cellular Oncology"
-                },
-                {
-                        "name": "Department of Molecular Physiology and Biophysics",
-                        "edit_name": "Department of Molecular Physiology and Biophysics",
-                        "name_edit": "Department of Molecular Physiology and Biophysics"
-                },
-                {
-                        "name": "BioSystems and Micromechanics Interdisciplinary Research Group",
-                        "edit_name": "BioSystems and Micromechanics Interdisciplinary Research Group",
-                        "name_edit": "BioSystems and Micromechanics Interdisciplinary Research Group"
-                },
-                {
-                        "name": "Singapore-MIT Alliance in Research and Technology",
-                        "edit_name": "Singapore-MIT Alliance in Research and Technology",
-                        "name_edit": "Singapore-MIT Alliance in Research and Technology"
-                },
-                {
-                        "name": "NUS Tissue Engineering Program",
-                        "edit_name": "NUS Tissue Engineering Program",
-                        "name_edit": "NUS Tissue Engineering Program"
-                },
-                {
-                        "name": "117510 Singapore",
-                        "edit_name": "117510 Singapore",
-                        "name_edit": "117510 Singapore"
-                },
-                {
-                        "name": "Department of Orthopaedic Surgery",
-                        "edit_name": "Department of Orthopaedic Surgery",
-                        "name_edit": "Department of Orthopaedic Surgery"
-                },
-                {
-                        "name": "Mechanobology Institute Singapore",
-                        "edit_name": "Mechanobology Institute Singapore",
-                        "name_edit": "Mechanobology Institute Singapore"
-                },
-                {
-                        "name": "Department of Cell Biology and Molecular GeneticsUniversity of MarylandCollege ParkMDUSA",
-                        "edit_name": "Department of Cell Biology and Molecular Genetics,University of Maryland, College ParkMDUSA",
-                        "name_edit": "Department of Cell Biology and Molecular Genetics,University of Maryland, College ParkMDUSA"
-                },
-                {
-                        "name": "BioIntel Research Laboratory",
-                        "edit_name": "BioIntel Research Laboratory",
-                        "name_edit": "BioIntel Research Laboratory"
-                },
-                {
-                        "name": "Bioengineering Graduate Program",
-                        "edit_name": "Bioengineering Graduate Program",
-                        "name_edit": "Bioengineering Graduate Program"
-                },
-                {
-                        "name": "Singapore Centre on Environmental Life Sciences Engineering (SCELSE)",
-                        "edit_name": "Singapore Centre on Environmental Life Sciences Engineering (SCELSE)",
-                        "name_edit": "Singapore Centre on Environmental Life Sciences Engineering (SCELSE)"
+                        "name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
+                        "edit_name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
+                        "name_edit": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore"
                 },
                 {
                         "name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland",
-                        "edit_name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland",
-                        "name_edit": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland"
+                        "edit_name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center , )Johns Hopkins UniversityBaltimoreMaryland",
+                        "name_edit": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center , )Johns Hopkins UniversityBaltimoreMaryland"
                 },
                 {
                         "name": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
-                        "edit_name": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
-                        "name_edit": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore"
+                        "edit_name": "Bioprocessing Technology Institute , ), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
+                        "name_edit": "Bioprocessing Technology Institute , ), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore"
                 },
                 {
                         "name": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
-                        "edit_name": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
-                        "name_edit": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore"
-                },
-                {
-                        "name": "School of Mechanical and Aerospace EngineeringNanyang Technological University (NTU)50 Nanyang Avenue Singapore 639798",
-                        "edit_name": "School of Mechanical and Aerospace EngineeringNanyang Technological University (NTU)50 Nanyang Avenue Singapore 639798",
-                        "name_edit": "School of Mechanical and Aerospace EngineeringNanyang Technological University (NTU)50 Nanyang Avenue Singapore 639798"
+                        "edit_name": "Singapore Bioimaging Consortium , ), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
+                        "name_edit": "Singapore Bioimaging Consortium , ), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore"
                 },
                 {
                         "name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
-                        "edit_name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
-                        "name_edit": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634"
+                        "edit_name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology , ), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
+                        "name_edit": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology , ), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634"
                 },
                 {
                         "name": "Centre for Nanofibers &amp; NanotechnologyNUS Nanoscience &amp; Nanotechnology Initiative Singapore",
                         "edit_name": "Centre for Nanofibers &amp, NanotechnologyNUS Nanoscience &amp, Nanotechnology Initiative Singapore",
                         "name_edit": "Centre for Nanofibers &amp, NanotechnologyNUS Nanoscience &amp, Nanotechnology Initiative Singapore"
-                },
-                {
-                        "name": "Ottawa-Carleton Institute for Biomedical Engineering",
-                        "edit_name": "Ottawa-Carleton Institute for Biomedical Engineering",
-                        "name_edit": "Ottawa-Carleton Institute for Biomedical Engineering"
                 },
                 {
                         "name": "Biomedical Engineering and ScienceVirginia Tech-Wake Forest University School of Biomedical Engineering and Science Winston-Salem North Carolina",
@@ -110,61 +40,6 @@
                         "name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
                         "edit_name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China",
                         "name_edit": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China"
-                },
-                {
-                        "name": "Department of Chemical and Biochemical Engineering",
-                        "edit_name": "Department of Chemical and Biochemical Engineering",
-                        "name_edit": "Department of Chemical and Biochemical Engineering"
-                },
-                {
-                        "name": "Materials Science Program",
-                        "edit_name": "Materials Science Program",
-                        "name_edit": "Materials Science Program"
-                },
-                {
-                        "name": "Department of Orthopedics and Rehabilitation",
-                        "edit_name": "Department of Orthopedics and Rehabilitation",
-                        "name_edit": "Department of Orthopedics and Rehabilitation"
-                },
-                {
-                        "name": "Graduate School of Biomedical Engineering",
-                        "edit_name": "Graduate School of Biomedical Engineering",
-                        "name_edit": "Graduate School of Biomedical Engineering"
-                },
-                {
-                        "name": "Department of Pharmacology and Toxicology",
-                        "edit_name": "Department of Pharmacology and Toxicology",
-                        "name_edit": "Department of Pharmacology and Toxicology"
-                },
-                {
-                        "name": "Department of Chemical Engineering University of Puerto Rico Mayaguez Mayaguez Puerto Rico USA",
-                        "edit_name": "Department of Chemical Engineering University of Puerto Rico Mayaguez Mayaguez Puerto Rico USA",
-                        "name_edit": "Department of Chemical Engineering University of Puerto Rico Mayaguez Mayaguez Puerto Rico USA"
-                },
-                {
-                        "name": "Ottawa-Carleton Institute for Biomedical Engineering (OCIBME)",
-                        "edit_name": "Ottawa-Carleton Institute for Biomedical Engineering (OCIBME)",
-                        "name_edit": "Ottawa-Carleton Institute for Biomedical Engineering (OCIBME)"
-                },
-                {
-                        "name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
-                        "edit_name": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden",
-                        "name_edit": "3D Bioprinting Centre, Department of Chemistry and Chemical Engineering Chalmers University of Technology  Goteborg Sweden"
-                },
-                {
-                        "name": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology Singapore Singapore",
-                        "edit_name": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology Singapore Singapore",
-                        "name_edit": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology Singapore Singapore"
-                },
-                {
-                        "name": "Department of Mechanical Engineering National University of Singapore Singapore Singapore",
-                        "edit_name": "Department of Mechanical Engineering National University of Singapore Singapore Singapore",
-                        "name_edit": "Department of Mechanical Engineering National University of Singapore Singapore Singapore"
-                },
-                {
-                        "name": "Department of Chemical & Biological Engineering",
-                        "edit_name": "Department of Chemical & Biological Engineering",
-                        "name_edit": "Department of Chemical & Biological Engineering"
                 }
         ]
 }

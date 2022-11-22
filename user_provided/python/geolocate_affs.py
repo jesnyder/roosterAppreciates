@@ -26,8 +26,6 @@ from admin import retrieve_list
 from admin import retrieve_path
 from admin import retrieve_ref
 
-from meta_pubs import list_affs
-
 
 def geolocate_affs():
     """
@@ -45,7 +43,6 @@ def geolocate_affs():
     if 3 in tasks: compile_located()
 
     print("completed geolocate_affs")
-
 
 
 def compile_located():
@@ -99,6 +96,13 @@ def edit_aff(name):
         name = aff['replacement']
         if aff['match_type'] == 'exact': name = aff['replacement']
         return(name)
+
+    if '(' in name:
+        if ')' in name:
+            i = name.index('(')
+            j = name.index(')')
+
+            name = str(name[0:i] + ', ' + name[j:])
 
 
     term = 'Universite de Montreal'
@@ -517,14 +521,13 @@ def list_all_affs():
 
         for pub in json_src['results']:
 
-            for aff in list_affs(pub):
+            for aff in pub['affs']:
 
                 aff = unidecode.unidecode(aff)
 
                 aff_json = {}
                 aff_json['name'] = aff
                 aff_json['edit_name'] = edit_aff(aff)
-
 
                 if aff_json in affs: continue
 

@@ -35,8 +35,9 @@ def main():
 
     print("running main")
 
+
+    tasks = [3]
     #tasks = [1]
-    tasks = [2]
 
     if 1 in tasks: list_pubs()
     if 2 in tasks: meta_pubs()

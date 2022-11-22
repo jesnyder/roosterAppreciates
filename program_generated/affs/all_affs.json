@@ -1,5 +1,5 @@
 {
-        "aff_count": 607,
+        "aff_count": 544,
         "affs": [
                 {
                         "name": "Department of Bioengineering, Rice University, Houston, TX 77005, USA.",
@@ -7,7 +7,7 @@
                 },
                 {
                         "name": "Department of Bioengineering, University of Washington, Seattle, WA 98195, USA.",
-                        "edit_name": "Department of Bioengineering, University of Washington, Seattle, WA 98195, USA."
+                        "edit_name": "Department of Bioengineering, University of Washington, Seattle, WA, USA."
                 },
                 {
                         "name": "Institute for Stem Cell and Regenerative Medicine, University of Washington, Seattle, WA 98195, USA.",
@@ -55,43 +55,15 @@
                 },
                 {
                         "name": "Pall Life Sciences (division of Pall Corp), Port Washington, New York, USA",
-                        "edit_name": "Pall Life Sciences (division of Pall Corp), Port Washington, New York, USA"
+                        "edit_name": "Pall Life Sciences , ), Port Washington, New York, USA"
                 },
                 {
                         "name": "Stem Cell Group, Bioprocessing Technology Institute, A*STAR, Singapore, Singapore",
                         "edit_name": "Stem Cell Group, Bioprocessing Technology Institute, A*STAR, Singapore, Singapore"
                 },
                 {
-                        "name": "Department of Bioengineering",
-                        "edit_name": "Department of Bioengineering"
-                },
-                {
-                        "name": "Rice University",
-                        "edit_name": "Rice University"
-                },
-                {
-                        "name": "Houston",
-                        "edit_name": "Houston"
-                },
-                {
-                        "name": "USA",
-                        "edit_name": "USA"
-                },
-                {
-                        "name": "Department of Thoracic/Head and Neck Medical Oncology",
-                        "edit_name": "Department of Thoracic/Head and Neck Medical Oncology"
-                },
-                {
-                        "name": "The University of Texas M. D. Anderson Cancer Center",
-                        "edit_name": " M. D. Anderson Cancer Center, The University of Texas"
-                },
-                {
-                        "name": "Department of BioSciences",
-                        "edit_name": "Department of BioSciences"
-                },
-                {
-                        "name": "Department of Molecular and Cellular Oncology",
-                        "edit_name": "Department of Molecular and Cellular Oncology"
+                        "name": "Department of Bioengineering, Rice University, Houston, USA",
+                        "edit_name": "Department of Bioengineering, Rice University, Houston, USA"
                 },
                 {
                         "name": "Department of Plastic Surgery, The Ohio State University, Columbus, Ohio.",
@@ -214,16 +186,8 @@
                         "edit_name": "Coagulation and Blood Research, US Army Institute of Surgical Research, San Antonio Military Medical Center, JBSA Ft Sam Houston, San Antonio, TX, USA"
                 },
                 {
-                        "name": "Department of Molecular Physiology and Biophysics",
-                        "edit_name": "Department of Molecular Physiology and Biophysics"
-                },
-                {
-                        "name": "Baylor College of Medicine",
-                        "edit_name": "Baylor College of Medicine"
-                },
-                {
                         "name": "Bioprocessing Technology Institute, Agency for Science, Technology, and Research (A*STAR), 138668 Singapore",
-                        "edit_name": "Bioprocessing Technology Institute, Agency for Science, Technology, and Research (A*STAR), 138668 Singapore"
+                        "edit_name": "Bioprocessing Technology Institute, Agency for Science, Technology, and Research , ), 138668 Singapore"
                 },
                 {
                         "name": "MiRXES, 10 Biopolis Road, Chromos 03-01, 138670 Singapore",
@@ -254,40 +218,32 @@
                         "edit_name": "Berlin-Brandenburg Center for Regenerative Therapies, 13353 Berlin Germany"
                 },
                 {
-                        "name": "School of Materials Science and Engineering",
-                        "edit_name": "School of Materials Science and Engineering"
+                        "name": "School of Materials Science and Engineering, Georgia Institute of Technology, USA",
+                        "edit_name": "School of Materials Science and Engineering, ,Georgia Institute of Technology, , USA"
                 },
                 {
-                        "name": "Georgia Institute of Technology",
-                        "edit_name": ",Georgia Institute of Technology, "
-                },
-                {
-                        "name": "School of Electrical and Computer Engineering",
-                        "edit_name": "School of Electrical and Computer Engineering"
-                },
-                {
-                        "name": "Department of Biomedical Engineering",
-                        "edit_name": "Department of Biomedical Engineering"
-                },
-                {
-                        "name": "Atlanta",
-                        "edit_name": "Atlanta"
-                },
-                {
-                        "name": "Biomedical Engineering Department",
-                        "edit_name": "Biomedical Engineering Department"
-                },
-                {
-                        "name": "University of Michigan",
-                        "edit_name": "University of Michigan"
-                },
-                {
-                        "name": "Ann Arbor",
-                        "edit_name": "Ann Arbor"
+                        "name": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, USA",
+                        "edit_name": "School of Materials Science and Engineering, ,Georgia Institute of Technology, , Atlanta, USA"
                 },
                 {
                         "name": "Meinig School of Biomedical Engineering, Cornell University, Ithaca, New York.",
                         "edit_name": "Meinig School of Biomedical Engineering, ,Cornell University, , Ithaca, New York."
+                },
+                {
+                        "name": "Department\rof Biological Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States",
+                        "edit_name": "Department\rof Biological Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+                },
+                {
+                        "name": "BioSystems\rand Micromechanics (BioSyM) Interdisciplinary Research Group, Singapore-MIT Alliance for Research and Technology, CREATE, Singapore 138602",
+                        "edit_name": "BioSystems\rand Micromechanics , ) Interdisciplinary Research Group, Singapore-MIT Alliance for Research and Technology, CREATE, Singapore 138602"
+                },
+                {
+                        "name": "Whitehead Institute for Biomedical Research, Cambridge, Massachusetts 02139, United States",
+                        "edit_name": "Whitehead Institute for Biomedical Research, Cambridge, Massachusetts 02139, United States"
+                },
+                {
+                        "name": "Department\rof Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States",
+                        "edit_name": "Department\rof Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
                 },
                 {
                         "name": "Department of Oncology at the Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins, Baltimore, MD, USA",
@@ -314,56 +270,8 @@
                         "edit_name": "Centre for Biologics Evaluation, Biologics and Genetic Therapies Directorate, Health Products and Food Branch, Health Canada, Ottawa, Ontario, Canada"
                 },
                 {
-                        "name": "BioSystems and Micromechanics Interdisciplinary Research Group",
-                        "edit_name": "BioSystems and Micromechanics Interdisciplinary Research Group"
-                },
-                {
-                        "name": "Singapore-MIT Alliance in Research and Technology",
-                        "edit_name": "Singapore-MIT Alliance in Research and Technology"
-                },
-                {
-                        "name": "138602 Singapore",
-                        "edit_name": "138602 Singapore"
-                },
-                {
-                        "name": "NUS Tissue Engineering Program",
-                        "edit_name": "NUS Tissue Engineering Program"
-                },
-                {
-                        "name": "Life Sciences Institute",
-                        "edit_name": "Life Sciences Institute"
-                },
-                {
-                        "name": "National University of Singapore",
-                        "edit_name": "National University of Singapore"
-                },
-                {
-                        "name": "117510 Singapore",
-                        "edit_name": "117510 Singapore"
-                },
-                {
-                        "name": "Department of Orthopaedic Surgery",
-                        "edit_name": "Department of Orthopaedic Surgery"
-                },
-                {
-                        "name": "Department of Mechanical Engineering",
-                        "edit_name": "Department of Mechanical Engineering"
-                },
-                {
-                        "name": "117575 Singapore",
-                        "edit_name": "117575 Singapore"
-                },
-                {
-                        "name": "Mechanobology Institute Singapore",
-                        "edit_name": "Mechanobology Institute Singapore"
-                },
-                {
-                        "name": "Department of Electrical Engineering and Computer Science, and",
-                        "edit_name": "Department of Electrical Engineering and Computer Science, and"
-                },
-                {
-                        "name": "Department of Biological Engineering",
-                        "edit_name": "Department of Biological Engineering"
+                        "name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore",
+                        "edit_name": "BioSystems and Micromechanics Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, 138602 Singapore, NUS Tissue Engineering Program, Life Sciences Institute, National University of Singapore, 117510 Singapore"
                 },
                 {
                         "name": "Stem Cell Laboratories, Guy's Assisted Conception Unit, Department of Women & Children's Health, Faculty of Life Sciences & Medicine, King's College London, London, UK",
@@ -399,7 +307,7 @@
                 },
                 {
                         "name": "Department of Cell Biology and Molecular GeneticsUniversity of MarylandCollege ParkMDUSA",
-                        "edit_name": "Department of Cell Biology and Molecular Genetics,University of Maryland, College ParkMDUSA"
+                        "edit_name": "Department of Cell Biology and Molecular Genetics, University of Maryland, College Park, MD, USA"
                 },
                 {
                         "name": "Department of OrthopedicsUniversity of Maryland School of MedicineBaltimoreMDUSA",
@@ -438,24 +346,8 @@
                         "edit_name": "Laboratory of Thermodynamics in Emerging Technologies, Department of Mechanical and Process Engineering, ETH Zurich, Sonneggstrasse 3, CH-8092 Zurich, Switzerland."
                 },
                 {
-                        "name": "BioIntel Research Laboratory",
-                        "edit_name": "BioIntel Research Laboratory"
-                },
-                {
-                        "name": "Department of Chemical and Petroleum Engineering",
-                        "edit_name": "Department of Chemical and Petroleum Engineering"
-                },
-                {
-                        "name": "Bioengineering Graduate Program",
-                        "edit_name": "Bioengineering Graduate Program"
-                },
-                {
-                        "name": "School of Engineering",
-                        "edit_name": "School of Engineering"
-                },
-                {
-                        "name": "University of Kansas",
-                        "edit_name": "University of Kansas"
+                        "name": "BioIntel Research Laboratory, Department of Chemical and Petroleum Engineering, Bioengineering Graduate Program, School of Engineering, University of Kansas",
+                        "edit_name": "BioIntel Research Laboratory, Department of Chemical and Petroleum Engineering, Bioengineering Graduate Program, School of Engineering, University of Kansas"
                 },
                 {
                         "name": "a Division of Cellular and Gene Therapies Center for Biologics Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, USA",
@@ -502,20 +394,8 @@
                         "edit_name": "LGC, Queens Rd, Teddington TW11 0LY, United Kingdom"
                 },
                 {
-                        "name": "Nanyang Technological University",
-                        "edit_name": "Nanyang Technological University"
-                },
-                {
-                        "name": "Singapore 639798",
-                        "edit_name": "Singapore 639798"
-                },
-                {
-                        "name": "Singapore",
-                        "edit_name": "Singapore"
-                },
-                {
-                        "name": "Singapore Centre on Environmental Life Sciences Engineering (SCELSE)",
-                        "edit_name": "Singapore Centre on Environmental Life Sciences Engineering (SCELSE)"
+                        "name": "School of Materials Science and Engineering, Nanyang Technological University, Singapore 639798, Singapore",
+                        "edit_name": "School of Materials Science and Engineering, Nanyang Technological University, Singapore 639798, Singapore"
                 },
                 {
                         "name": "Biophysics Program, University of Maryland, College Park, Maryland.",
@@ -635,7 +515,7 @@
                 },
                 {
                         "name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland",
-                        "edit_name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center (SKCCC)Johns Hopkins UniversityBaltimoreMaryland"
+                        "edit_name": "Department of Pathology, Sidney Kimmel Comprehensive Cancer Center , )Johns Hopkins UniversityBaltimoreMaryland"
                 },
                 {
                         "name": "Department of Materials Science and Engineering University of Maryland  College Park Maryland",
@@ -659,27 +539,27 @@
                 },
                 {
                         "name": "From the Department of Cell Biology and Molecular Medicine, Cardiovascular Research Institute, Rutgers New Jersey Medical School, Newark (S.I., W.M., S. Sciarretta, M.A., P.Z., R.M., N.F., S.-i.O., M.N., D.P.D.R., L.-H.X., J.S.)",
-                        "edit_name": "From the Department of Cell Biology and Molecular Medicine, Cardiovascular Research Institute, Rutgers New Jersey Medical School, Newark (S.I., W.M., S. Sciarretta, M.A., P.Z., R.M., N.F., S.-i.O., M.N., D.P.D.R., L.-H.X., J.S.)"
+                        "edit_name": "From the Department of Cell Biology and Molecular Medicine, Cardiovascular Research Institute, Rutgers New Jersey Medical School, Newark , )"
                 },
                 {
                         "name": "Department of Cardiovascular Medicine, Tohoku University Graduate School of Medicine, Sendai, Japan (S.I., H.S.)",
-                        "edit_name": "Department of Cardiovascular Medicine, Tohoku University Graduate School of Medicine, Sendai, Japan (S.I., H.S.)"
+                        "edit_name": "Department of Cardiovascular Medicine, Tohoku University Graduate School of Medicine, Sendai, Japan , )"
                 },
                 {
                         "name": "Department of AngioCardioNeurology, IRCCS Neuromed, Pozzilli, Italy (S. Sciarretta)",
-                        "edit_name": "Department of AngioCardioNeurology, IRCCS Neuromed, Pozzilli, Italy (S. Sciarretta)"
+                        "edit_name": "Department of AngioCardioNeurology, IRCCS Neuromed, Pozzilli, Italy , )"
                 },
                 {
                         "name": "Department of Medico-Surgical Sciences and Biotechnologies, Sapienza University of Rome, Latina, Italy (S. Sciarretta)",
-                        "edit_name": "Department of Medico-Surgical Sciences and Biotechnologies, Sapienza University of Rome, Latina, Italy (S. Sciarretta)"
+                        "edit_name": "Department of Medico-Surgical Sciences and Biotechnologies, Sapienza University of Rome, Latina, Italy , )"
                 },
                 {
                         "name": "RoosterBio, Inc, Frederick, MD (I.F.)",
-                        "edit_name": "RoosterBio, Inc, Frederick, MD (I.F.)"
+                        "edit_name": "RoosterBio, Inc, Frederick, MD , )"
                 },
                 {
                         "name": "Department of Microbiology, Biochemistry, and Molecular Genetics, New Jersey Medical School, Rutgers University, Newark (J.Y.P., B.T.)",
-                        "edit_name": "Department of Microbiology, Biochemistry, and Molecular Genetics, New Jersey Medical School, Rutgers University, Newark (J.Y.P., B.T.)"
+                        "edit_name": "Department of Microbiology, Biochemistry, and Molecular Genetics, New Jersey Medical School, Rutgers University, Newark, NJ"
                 },
                 {
                         "name": "Division of Cardiovascular Health and Disease, Department of Internal Medicine, Heart, Lung and Vascular Institute, University of Cincinnati, OH (M.K., S. Sadayappan)",
@@ -719,7 +599,7 @@
                 },
                 {
                         "name": "Institute of Tissue Regeneration Engineering (ITREN), Dankook University, Cheonan 31116, Republic of Korea",
-                        "edit_name": "Institute of Tissue Regeneration Engineering (ITREN), Dankook University, Cheonan 31116, Republic of Korea"
+                        "edit_name": "Institute of Tissue Regeneration Engineering , ), Dankook University, Cheonan 31116, Republic of Korea"
                 },
                 {
                         "name": "Department of Nanobiomedical Science & BK21 PLUS NBM Global Research Center for Regenerative Medicine, Dankook University, Cheonan 31116, Republic of Korea",
@@ -739,11 +619,11 @@
                 },
                 {
                         "name": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore",
-                        "edit_name": "Bioprocessing Technology Institute (BTI), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore"
+                        "edit_name": "Bioprocessing Technology Institute , ), Agency for ScienceTechnology and Research (A*STAR) 11 Biopolis Way #02-02 Helios Singapore 138667 Singapore"
                 },
                 {
                         "name": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore",
-                        "edit_name": "Singapore Bioimaging Consortium (SBIC), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore"
+                        "edit_name": "Singapore Bioimaging Consortium , ), Agency for ScienceTechnology and Research (A*STAR) 20 Biopolis Way#06-01 Centros Singapore 138668 Singapore"
                 },
                 {
                         "name": "1The James Buchanan Brady Urological Institute, Department of Urology, Johns Hopkins School of Medicine, Baltimore, Maryland.",
@@ -787,15 +667,15 @@
                 },
                 {
                         "name": "School of Mechanical and Aerospace EngineeringNanyang Technological University (NTU)50 Nanyang Avenue Singapore 639798",
-                        "edit_name": "School of Mechanical and Aerospace EngineeringNanyang Technological University (NTU)50 Nanyang Avenue Singapore 639798"
+                        "edit_name": "School of Mechanical and Aerospace EngineeringNanyang Technological University , )50 Nanyang Avenue Singapore 639798"
                 },
                 {
                         "name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634",
-                        "edit_name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology (SIMTech), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634"
+                        "edit_name": "Bio-Manufacturing ProgrammeSingapore Institute of Manufacturing Technology , ), Agency for Science, Technology and Research (A*STAR), Innovis Singapore 138634"
                 },
                 {
                         "name": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research (A*STAR), Centros Singapore 138668",
-                        "edit_name": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research (A*STAR), Centros Singapore 138668"
+                        "edit_name": "Stem Cell GroupBioprocessing Technology Institute, Agency for Science, Technology and Research , ), Centros Singapore 138668"
                 },
                 {
                         "name": "School of Biomedical EngineeringCenter for Health Technologies, University of Technology SydneyUltimo, Sydney NSW 2007 Australia",
@@ -811,15 +691,15 @@
                 },
                 {
                         "name": "Instituto Superior de Engenharia de Lisboa (GIAAPP/ISEL), Lisbon, Portugal",
-                        "edit_name": "Instituto Superior de Engenharia de Lisboa (GIAAPP/ISEL), Lisbon, Portugal"
+                        "edit_name": "Instituto Superior de Engenharia de Lisboa , ), Lisbon, Portugal"
                 },
                 {
                         "name": "Institute of Experimental Biology and Technology (iBET), Oeiras, Portugal",
-                        "edit_name": "Institute of Experimental Biology and Technology (iBET), Oeiras, Portugal"
+                        "edit_name": "Institute of Experimental Biology and Technology , ), Oeiras, Portugal"
                 },
                 {
                         "name": "Instituto Portugues do Sangue e Transplantacao (IPST), Lisbon, Portugal",
-                        "edit_name": "Instituto Portugues do Sangue e Transplantacao (IPST), Lisbon, Portugal"
+                        "edit_name": "Instituto Portugues do Sangue e Transplantacao , ), Lisbon, Portugal"
                 },
                 {
                         "name": "Department of Biomedical EngineeringIndian Institute of Technology Hyderabad (IITH) Sangareddy Telangana India",
@@ -830,12 +710,8 @@
                         "edit_name": "Centre for Nanofibers &amp, NanotechnologyNUS Nanoscience &amp, Nanotechnology Initiative Singapore"
                 },
                 {
-                        "name": "University of Idaho",
-                        "edit_name": "University of Idaho"
-                },
-                {
-                        "name": "Moscow",
-                        "edit_name": "Moscow"
+                        "name": "Department of Biological Engineering, University of Idaho, Moscow, USA",
+                        "edit_name": "Department of Biological Engineering, University of Idaho, Moscow, USA"
                 },
                 {
                         "name": "Materials Design Division, Faculty of Materials Science and Engineering, Warsaw University of Technology, 141 Woloska Street, Warsaw 02-507, Poland",
@@ -871,27 +747,15 @@
                 },
                 {
                         "name": "Department of Chemical and Biomolecular Engineering, Department of Bioengineering, and Department of Radiology, California NanoSystems Institute (CNSI), University of California, 405 Hilgard Avenue, Los Angeles, California 90095, United States",
-                        "edit_name": "Department of Chemical and Biomolecular Engineering, Department of Bioengineering, and Department of Radiology, California NanoSystems Institute (CNSI), University of California, 405 Hilgard Avenue, Los Angeles, California 90095, United States"
+                        "edit_name": "Department of Chemical and Biomolecular Engineering, Department of Bioengineering, and Department of Radiology, California NanoSystems Institute , ), University of California, 405 Hilgard Avenue, Los Angeles, California 90095, United States"
                 },
                 {
                         "name": "Department of Mechanical and Materials Engineering, University of Nebraska, 900 N. 16th Street, Lincoln, Nebraska 68588, United States",
                         "edit_name": "Department of Mechanical and Materials Engineering, University of Nebraska, 900 N. 16th Street, Lincoln, Nebraska 68588, United States"
                 },
                 {
-                        "name": "Faculty of Engineering",
-                        "edit_name": "Faculty of Engineering"
-                },
-                {
-                        "name": "University of Ottawa",
-                        "edit_name": "University of Ottawa"
-                },
-                {
-                        "name": "Canada",
-                        "edit_name": "Canada"
-                },
-                {
-                        "name": "Ottawa-Carleton Institute for Biomedical Engineering",
-                        "edit_name": "Ottawa-Carleton Institute for Biomedical Engineering"
+                        "name": "Faculty of Engineering, Department of Mechanical Engineering, University of Ottawa, Canada",
+                        "edit_name": "Faculty of Engineering, Department of Mechanical Engineering, University of Ottawa, Canada"
                 },
                 {
                         "name": "Department of Ophthalmology and Visual Sciences, The University of Iowa, Iowa City, IA, USA",
@@ -1010,32 +874,24 @@
                         "edit_name": "Department of Cardiovascular Medicine Jiangxi Provincial People's Hospital Affiliated to Nanchang University  Nanchang China"
                 },
                 {
-                        "name": "Lawrence",
-                        "edit_name": "Lawrence"
+                        "name": "Department of Pathology &amp; Microbiology, University of Nebraska Medical Center, Omaha, Nebraska, USA",
+                        "edit_name": "Department of Pathology &amp, Microbiology, University of Nebraska Medical Center, Omaha, Nebraska, USA"
                 },
                 {
-                        "name": "The University of Texas at San Antonio",
-                        "edit_name": "The University of Texas at San Antonio"
+                        "name": "Mary &amp; Dick Holland Regenerative Medicine Program, Division of Cardiology, Department of Internal Medicine, University of Nebraska Medical Center, Omaha, Nebraska, USA",
+                        "edit_name": "Mary &amp, Dick Holland Regenerative Medicine Program, Division of Cardiology, Department of Internal Medicine, University of Nebraska Medical Center, Omaha, Nebraska, USA"
                 },
                 {
-                        "name": "San Antonio",
-                        "edit_name": "San Antonio"
+                        "name": "Bioengineering Graduate Program, School of Engineering, University of Kansas",
+                        "edit_name": "Bioengineering Graduate Program, School of Engineering, University of Kansas"
                 },
                 {
-                        "name": "Department of Chemical and Biochemical Engineering",
-                        "edit_name": "Department of Chemical and Biochemical Engineering"
+                        "name": "Lawrence, USA",
+                        "edit_name": "Lawrence, USA"
                 },
                 {
-                        "name": "Department of Chemistry",
-                        "edit_name": "Department of Chemistry"
-                },
-                {
-                        "name": "The University of Western Ontario",
-                        "edit_name": "The University of Western Ontario, 1151 Richmond St, London, ON, Canada"
-                },
-                {
-                        "name": "London",
-                        "edit_name": "London"
+                        "name": "Department of Biomedical Engineering, The University of Texas at San Antonio, San Antonio, Department of Chemical and Biochemical Engineering, Department of Chemistry, The University of Western Ontario, London, Canada",
+                        "edit_name": "Department of Biomedical Engineering, The University of Texas at San Antonio, San Antonio, Department of Chemical and Biochemical Engineering, Department of Chemistry, The University of Western Ontario, London, Canada"
                 },
                 {
                         "name": "Department of Mechanical and Materials Engineering, University of Nebraska-Lincoln, Lincoln, Nebraska.",
@@ -1134,36 +990,8 @@
                         "edit_name": "Department of Electrical and Biomedical Engineering, University of Vermont, Burlington, Vermont 05405"
                 },
                 {
-                        "name": "Materials Science Program",
-                        "edit_name": "Materials Science Program"
-                },
-                {
-                        "name": "University of Wisconsin-Madison",
-                        "edit_name": "University of Wisconsin-Madison"
-                },
-                {
-                        "name": "Madison",
-                        "edit_name": "Madison"
-                },
-                {
-                        "name": "Humboldt State University",
-                        "edit_name": "Humboldt State University"
-                },
-                {
-                        "name": "Arcata",
-                        "edit_name": "Arcata"
-                },
-                {
-                        "name": "Department of Orthopedics and Rehabilitation",
-                        "edit_name": "Department of Orthopedics and Rehabilitation"
-                },
-                {
-                        "name": "Department of Surgery",
-                        "edit_name": "Department of Surgery"
-                },
-                {
-                        "name": "Department of Material Science and Engineering",
-                        "edit_name": "Department of Material Science and Engineering"
+                        "name": "Materials Science Program, University of Wisconsin-Madison, Madison, USA",
+                        "edit_name": "Materials Science Program, University of Wisconsin-Madison, Madison, USA"
                 },
                 {
                         "name": "Department of Biomedical ResearchFoundation of Research and Technology-Hellas, Institute of Molecular Biology and Biotechnology Ioannina Greece",
@@ -1206,64 +1034,12 @@
                         "edit_name": "Department of Biomedical Engineering, Tulane University, New Orleans Louisiana"
                 },
                 {
-                        "name": "University of Otago Christchurch",
-                        "edit_name": ",University of Otago Christchurch, "
+                        "name": "Department of Orthopaedic Surgery, University of Otago Christchurch, Christchurch 8011, New Zealand",
+                        "edit_name": "Department of Orthopaedic Surgery, ,University of Otago Christchurch, , Christchurch 8011, New Zealand"
                 },
                 {
-                        "name": "Christchurch 8011",
-                        "edit_name": "Christchurch 8011"
-                },
-                {
-                        "name": "New Zealand",
-                        "edit_name": "New Zealand"
-                },
-                {
-                        "name": "School of Biomedical Engineering",
-                        "edit_name": "School of Biomedical Engineering"
-                },
-                {
-                        "name": "University of Sydney",
-                        "edit_name": "University of Sydney"
-                },
-                {
-                        "name": "Sydney 2006",
-                        "edit_name": "Sydney 2006"
-                },
-                {
-                        "name": "Australia",
-                        "edit_name": "Australia"
-                },
-                {
-                        "name": "Department of Anatomy",
-                        "edit_name": "Department of Anatomy"
-                },
-                {
-                        "name": "Brain Health Research Centre and Brain Research New Zealand",
-                        "edit_name": "Brain Health Research Centre and Brain Research, 66 Stewart Street, Christchurch Central City, Christchurch New Zealand"
-                },
-                {
-                        "name": "University of Otago",
-                        "edit_name": "University of Otago"
-                },
-                {
-                        "name": "Dunedin 9054",
-                        "edit_name": "Dunedin 9054"
-                },
-                {
-                        "name": "Graduate School of Biomedical Engineering",
-                        "edit_name": "Graduate School of Biomedical Engineering"
-                },
-                {
-                        "name": "UNSW Sydney",
-                        "edit_name": "UNSW Sydney"
-                },
-                {
-                        "name": "Sydney 2052",
-                        "edit_name": "Sydney 2052"
-                },
-                {
-                        "name": "Department of Pharmacology and Toxicology",
-                        "edit_name": "Department of Pharmacology and Toxicology"
+                        "name": "School of Biomedical Engineering, University of Sydney, Sydney 2006, Australia",
+                        "edit_name": "School of Biomedical Engineering, University of Sydney, Sydney 2006, Australia"
                 },
                 {
                         "name": "Translational Biology and Engineering Program, The Ted Rogers Centre for Heart Research, Toronto, Canada.",
@@ -1282,8 +1058,8 @@
                         "edit_name": "Institute of Biomedical Engineering, University of Toronto, Toronto, Canada."
                 },
                 {
-                        "name": "Department of Internal Medicine",
-                        "edit_name": "Department of Internal Medicine"
+                        "name": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, USA",
+                        "edit_name": "Department of Biomedical Engineering, University of Michigan, Ann Arbor, USA"
                 },
                 {
                         "name": "Sentien Biotechnologies, Inc , Lexington, Massachusetts, USA",
@@ -1323,11 +1099,11 @@
                 },
                 {
                         "name": "Department of Chemical Engineering University of Puerto Rico Mayaguez Mayaguez Puerto Rico USA",
-                        "edit_name": "Department of Chemical Engineering University of Puerto Rico Mayaguez Mayaguez Puerto Rico USA"
+                        "edit_name": "Department of Chemical Engineering, University of Puerto Rico, Mayaguez Puerto Rico USA"
                 },
                 {
                         "name": "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center (SKCCC), Johns Hopkins University, Baltimore, MD 21287, USA",
-                        "edit_name": "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center (SKCCC), Johns Hopkins University, Baltimore, MD 21287, USA"
+                        "edit_name": "Department of Oncology, Sidney Kimmel Comprehensive Cancer Center , ), Johns Hopkins University, Baltimore, MD 21287, USA"
                 },
                 {
                         "name": "Mallinckrodt Institute of Radiology, Washington University School of Medicine, Saint Louis, MO 63310, USA",
@@ -1358,36 +1134,8 @@
                         "edit_name": "Department of Materials Science and Engineering, Institute for NanoBioTechnology, Johns Hopkins University, Baltimore, MD 21218"
                 },
                 {
-                        "name": "K1N 6N5 Canada",
-                        "edit_name": "K1N 6N5 Canada"
-                },
-                {
-                        "name": "Ottawa-Carleton Institute for Biomedical Engineering (OCIBME)",
-                        "edit_name": "Ottawa-Carleton Institute for Biomedical Engineering (OCIBME)"
-                },
-                {
-                        "name": "Ottawa",
-                        "edit_name": "Ottawa"
-                },
-                {
-                        "name": "Department of Cellular and Molecular Medicine, University of Ottawa",
-                        "edit_name": "Department of Cellular and Molecular Medicine, University of Ottawa"
-                },
-                {
-                        "name": "The Children's Hospital of Eastern Ontario (CHEO) Research Institute",
-                        "edit_name": "The Childrens Hospital of Eastern Ontario Research Institute, The Childrens Hospital of Eastern Ontario, Ontario"
-                },
-                {
-                        "name": "Materials and Chemical Engineering, \"G. Natta\"",
-                        "edit_name": "Materials and Chemical Engineering, \"G. Natta\""
-                },
-                {
-                        "name": "Politecnico di Milano",
-                        "edit_name": "Politecnico di Milano"
-                },
-                {
-                        "name": "Italy",
-                        "edit_name": "Italy"
+                        "name": "Department of Mechanical Engineering, University of Ottawa, K1N 6N5 Canada, Ottawa-Carleton Institute for Biomedical Engineering (OCIBME), Ottawa, Department of Cellular and Molecular Medicine, University of Ottawa, Canada",
+                        "edit_name": "Department of Mechanical Engineering, University of Ottawa, K1N 6N5 Canada, Ottawa-Carleton Institute for Biomedical Engineering , ), Ottawa, Department of Cellular and Molecular Medicine, University of Ottawa, Canada"
                 },
                 {
                         "name": "Department of Orthopaedic Surgery, University of California, San Francisco, San Francisco, California, USA.",
@@ -1499,7 +1247,7 @@
                 },
                 {
                         "name": "Cancer Early Detection Advanced Research Center (CEDAR), Knight Cancer Institute, Oregon Health and Science University, Portland, OR 97201, USA",
-                        "edit_name": "Cancer Early Detection Advanced Research Center (CEDAR), Knight Cancer Institute, Oregon Health and Science University, Portland, OR 97201, USA"
+                        "edit_name": "Cancer Early Detection Advanced Research Center , ), Knight Cancer Institute, Oregon Health and Science University, Portland, OR 97201, USA"
                 },
                 {
                         "name": "Fischell Department of Bioengineering University of Maryland  Maryland USA",
@@ -1555,7 +1303,7 @@
                 },
                 {
                         "name": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology Singapore Singapore",
-                        "edit_name": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology Singapore Singapore"
+                        "edit_name": "Critical Analytics for Manufacturing of Personalized Medicine Interdisciplinary Research Group, Singapore-MIT Alliance in Research and Technology, Singapore"
                 },
                 {
                         "name": "Bioprocessing Technology Institute, Agency for Science Technology and Research Singapore Singapore",
@@ -1571,7 +1319,7 @@
                 },
                 {
                         "name": "Department of Mechanical Engineering National University of Singapore Singapore Singapore",
-                        "edit_name": "Department of Mechanical Engineering National University of Singapore Singapore Singapore"
+                        "edit_name": "Department of Mechanical Engineering, National University of Singapore"
                 },
                 {
                         "name": "Department of Biomedical Engineering National University of Singapore Singapore Singapore",
@@ -1634,8 +1382,8 @@
                         "edit_name": "Charles C. Gates Center for Regenerative Medicine, University of Colorado School of Medicine, Anschutz Medical Campus, Aurora, CO, USA"
                 },
                 {
-                        "name": "Department of Chemical & Biological Engineering",
-                        "edit_name": "Department of Chemical & Biological Engineering"
+                        "name": "Department of Chemical & Biological Engineering, University of Idaho, Moscow, USA",
+                        "edit_name": "Department of Chemical & Biological Engineering, University of Idaho, Moscow, USA"
                 },
                 {
                         "name": "Department of Biomedical Engineering The University of Texas at San Antonio  San Antonio Texas USA",
@@ -1663,7 +1411,7 @@
                 },
                 {
                         "name": "National Heart, Lung and Blood Institute (NHLBI) , Bethesda, Maryland, USA",
-                        "edit_name": "National Heart, Lung and Blood Institute (NHLBI) , Bethesda, Maryland, USA"
+                        "edit_name": "National Heart, Lung and Blood Institute , ) , Bethesda, Maryland, USA"
                 },
                 {
                         "name": "Organabio , Miami, Florida, USA",
@@ -1759,7 +1507,7 @@
                 },
                 {
                         "name": "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico",
-                        "edit_name": "Laboratorio Nacional de Manufactura Aditiva y Digital (MADIT), Apodaca, Mexico"
+                        "edit_name": "Laboratorio Nacional de Manufactura Aditiva y Digital , ), Apodaca, Mexico"
                 },
                 {
                         "name": "Department of Biomedical Engineering, Florida International University, Miami FL USA",
@@ -1971,11 +1719,11 @@
                 },
                 {
                         "name": "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
-                        "edit_name": "Light Activated Biomaterials (LAB) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine ,University of Otago Christchurch,   Christchurch 8011 New Zealand"
+                        "edit_name": "Light Activated Biomaterials , ) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine ,University of Otago Christchurch,   Christchurch 8011 New Zealand"
                 },
                 {
                         "name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine University of Otago Christchurch  Christchurch 8011 New Zealand",
-                        "edit_name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine ,University of Otago Christchurch,   Christchurch 8011 New Zealand"
+                        "edit_name": "Christchurch Regenerative Medicine and Tissue Engineering , ) Group Department of Orthopaedic Surgery and Musculoskeletal Medicine ,University of Otago Christchurch,   Christchurch 8011 New Zealand"
                 },
                 {
                         "name": "Graduate School of Biomedical Engineering University of New South Wales  Sydney 2006 Australia",
@@ -2035,15 +1783,15 @@
                 },
                 {
                         "name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
-                        "edit_name": "Christchurch Regenerative Medicine and Tissue Engineering (CReaTE) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
+                        "edit_name": "Christchurch Regenerative Medicine and Tissue Engineering , ) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
                 },
                 {
                         "name": "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, University of Otago Christchurch, Christchurch, New Zealand",
-                        "edit_name": "Light-Activated Biomaterials (LAB) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
+                        "edit_name": "Light-Activated Biomaterials , ) Group, Department of Orthopaedic Surgery and Musculoskeletal Medicine, ,University of Otago Christchurch, , Christchurch, New Zealand"
                 },
                 {
                         "name": "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand",
-                        "edit_name": "Centre of Research Excellence in Medical Technologies (MedTech CoRE), Auckland, New Zealand"
+                        "edit_name": "Centre of Research Excellence in Medical Technologies , ), Auckland, New Zealand"
                 },
                 {
                         "name": "School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore",
@@ -2059,7 +1807,7 @@
                 },
                 {
                         "name": "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland",
-                        "edit_name": "Regenerative, Modular & Developmental Engineering Laboratory (REMODEL), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
+                        "edit_name": "Regenerative, Modular & Developmental Engineering Laboratory , ), Biomedical Sciences Building, National University of Ireland Galway, Galway, Ireland"
                 },
                 {
                         "name": "Regenerative Biology Group, Oral and Biomedical Sciences, School of Dentistry, Cardiff University , Cardiff, Wales , UK",
@@ -2087,11 +1835,11 @@
                 },
                 {
                         "name": "Exosomes Laboratory, Center for Cooperative Research in Biosciences (CIC bioGUNE), Basque Research and Technology Alliance (BRTA) , Derio, Bizkaia , Spain",
-                        "edit_name": "Exosomes Laboratory, Center for Cooperative Research in Biosciences (CIC bioGUNE), Basque Research and Technology Alliance (BRTA) , Derio, Bizkaia , Spain"
+                        "edit_name": "Exosomes Laboratory, Center for Cooperative Research in Biosciences , ), Basque Research and Technology Alliance (BRTA) , Derio, Bizkaia , Spain"
                 },
                 {
                         "name": "Centro de Investigacion Biomedica en Red de enfermedades hepaticas y digestivas (CIBERehd), Instituto de Salud Carlos III , Madrid , Spain",
-                        "edit_name": "Centro de Investigacion Biomedica en Red de enfermedades hepaticas y digestivas (CIBERehd), Instituto de Salud Carlos III , Madrid , Spain"
+                        "edit_name": "Centro de Investigacion Biomedica en Red de enfermedades hepaticas y digestivas , ), Instituto de Salud Carlos III , Madrid , Spain"
                 },
                 {
                         "name": "IKERBASQUE, Basque Foundation for Science , Bilbao, Bizkaia , Spain",
@@ -2319,7 +2067,7 @@
                 },
                 {
                         "name": "CCRT",
-                        "edit_name": "CCRT"
+                        "edit_name": " Canadian Centres for Regenerative Therapy, 162 Cumberland St, Toronto, ON Canada"
                 },
                 {
                         "name": "Department of Pharmacology and Physiology, Universite de Montreal, Montreal, Canada",
@@ -2403,7 +2151,7 @@
                 },
                 {
                         "name": "Neonatology, Department of Pediatrics, Children's Hospital of Eastern Ontario (CHEO) and CHEO Research Institute, Ottawa, ON, Canada",
-                        "edit_name": "Neonatology, Department of Pediatrics, Children's Hospital of Eastern Ontario (CHEO) and CHEO Research Institute, Ottawa, ON, Canada"
+                        "edit_name": "Neonatology, Department of Pediatrics, Children's Hospital of Eastern Ontario , ) and CHEO Research Institute, Ottawa, ON, Canada"
                 },
                 {
                         "name": "Department of Anesthesiology and Pain Medicine, Faculty of Medicine, University of Ottawa, Ottawa, ON, Canada",
@@ -2423,7 +2171,7 @@
                 },
                 {
                         "name": "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland",
-                        "edit_name": "Regenerative Medicine Institute (REMEDI), Biosciences, National University of Ireland Galway, Galway, Ireland"
+                        "edit_name": "Regenerative Medicine Institute , ), Biosciences, National University of Ireland Galway, Galway, Ireland"
                 },
                 {
                         "name": "Division of Cellular and Gene Therapies, Office of Tissues and Advanced Therapies, Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD, USA",
