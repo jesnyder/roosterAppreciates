@@ -36,7 +36,7 @@ def main():
     print("running main")
 
 
-    tasks = [5, 6]
+    tasks = [7, 8]
     #tasks = [1]
 
     if 1 in tasks: list_pubs()
